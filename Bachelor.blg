@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Bachelor.aux
+The style file: abbrvnat.bst
+Database file #1: bthesis_datenbank.bib
+Warning--I didn't find a database entry for "feldverstaerkung"
+Warning--I didn't find a database entry for "schottky-paper"
+Warning--I didn't find a database entry for "uleed"
+Warning--I didn't find a database entry for "gold_hoch"
+Warning--to sort, need author or key in orpheus_tuningcurve
+You've used 22 entries,
+            2773 wiz_defined-function locations,
+            751 strings with 9124 characters,
+and the built_in function-call counts, 9559 in all, are:
+= -- 893
+> -- 477
+< -- 15
++ -- 166
+- -- 144
+* -- 777
+:= -- 1501
+add.period$ -- 87
+call.type$ -- 22
+change.case$ -- 110
+chr.to.int$ -- 22
+cite$ -- 46
+duplicate$ -- 439
+empty$ -- 795
+format.name$ -- 175
+if$ -- 1993
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 20
+newline$ -- 139
+num.names$ -- 84
+pop$ -- 190
+preamble$ -- 1
+purify$ -- 90
+quote$ -- 0
+skip$ -- 326
+stack$ -- 0
+substring$ -- 353
+swap$ -- 38
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 237
+warning$ -- 1
+while$ -- 85
+width$ -- 0
+write$ -- 330
+(There were 5 warnings)

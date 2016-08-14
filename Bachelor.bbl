@@ -1,0 +1,170 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[orp(2013)]{orpheus_tuningcurve}
+Light {Conversion} {Produktkatalog}, 2013.
+\newblock URL
+  \url{http://www.lightcon.com/upload/iblock/2db/2db3f7cec5ac57521f58ced3aa1eb9aa.pdf}.
+\newblock Abgerufen 27.06.2016.
+
+\bibitem[Barwick et~al.(2008)Barwick, Park, Kwon, Baskin, and
+  Zewail]{barwick_4d_2008}
+B.~Barwick, H.~S. Park, O.-H. Kwon, J.~S. Baskin, and A.~H. Zewail.
+\newblock 4d {Imaging} of {Transient} {Structures} and {Morphologies} in
+  {Ultrafast} {Electron} {Microscopy}.
+\newblock \emph{Science}, 322\penalty0 (5905):\penalty0 1227--1231, Nov. 2008.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.1164000}.
+\newblock URL \url{http://science.sciencemag.org/content/322/5905/1227}.
+
+\bibitem[Bechtel et~al.(1977)Bechtel, Lee~Smith, and Bloembergen]{bechtel_1977}
+J.~H. Bechtel, W.~Lee~Smith, and N.~Bloembergen.
+\newblock Two-photon photoemission from metals induced by picosecond laser
+  pulses.
+\newblock \emph{Phys. Rev. B}, 15\penalty0 (10):\penalty0 4557--4563, may 1977.
+
+\bibitem[Bormann(2015)]{bormann_2015}
+R.~Bormann.
+\newblock \emph{Development and characterization of an electron gun for
+  ultrafast electron microscopy}.
+\newblock PhD thesis, Georg-August-Universit Göttingen, 2015.
+
+\bibitem[Brogle(1996)]{brogle}
+R.~P. Brogle.
+\newblock \emph{Studies of Linear and Nonlinear Photoemission Processes in
+  Metals and Semiconductors}.
+\newblock PhD thesis, University of California, Los Angeles, 1996.
+
+\bibitem[DuBridge(1932)]{dubridge_further_1932}
+L.~A. DuBridge.
+\newblock A further experimental test of {Fowler}'s theory of photoelectric
+  emission.
+\newblock \emph{Physical Review}, 39\penalty0 (1):\penalty0 108, 1932.
+\newblock URL \url{http://journals.aps.org/pr/abstract/10.1103/PhysRev.39.108}.
+
+\bibitem[Einstein(1905)]{einstein1905}
+A.~Einstein.
+\newblock {Ueber einen die Erzeugung und Verwandlung des Lichtes betreffenden
+  heuristischen Gesichtspunkt}.
+\newblock \emph{Annalen der Physik. 322, Nr. 6}, 1905.
+
+\bibitem[Fowler(1931)]{fowler_1931}
+R.~H. Fowler.
+\newblock The analysis of pfotoelectric sensitivity curves for clean metals at
+  various temperatures.
+\newblock \emph{Physical Review}, 38\penalty0 (1):\penalty0 45, 1931.
+\newblock URL
+  \url{http://materias.df.uba.ar/labo5a2013v/files/2013/02/FowlerPhysRev.38.45.pdf}.
+
+\bibitem[Girardeau-Montaut and Girardeau-Montaut(1995)]{girardeau_1995}
+J.~Girardeau-Montaut and C.~Girardeau-Montaut.
+\newblock Theory of ultrashort nonlinear multiphoton photoelectric emission
+  from metals.
+\newblock \emph{Phys. Rev. B}, 51\penalty0 (19):\penalty0 13560--13567, may
+  1995.
+
+\bibitem[Gulde et~al.(2014)Gulde, Schweda, Storeck, Maiti, Yu, Wodtke,
+  Schäfer, and Ropers]{gulde_ultrafast_2014}
+M.~Gulde, S.~Schweda, G.~Storeck, M.~Maiti, H.~K. Yu, A.~M. Wodtke,
+  S.~Schäfer, and C.~Ropers.
+\newblock Ultrafast low-energy electron diffraction in transmission resolves
+  polymer/graphene superstructure dynamics.
+\newblock \emph{Science}, 345\penalty0 (6193):\penalty0 200--204, July 2014.
+\newblock ISSN 0036-8075, 1095-9203.
+\newblock \doi{10.1126/science.1250658}.
+\newblock URL \url{http://science.sciencemag.org/content/345/6193/200}.
+
+\bibitem[Keldysh(1965)]{keldysh1965}
+L.~V. Keldysh.
+\newblock Ionization in the field of a strong electromagnetic wave.
+\newblock \emph{Sov. Phys. JETP, 20:1307-1314}, 1965.
+
+\bibitem[Kötz et~al.(1986)Kötz, Neff, and Müller]{koetz_1986}
+E.~R. Kötz, H.~Neff, and K.~Müller.
+\newblock A ups, xps and work function study of emersed silver, platinum and
+  gold electrodes.
+\newblock \emph{Electroanal. Chem.}, 215\penalty0 (1):\penalty0 331, 1986.
+\newblock URL
+  \url{http://ac.els-cdn.com/0022072886870267/1-s2.0-0022072886870267-main.pdf?_tid=03905eb8-3920-11e6-b4a2-00000aacb35f&acdnat=1466672214_6cc7ac6d1b18c27e74e420e9af3a584a}.
+
+\bibitem[Lecoeur et~al.(1990)Lecoeur, Bellier, and Koehler]{lecoeur_1990}
+J.~Lecoeur, J.~P. Bellier, and C.~Koehler.
+\newblock Comparison of crystallographic anisotropy effects on potential of
+  zero charge and electronic workfunction for gold (111), (311), (110) and
+  (210) orientations.
+\newblock \emph{Electrochemica Acta}, 35\penalty0 (9):\penalty0 1383, 1990.
+\newblock URL
+  \url{http://ac.els-cdn.com/001346869085010K/1-s2.0-001346869085010K-main.pdf?_tid=ecbd9aee-3932-11e6-8f11-00000aab0f01&acdnat=1466680336_4d980580dd7e59c46af8d5e42c3171f7}.
+
+\bibitem[Linde(2004)]{crc}
+D.~R. Linde.
+\newblock \emph{CRC Handbook of Chemistry and Physics}.
+\newblock CRC Press, 84 edition, 2004.
+\newblock ISBN 978-0-8493-0484-2.
+
+\bibitem[Neacsu et~al.(2007)Neacsu, Berweger, and Raschke]{neacsu_2007}
+C.~C. Neacsu, S.~Berweger, and M.~B. Raschke.
+\newblock Tip-enhanced raman imaging and nanospectroscopy: Sensitivity,
+  symmetry, and selection rules.
+\newblock \emph{Nanobiotechnology}, 3:\penalty0 172–--196, 2007.
+\newblock \doi{10.1007/s12030-008-9015-z}.
+
+\bibitem[Pescia and Meier(1982)]{pescia_spin_1982}
+D.~Pescia and F.~Meier.
+\newblock Spin polarized photoemission from gold using circularly polarized
+  light.
+\newblock \emph{Surface Science}, 117\penalty0 (1):\penalty0 302--309, May
+  1982.
+\newblock ISSN 0039-6028.
+\newblock \doi{10.1016/0039-6028(82)90512-X}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/003960288290512X}.
+
+\bibitem[Ruska and Knoll(1931)]{ruska_1931}
+E.~Ruska and M.~Knoll.
+\newblock Die magnetische {Sammelspule} für schnelle {Elektronenstrahlen}.
+\newblock \emph{Z. techn. Physik}, pages 389--–400, 1931.
+
+\bibitem[Sachtler et~al.(1966)Sachtler, Dorgelo, and
+  Holscher]{sachtler_work_1966}
+W.~M.~H. Sachtler, G.~J.~H. Dorgelo, and A.~A. Holscher.
+\newblock The work function of gold.
+\newblock \emph{Surface Science}, 5\penalty0 (2):\penalty0 221--229, Oct. 1966.
+\newblock ISSN 0039-6028.
+\newblock \doi{10.1016/0039-6028(66)90083-5}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/0039602866900835}.
+
+\bibitem[Schmidt et~al.(2012)]{schmidt_2012}
+S.~Schmidt et~al.
+\newblock Adiabatic nanofocusing on ultrasmooth single-crystalline gold tapers
+  creates a 10-nm-sized light source with few-cycle time resolution.
+\newblock \emph{ACS Nano}, 6:\penalty0 6040, 2012.
+
+\bibitem[Schröder et~al.(2015)]{benni_15}
+B.~Schröder et~al.
+\newblock An ultrafast nanotip electron gun triggered by grating-coupled
+  surface plasmons.
+\newblock \emph{Applied Physics Letters 107, 231105}, 2015.
+
+\bibitem[Shirley(1972)]{gold_zustandsdichte}
+D.~A. Shirley.
+\newblock High-resulution x-ray photoemission spectrum of the valence bands of
+  gold.
+\newblock \emph{Physical Review Letters B, Volume 5, Number 12}, 1972.
+
+\bibitem[Trasatti and Sergio(1974)]{trasatti_operative_1974}
+Trasatti and Sergio.
+\newblock Operative (electrochemical) work function of gold.
+\newblock \emph{Journal of Electroanalytical Chemistry and Interfacial
+  Electrochemistry}, 54\penalty0 (1):\penalty0 19--24, July 1974.
+\newblock ISSN 0022-0728.
+\newblock \doi{10.1016/S0022-0728(74)80376-1}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0022072874803761}.
+
+\end{thebibliography}

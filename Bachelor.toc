@@ -1,0 +1,23 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {ngerman}
+\select@language {english}
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Grundlagen}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Mechanismen der Photoemission}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Fowler-DuBridge-Theorie der Multiphoton-Photoemission}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Der Schottky-Effekt}{6}{section.2.3}
+\contentsline {chapter}{\numberline {3}Experimentelle Vorgehensweise}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Supressor-Extraktor Geometrie}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Intensit\IeC {\"a}tsabh\IeC {\"a}ngiger Photostrom}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Spannungsscan}{11}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Laser}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Z\IeC {\"a}hlalgorithmus der Elektronen}{13}{section.3.4}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Intensit\IeC {\"a}tsabh\IeC {\"a}ngigkeit}{17}{section.4.1}
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{23}{chapter.5}
+\contentsline {section}{\numberline {5.1}Degradation der Spitze}{23}{section.5.1}
+\contentsline {section}{\numberline {5.2}Stufen $\Rightarrow $ Gerade}{23}{section.5.2}
+\contentsline {section}{\numberline {5.3}Die Elektronische Zustandsdichte}{24}{section.5.3}
+\contentsline {chapter}{\numberline {A}Anhang}{27}{appendix.A}
