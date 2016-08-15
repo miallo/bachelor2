@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -144,12 +144,6 @@ S.~Schmidt et~al.
 \newblock Adiabatic nanofocusing on ultrasmooth single-crystalline gold tapers
   creates a 10-nm-sized light source with few-cycle time resolution.
 \newblock \emph{ACS Nano}, 6:\penalty0 6040, 2012.
-
-\bibitem[Schröder et~al.(2015)]{benni_15}
-B.~Schröder et~al.
-\newblock An ultrafast nanotip electron gun triggered by grating-coupled
-  surface plasmons.
-\newblock \emph{Applied Physics Letters 107, 231105}, 2015.
 
 \bibitem[Shirley(1972)]{gold_zustandsdichte}
 D.~A. Shirley.
