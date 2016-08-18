@@ -226,9 +226,46 @@ Im Rahmen dieser Arbeit wurde der Bereich von 460 bis \SI{850}{\nm} untersucht.
 
 \chapter{Grundlagen}
 In diesem Kapitel werden die grundlegenden Begriffe und Formeln für diese Arbeit eingeführt, sowie die dahinterstehende Theorie erklärt.
+
+\section{Austrittsarbeit}
+Mit dem Begriff Austrittsarbeit wird die Energie, die ben\"otigt wird, um ein Elektron aus einem Atom oder Festk\"orper zu entfernen.
+Sie ist material- und strukturspezifisch. 
+
+F\"ur das in dieser Arbeit verwendete Gold sind in Tabelle \ref{tab:austrittsarbeit} einige Messwerte aufgef\"uhrt, welche mit verschiedensten Methoden ermittelt wurden.
+Zu erkennen ist, dass sie von der jeweiligen Kristallfl\"ache abh\"angt.
+Aber auch bei der gleichen Kristallebene finden sich Unterschiede in den Ergebnissen (z.B. gibt es zu der (1 1 1)-Ebene Messwerte von 5.3 bis \SI{5.5}{\eV})
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\ 
+\hline\hline
+\citet[1931]{fowler_1931} & ? 			& 4.9 				& th \\\hline
+\citet[1932]{dubridge_further_1932} & ? 	& 4.81 			& ph \\\hline
+
+\citet[1966]{sachtler_work_1966} & ? 	& \numrange{5.30}{5.45} & ph \\\hline
+
+\citet[1974]{trasatti_operative_1974} & ? 	& 4.8 		& ec \\\hline
+\citet[1982]{pescia_spin_1982} & (1 1 1) 	& 5.5 		& ph \\\hline
+\citet[1986]{koetz_1986} & ? 				& $5.1\pm0.15$ 		& XPS \\\hline
+\citet[1990]{lecoeur_1990}	& (1 1 1) 		& $5.30\pm0.05$ 	& ph \\
+					& (3 1 1) 		& $5.16\pm0.07$ 	& Kontakt \\
+					& (1 1 0) 		& $5.12\pm0.07$ 	& Kontakt \\
+					& (2 1 0) 		& $4.96\pm0.07$ 	& Kontakt \\\hline
+\citet[2004]{crc}		&(1 0 0) 			& 5.47 				& ph \\
+ 				&(1 1 0) 			& 5.37 				& ph \\
+				&(1 1 1) 			& 5.31 				& ph \\\hline
+\end{tabular} 
+\caption{Auftragung verschiedener Austrittsarbeiten nach verschiedenen Publikationen. Abkürzungen Methoden: th = thermisch, ph = photoelektrisch, ec = elektrochemisch, XPS = Röntgen-Photoelektron-Spektroskopie, Kontakt = Kontaktpotential zu (1 1 1)-Facette}
+\label{tab:austrittsarbeit}
+\end{table}
+
+
 \section{Mechanismen der Photoemission}
 Photoemission (PE) beschreibt die Auslösung von Elektronen aus Materie durch Bestrahlung mit Licht.
-Dabei muss die absorbierte Energie die sogenannte Austrittsarbeit übersteigen, welche material- und strukturspezifisch ist.
+Dabei muss die absorbierte Energie die Austrittsarbeit übersteigen.
 
 PE lässt sich in mindestens fünf Bereiche unterteilen, welche sich in der eingestrahlten Intensität $I$ unterscheiden:
 \begin{itemize}
@@ -287,7 +324,9 @@ Die sogenannte Feldverstärkung ist das Verhältnis von verstärktem zu eingestr
 Ist $\gamma\ll 1$ ($F$ groß $\Rightarrow$ optisches Feld gr\"o{\ss}er als atomares Potential), so wird die Emission bestimmt durch das Tunneln der Elektronen.
 Für $\gamma\gg 1$ ($F$ klein $\Rightarrow$ atomares Potential \"uberwiegt) werden die Atome durch Multi-Photon Prozesse ionisiert.\newline
 
-In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime entspricht.
+In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime entspricht.\newline\newline
+
+
 
 \section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
 Die Multiphoton-PE kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
@@ -381,7 +420,7 @@ Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
-	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
+	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird. <+Geometrie und Abst\"ande einzeichen+>}
 	\label{fig:aufbau_kammer}
 \end{figure}
 
@@ -409,11 +448,10 @@ Die Spitze wurde aus einem geglühten Golddraht mit einem Durchmesser von \SI{0.
 Das anschlie{\ss}ende Ausglühen hat den Effekt, dass die zu Beginn polykristalline Struktur größere Körner gleicher Kristallstrukturen ausbildet.
 Daher ist der Apex mit hoher Wahrscheinlichkeit monokristallin, was dazu führt, dass keine weiteren Facetten (und damit Austrittsarbeiten) durch Korngrenzen hinzukommen.
 
+Die Abma{\ss}e des verwendeten Aufbaus sind in Abb. \ref{fig:aufbau_kammer} dargestellt.
 Die Entfernung zwischen Suppressor und Extraktor beträgt \SI{1.44}{\mm}, die Länge der Spitze \SI{0.29}{\mm}.
 Der Apex ist von der MCP \SI{26}{\mm} entfernt, welche einen Durchmesser von \SI{26}{\mm} hat.
 Die Apertur des Extraktors hat einen Durchmesser von \SI3{\mm}.
-
-<+Vielleicht in Grafik einzeichnen, damit leichter verständlich?+>
 
 %Zusätzlich besitzt die untersuchte Spitze ein mit dem Focused Ion Beam (FIB) eingraviertes Gitter, um Oberflächenplasmon-Polaritone (SPP) einkoppeln zu können.
 %Um Apex und Gitter getrennt anregen zu können sind diese ca. \SI{45}{\micro\m} voneinander entfernt.
@@ -432,36 +470,12 @@ Damit l\"asst sich begr\"unden, dass einige Daten deutliche Ausreißer waren, we
 Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
 
 Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
-<+Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \citet[S. 71 ff.]{bormann_2015}).+> 
-Das Problem hierbei ist jedoch, dass die Elektronen dann sehr fokussiert auf dem Phosphorschirm sind, was dazu führt, dass man sie nicht einzeln zählen kann (siehe Kapitel \ref{sec:zaehlalgorithmus}).
-Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor auf die selbe Spannung gestellt (soweit keine andere Bemerkung $U_\text{Tip}=U_\text{Sup}=\SI{100}{\V}$).
+Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \citet[S. 71 ff.]{bormann_2015}).
+Das Problem hierbei ist jedoch, dass die Elektronen in diesem Fall sehr fokussiert auf dem Phosphorschirm auftreffen, was dazu führt, dass man sie nicht einzeln zählen kann (siehe Kapitel \ref{sec:zaehlalgorithmus}).
+Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor auf die selbe Spannung gestellt (soweit keine andere Bemerkung gilt $U_\text{Tip}=U_\text{Sup}=\SI{100}{\V}$).
 
 
 
-\begin{table}[h!]
-\centering
-\begin{tabular}{|c|c|c|c|}
-\hline 
-Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\ 
-\hline\hline
-\citet[1931]{fowler_1931} & ? 			& 4.9 				& th \\\hline
-\citet[1932]{dubridge_further_1932} & ? 	& 4.81 			& ph \\\hline
-
-\citet[1966]{sachtler_work_1966} & ? 	& \numrange{5.30}{5.45} & ph \\\hline
-
-\citet[1974]{trasatti_operative_1974} & ? 	& 4.8 		& ec \\\hline
-\citet[1982]{pescia_spin_1982} & (1 1 1) 	& 5.5 		& ph \\\hline
-\citet[1986]{koetz_1986} & ? 				& $5.1\pm0.15$ 		& XPS \\\hline
-\citet[1990]{lecoeur_1990}	& (1 1 1) 		& $5.30\pm0.05$ 	& ph \\
-					& (3 1 1) 		& $5.16\pm0.07$ 	& Kontakt \\
-					& (1 1 0) 		& $5.12\pm0.07$ 	& Kontakt \\
-					& (2 1 0) 		& $4.96\pm0.07$ 	& Kontakt \\\hline
-\citet[2004]{crc}		&(1 0 0) 			& 5.47 				& ph \\
- 				&(1 1 0) 			& 5.37 				& ph \\
-				&(1 1 1) 			& 5.31 				& ph \\\hline
-\end{tabular} 
-\caption{Auftragung verschiedener Austrittsarbeiten nach verschiedenen Publikationen. Abkürzungen Methoden: th = thermisch, ph = photoelektrisch, ec = elektrochemisch, XPS = Röntgen-Photoelektron-Spektroskopie, Kontakt = Kontaktpotential zu (1 1 1)-Facette\label{tab:austrittsarbeit}}
-\end{table}
 
 
 \subsection{Spannungsscan}
