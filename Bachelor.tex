@@ -321,9 +321,9 @@ Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effe
 
 
 \section{Der Schottky-Effekt}
-Der sogenannte \textsc{Schottky}-Effekt erm\"oglicht die Verringerung der Austrittsarbeit von Elektronen.
-Dies geschieht, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen.
-Auf langen Distanzen nimmt diese Reduktion des Potentials jedoch ab, sodass zum Emittieren ohne zusätzliches Feld noch die volle Austrittsarbeit $E_\infty-E_F$ geleistet werden muss (Abb. \ref{fig:schottky} in schwarz).
+Der sogenannte \textsc{Schottky}-Effekt erm\"oglicht die Verringerung der Austrittsarbeit.
+Dies ist m\"oglich, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen.
+Auf langen Distanzen nimmt die Reduktion des Potentials durch die attraktive Bildladung jedoch ab, sodass zum Emittieren ohne zusätzliches Feld noch die volle Austrittsarbeit $E_\infty-E_F$ geleistet werden muss (Abb. \ref{fig:schottky} in schwarz).
 Wirkt jedoch eine elektrische Feldst\"arke (in diesem Fall eine angelegte Spannung zwischen Spitze und Extraktor, eingezeichnet in rot), so wird das Potential im Vergleich zu dem gestrichelten Fall ohne Spiegelladung um
 \begin{align}
 	\Delta W&=\sqrt{\frac{e^3F}{4\pi\epsilon_0}}
@@ -331,7 +331,7 @@ Wirkt jedoch eine elektrische Feldst\"arke (in diesem Fall eine angelegte Spannu
 	\text{mit\qquad}F&=\frac{U}{k\cdot r}
 \end{align}
 erniedrigt.
-Für die hier verwendeten Parameter $r=\SI{45}{\nm}$ und $U=\SI{100}{\V}$ ergibt sich eine Feldstärke von  $F=\SI{0.35}{\V\per\nm}$.
+Für die hier verwendeten Parameter $r=\SI{45}{\nm}$ und $U_\text{Tip}=\SI{100}{\V}$ ergibt sich eine Feldstärke von  $F=\SI{0.35}{\V\per\nm}$.
 Daher wird die Austrittsarbeit um $\Delta W=\SI{0.7}{\eV}$ gesenkt.
 
 
@@ -352,27 +352,28 @@ Daher wird die Austrittsarbeit um $\Delta W=\SI{0.7}{\eV}$ gesenkt.
 
 
 \chapter{Experimentelle Vorgehensweise}
-In dem folgenden Kapitel soll das verwendete Experiment erläutert werden.\\\\
+Im Rahmen des folgenden Kapitels soll das verwendete Experiment n\"aher erläutert werden.\\\\
 
-In der hier vorgestellten Arbeit wurde der Aufbau aus Abb. \ref{fig:aufbau} verwendet.
-Dieser besteht aus einem <+in der Achse der Spitze polarisierten+> fs-Laser, dessen Leistung mit einem kontinuierlichen ND-Filterrad variabel abgeschwächt werden kann.
-Um die gewünschte Intensität zu erhalten wird ein Teil des transmittierten Strahls mit einem Beamsplitter auf den Messkopf eines Powermeters geleitet, welches mit einer Feedback-Loop das Filterrad steuert.
+In der hier vorgestellten Arbeit wurde der in Abb. \ref{fig:aufbau} dargestellte Aufbau verwendet.
+Dieser beinhaltet einen fs-Laser, dessen Leistung mit einem kontinuierlichen ND-Filterrad variabel abgeschwächt werden kann.
+Dieser ist in der Achse der Spitze polarisiert.
+Um die Laserintensit\"at zeitlich zu stabilisieren wird ein Teil des transmittierten Strahls mit einem Beamsplitter auf den Messkopf eines Powermeters geleitet, welches mit einer Feedback-Schleife das Filterrad steuert.
 Der restliche Teil des Strahls wird mit einer in drei Richtungen beweglichen Linse auf die Spitze fokussiert.
 Kleinere Korrekturen der Strahlposition werden so durch einen nicht zentralen Einfall auf die Linse korrigiert.
 
 
 Die emittierten Elektronen werden (wie in Grafik \ref{fig:aufbau_kammer} dargestellt) zunächst mit der Beschleunigungsspannung $U_\text{Tip}$ zum Extraktor hin beschleunigt.
-Als zusätzliche Fokussierung dient der Supressor, dessen Spannung $U_\text{Sup}$ jedoch bei den hier durchgeführten Versuchen auf dem selben Potential (\SI{100}{\V}) lag, wie die Spitze.\newline\newline
+Der Supressor, dessen Spannung $U_\text{Sup}$ jedoch bei den hier durchgeführten Versuchen auf dem selben Potential (\SI{100}{\V}) lag, wie die Spitze, fokussiert den Elektronenstrahl, damit die Elektronen auf die MCP treffen.\newline\newline
 
 Anschließend treffen die einzelnen Elektronen (wie in Abb. \ref{fig:aufbau_kammer} zu sehen) auf eine Micro Channel Plate (MCP), welche ortsaufgelöst die Elektronen verstärkt.
-Die <+herauskommenden+> Elektronenpakete treffen daraufhin auf einen Phosphorschirm, den sie punktuell zum Leuchten anregen.
-Dieses kann nun mit einer Kamera abfotografiert werden und dient als Datenquelle zur Auswertung.
+Die austretenden Elektronenb\"undel treffen daraufhin auf einen Phosphorschirm, den sie punktuell zum Leuchten anregen.
+Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle zur Auswertung.
 
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.8\linewidth]{Aufbau2}
-	\caption{Schematischer Aufbau des Strahlengangs. Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters geschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert und dann durch ein kontinuierliches ND-Filterrad erneut abgeschwächt. Dieses steht über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Loop. Die Strahlposition wird durch eine bewegliche Linse festgelegt.}
+	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition wird durch eine bewegliche Linse festgelegt.}
 	\label{fig:aufbau}
 \end{figure}
 
@@ -380,7 +381,7 @@ Dieses kann nun mit einer Kamera abfotografiert werden und dient als Datenquelle
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
-	\caption{Detektionsmechanismus der Elektronen: die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum leuchten anregen, was von einer Kamera fotografiert wird.}
+	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
 	\label{fig:aufbau_kammer}
 \end{figure}
 
@@ -404,9 +405,9 @@ Dies lag augenscheinlich daran, dass vom Gitter andere Elektronen ebenfalls aufg
 \section{Supressor-Extraktor Geometrie}
 Die hier verwendete Geometrie (Abb. \ref{fig:aufbau_kammer}) besteht aus der Spitze, einem Supressor und einem Extraktor.
 
-Die Spitze wurde aus einem geglühten Golddraht mit einem Durchmesser von \SI{0.25}{\mm} durch elektrochemisches Ätzen mit Salzsäure hergestellt (ausführliche Ausführungen in \cite{schmidt_2012} und \cite{neacsu_2007}).
-Das Ausglühen hat hierbei den Effekt, dass die zu Beginn polikristalline Struktur zu größeren Körnern zusammenwächst.
-Daher ist der Apex monokristallin, was dazu führt, dass keine weiteren Facetten (und damit Austrittsarbeiten) durch Korngrenzen hinzukommen.
+Die Spitze wurde aus einem geglühten Golddraht mit einem Durchmesser von \SI{0.25}{\mm} durch elektrochemisches Ätzen mit Salzsäure hergestellt (ausführliche Ausführungen hierzu in \cite{schmidt_2012} und \cite{neacsu_2007}).
+Das anschlie{\ss}ende Ausglühen hat den Effekt, dass die zu Beginn polykristalline Struktur größere Körner gleicher Kristallstrukturen ausbildet.
+Daher ist der Apex mit hoher Wahrscheinlichkeit monokristallin, was dazu führt, dass keine weiteren Facetten (und damit Austrittsarbeiten) durch Korngrenzen hinzukommen.
 
 Die Entfernung zwischen Suppressor und Extraktor beträgt \SI{1.44}{\mm}, die Länge der Spitze \SI{0.29}{\mm}.
 Der Apex ist von der MCP \SI{26}{\mm} entfernt, welche einen Durchmesser von \SI{26}{\mm} hat.
