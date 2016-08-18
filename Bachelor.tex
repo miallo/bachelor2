@@ -293,7 +293,7 @@ In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime 
 Die Multiphoton-PE kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
 Nach ihr setzt sich der Elektronenstrom aus
 \begin{align}
-J&=\sum_{N=0}^\infty J_N=\sum_N\sigma_NI^N \quad ,
+	J&=\sum_{N=0}^\infty J_N=\sum_N\sigma_NI^N \quad ,\label{eq:photostrom}
 \end{align}
 mit
 \begin{align*}
@@ -373,7 +373,7 @@ Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.8\linewidth]{Aufbau2}
-	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition wird durch eine bewegliche Linse festgelegt.}
+	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition wird durch eine bewegliche Linse festgelegt. <+Feedback-Schleife in Bild ersetzen+>}
 	\label{fig:aufbau}
 \end{figure}
 
@@ -421,12 +421,15 @@ Die Apertur des Extraktors hat einen Durchmesser von \SI3{\mm}.
 %Zusätzlich zu der nicht konstanten Einkopplung werden auch an dem Gitter Elektronen ausgelöst.
 
 \section{Intensitätsabhängiger Photostrom}
-Ein Wichtiger Teil der vorliegenden Arbeit ist die Bestimmung des intensit\"atsabh\"angigen Photostroms in Abh\"angigkeit der Wellenl\"ange.
+Ein wesentliches Ziel der vorliegenden Arbeit ist die Bestimmung des intensit\"atsabh\"angigen Photostroms in Abh\"angigkeit der Wellenl\"ange.
 
-Als größter Störfaktor stellte sich heraus, dass die Strahlposition sich bei dem Ändern der Wellenlänge veränderte.
+Dabei wird der Photostrom in Abh\"angigkeit der Laserintensit\"at bei konstanter Wellenl\"ange gemessen.
+Nach Gleichung \ref{eq:photostrom} gilt $J\propto I^N$, wodurch sich $N$ als Geradensteigung in einem doppel-logarithmischen Plot ablesen l\"asst.
+
+Als größter Störfaktor stellte sich bei den Messungen heraus, dass die Strahlposition sich bei ge\"anderter Wellenlänge verstellte.
 Dies führte dazu, dass der Strahl augenscheinlich bei leichten Korrekturen noch immer am Apex zu sein schien, obwohl er in Wirklichkeit auf einem anderen hellen Spot war.
-Dies führe dazu, dass einige Daten deutliche Ausreißer waren.
-Bei einer erneuten Messung unter Beachtung der genauen Position konnten diese Ausreißer nicht nachvollzogen werden.
+Damit l\"asst sich begr\"unden, dass einige Daten deutliche Ausreißer waren, welche an der exakt selben Position auch vergleichbare Werte lieferten.
+Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
 
 Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
 <+Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \citet[S. 71 ff.]{bormann_2015}).+> 
