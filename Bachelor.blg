@@ -4,13 +4,12 @@ The top-level auxiliary file: Bachelor.aux
 The style file: abbrvnat.bst
 Database file #1: bthesis_datenbank.bib
 Warning--I didn't find a database entry for "feldverstaerkung"
-Warning--I didn't find a database entry for "schottky-paper"
 Warning--I didn't find a database entry for "uleed"
 Warning--I didn't find a database entry for "gold_hoch"
 Warning--to sort, need author or key in orpheus_tuningcurve
 You've used 21 entries,
             2773 wiz_defined-function locations,
-            747 strings with 8972 characters,
+            746 strings with 8958 characters,
 and the built_in function-call counts, 9208 in all, are:
 = -- 862
 > -- 457
@@ -49,4 +48,4 @@ warning$ -- 1
 while$ -- 82
 width$ -- 0
 write$ -- 318
-(There were 5 warnings)
+(There were 4 warnings)

@@ -12,13 +12,13 @@
 \contentsline {chapter}{\numberline {3}Experimentelle Vorgehensweise}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}Supressor-Extraktor Geometrie}{10}{section.3.1}
 \contentsline {section}{\numberline {3.2}Intensit\IeC {\"a}tsabh\IeC {\"a}ngiger Photostrom}{11}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Spannungsscan}{12}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}Laser}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Z\IeC {\"a}hlalgorithmus der Elektronen}{13}{section.3.4}
-\contentsline {chapter}{\numberline {4}Ergebnisse}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Intensit\IeC {\"a}tsabh\IeC {\"a}ngigkeit}{17}{section.4.1}
-\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Degradation der Spitze}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Stufen $\Rightarrow $ Gerade}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Die Elektronische Zustandsdichte}{24}{section.5.3}
-\contentsline {chapter}{\numberline {A}Anhang}{27}{appendix.A}
+\contentsline {section}{\numberline {3.4}Z\IeC {\"a}hlalgorithmus der Elektronen}{12}{section.3.4}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Intensit\IeC {\"a}tsabh\IeC {\"a}ngigkeit}{15}{section.4.1}
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}Stabilit\"at der Laserintensit\"at}{21}{section.5.1}
+\contentsline {section}{\numberline {5.2}Degradation der Spitze}{21}{section.5.2}
+\contentsline {section}{\numberline {5.3}Stufen $\Rightarrow $ Gerade}{22}{section.5.3}
+\contentsline {section}{\numberline {5.4}Die Elektronische Zustandsdichte}{23}{section.5.4}
+\contentsline {chapter}{\numberline {A}Anhang}{25}{appendix.A}

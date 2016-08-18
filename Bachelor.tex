@@ -478,25 +478,24 @@ Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor a
 
 
 
-\subsection{Spannungsscan}
-Im Rahmen eines Spanungsscans wurde versucht, die Verringerung der Austrittsarbeit durch das Anlegen eines statischen Feldes zu vermessen.
-Durch den sogenannten Schottky-Effekt \cite{schottky-paper} sinkt die Austrittsarbeit bei richtig gepoltem Feld, da das Potential herabgebogen wird.
-\begin{align}
-	V(x)=\Phi - \frac{e^2}{16\pi\epsilon_0x}-\frac{eFx}{4\pi\epsilon_0}
-	\label{schottky-potential}
-\end{align}
-Durch das Automatisieren der Messung konnten immer wieder vergleichbare Bedingungen hergestellt werden.
+% \subsection{Spannungsscan}
+% Im Rahmen eines Spanungsscans wurde versucht, die Verringerung der Austrittsarbeit durch das Anlegen eines statischen Feldes zu vermessen.
+% Durch den sogenannten Schottky-Effekt \cite{schottky-paper} sinkt die Austrittsarbeit bei richtig gepoltem Feld, da das Potential herabgebogen wird.
+% \begin{align}
+% 	V(x)=\Phi - \frac{e^2}{16\pi\epsilon_0x}-\frac{eFx}{4\pi\epsilon_0}
+% 	\label{schottky-potential}
+% \end{align}
+% Durch das Automatisieren der Messung konnten immer wieder vergleichbare Bedingungen hergestellt werden.
 
 
 \section{Laser}
 In dem verwendeten Aufbau wurde ein Lasersystem der Firma \textit{Light Conversion} verwendet.
-Dieses besteht aus einem Pumplaser (\textsc{Pharos}), welcher \SI{200}{\fs} Pulse mit einigen $\unit{mJ}$ an Pulsenergie und $\SI{100}{\kilo\hertz}$ Repetitionsrate zum Pumpen des Optisch Parametrischen Verstärkers (\textsc{Orpheus}) bereitstellt.
+Dieses besteht aus einem Pumplaser (\textsc{Pharos}), welcher \SI{200}{\fs} Pulse mit einigen $\unit{mJ}$ Pulsenergie und $\SI{100}{\kilo\hertz}$ Repetitionsrate zum Pumpen des Optisch Parametrischen Verstärkers (\textsc{Orpheus}) bereitstellt.
 Dieser erzeugt wiederum Pulse mit Pulslängen von $\approx \SI{200}{\fs}$ in einem Resonator mit einem nichtlinearen optischen Kristall\cite{orpheus_tuningcurve}.
 Dabei entstehen zwei Laserstrahlen unterschiedlicher Wellenlänge (das sogenannte Signal mit höherer Energie und Idler mit größerer Wellenlänge).
 Um an dem Experiment nur einen der beiden zu bekommen, muss der andere mit einem Wellenlängenseparator getrennt werden.
-Jedoch funktioniert die optisch parametrische Verstärkung nur in einem relativ zu dem gewünschten Fenster kleinen spektralen Bereich um die eingestrahlten Frequenzen.
-Wünscht man höhere Energien, so muss der Strahl noch einmal frequenzverdoppelt werden.
-Diese sogenannte Second-Harmonic-Generation (SHG) ist jedoch sensitiv auf das interne Beampointing, so dass selbst ein relativ geringer Luftzug mit seinen Dichteschwankungen schon deutliche Einbrüche in der Intensität bedeutet.\\\\
+Jedoch funktioniert die optisch parametrische Verstärkung nur in einem relativ kleinen spektralen Bereich um die eingestrahlten Frequenzen.
+Wünscht man höhere Energien, so muss der Strahl noch einmal frequenzverdoppelt werden.\\\\
 
 
 
@@ -666,6 +665,15 @@ Die Farbe der Geraden entspricht in etwa der des Lichtes, bei der die Gerade gef
 
 \chapter{Diskussion und Ausblick}
 In diesem Abschnitt soll auf mögliche Fehlerquellen eingegangen werden, sowie ein Ausblick auf mögliche zukünftige ergänzende Experimente gegeben werden.
+
+\section{Stabilit\"at der Laserintensit\"at}
+Die SHG ist sehr sensitiv auf das interne Beampointing, so dass selbst ein relativ geringer Luftzug mit seinen Dichteschwankungen schon deutliche Einbrüche in der Intensität bedeutet.
+Dies bedeutet, dass selbst das Vorbeigehen am Laser Einbr\"uche von bis zu 50\% an Leistung bewirkte.
+Die Feedback-Schleife war jedoch nicht darauf ausgelegt, kontinuierlich zu regeln, sondern stellte nur zu Beginn jeder Messung die Intensit\"at ein.
+W\"ahrend die Bilder aufgenommen wurden regelte sie also nicht nach.
+Da jedoch nicht viele Leute an dem Lasersystem vorbeigingen und im sp\"ateren Verlauf der Messungen darauf geachtet wurde, dass w\"ahrend der Messungen kein Luftzug entstand, sind h\"ochstens einzelne Datenpunkte von einzelnen Wellenl\"angen betroffen.
+
+
 \section{Degradation der Spitze}
 In Abb. \ref{fig:rem} sind REM-Aufnahmen der verwendeten Spitze vor und nach dem Experiment gezeigt.
 Deutlich zu sehen ist, dass nach den Messungen sich Strukturen auf der Spitze befanden.
