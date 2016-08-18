@@ -258,7 +258,7 @@ Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\
  				&(1 1 0) 			& 5.37 				& ph \\
 				&(1 1 1) 			& 5.31 				& ph \\\hline
 \end{tabular} 
-\caption{Auftragung verschiedener Austrittsarbeiten nach verschiedenen Publikationen. Abkürzungen Methoden: th = thermisch, ph = photoelektrisch, ec = elektrochemisch, XPS = Röntgen-Photoelektron-Spektroskopie, Kontakt = Kontaktpotential zu (1 1 1)-Facette}
+\caption{Auftragung verschiedener Austrittsarbeiten nach verschiedenen Publikationen. Abkürzungen Methoden: th $\equiv$ thermisch, ph $\equiv$ photoelektrisch, ec $\equiv$ elektrochemisch, XPS $\equiv$ Röntgen-Photoelektron-Spektroskopie, Kontakt $\equiv$ Kontaktpotential zu (1 1 1)-Facette}
 \label{tab:austrittsarbeit}
 \end{table}
 
@@ -495,7 +495,7 @@ Dieser erzeugt wiederum Pulse mit Pulslängen von $\approx \SI{200}{\fs}$ in ein
 Dabei entstehen zwei Laserstrahlen unterschiedlicher Wellenlänge (das sogenannte Signal mit höherer Energie und Idler mit größerer Wellenlänge).
 Um an dem Experiment nur einen der beiden zu bekommen, muss der andere mit einem Wellenlängenseparator getrennt werden.
 Jedoch funktioniert die optisch parametrische Verstärkung nur in einem relativ kleinen spektralen Bereich um die eingestrahlten Frequenzen.
-Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harminic-Generation (SHG) noch einmal frequenzverdoppelt werden.\\\\
+Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harmonic-Generation (SHG) noch einmal frequenzverdoppelt werden.\\\\
 
 
 
@@ -507,18 +507,22 @@ Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harminic-
 Für die Auswertung wurde der Elektronenstrom computergestützt ausgewertet.
 Als Datenquelle dienten 2D-Intensitäts-Aufnahmen, welche von der Kamera aus Grafik \ref{fig:aufbau_kammer} aufgenommen werden.
 
-<+Begründung für Elektronen zählen?+>
-
 Um die Anzahl der Elektronen auf den einzelnen Bildern zu bestimmen, gibt es zwei Möglichkeiten:
 \begin{itemize}
-\item Elektronen maschinell zählen: Ein Algorithmus, welcher in jedem Bild die Elektronen zählt. Nachteil: erkennt möglicherweise falsche Elektronen oder findet keine vorhandenen (insbesondere bei hohen Intensitäten)
-\item Helligkeit integrieren: Die Helligkeit der einzelnen Pixel summieren. Nachteil: sind die Elektronen nicht vergleichbar in der Helligkeit, so gibt der Algorithmus eine falsche Anzahl heraus. Insbesondere kleine Anzahlen an Elektronen in einem Bild kann diese Methode nur schlecht ermitteln.
+\item Elektronen maschinell zählen: Ein Algorithmus, welcher in jedem Bild die Elektronen zählt.
+	Von Vorteil ist, dass die Helligkeit der einzelnen Elektronen (sollte sie sich bei verschiedenen kinetischen Energien unterscheiden) keinen Einfluss auf die Detektion hat.
+	Der Nachteil ist jedoch, dass möglicherweise falsche Elektronen detektiert werden oder vorhandenen (insbesondere bei hohen Intensitäten) nicht erkannt werden.
+\item Helligkeit integrieren: Die Helligkeit der einzelnen Pixel \"uber das ganze Bild summieren.
+	Vorteilhaft an dieser Methode ist, dass gerade bei hohen Intensit\"aten der Algorithmus zuverl\"assiger ist.
+	Sollten die Elektronen jedoch nicht vergleichbar in der Helligkeit sein (z.B. da die Kamera keine lineare Intensit\"atsskala besitzt),  gibt der Algorithmus eine falsche Anzahl heraus.
+	Insbesondere kleine Anzahlen an Elektronen in einem Bild kann diese Methode nur schlecht ermitteln.
 \end{itemize}
 
-Der in dieser Auswertung verwendete Algorithmus bestimmt zunächst aus Bildern ohne Elektronensignal die toten Pixel, indem er diejenigen aussortiert, welche über 100 Bilder gemittelt mehr als $120\%$ des Mittelwerts haben.
+Da die verwendeten Bilder nur eine relativ geringe Anzahl an Elektronen besa{\ss}en, wurde das erste Programm zur Auswertung gew\"ahlt.
+Dieses bestimmt zunächst aus Bildern ohne Elektronensignal die toten Pixel, indem er diejenigen aussortiert, welche über 100 Bilder gemittelt mehr als $120\%$ des Mittelwerts haben.
 Dies wurde getan, um nicht versehentlich scheinbare Elektronen zu detektieren, welche aus fehlerhaften Pixeln des CCD-Chips resultieren können.
 
-Folgend werden die Elektronen in der Region Of Interest (ROI - dem Bereich des Bildes, der tatsächlich den Phosphorschirm beinhaltet) gezählt.
+Im Folgenden werden die Elektronen in der Region Of Interest (ROI - dem Bereich des Bildes, der tatsächlich den Phosphorschirm beinhaltet) gezählt.
 Damit das Rauschen einen möglichst geringen Effekt hat, werden alle Pixel unter einer bestimmten Schwelle (hier einem Wert von 12, da fast alle Pixel in einem unbeleuchteten Bild unter diesem Wert liegen) auf Null gesetzt.
 Dann wird das Bild gefaltet mit einer Matrix
 $$A=\begin{pmatrix}
