@@ -535,12 +535,14 @@ $$A=\begin{pmatrix}
 um verbleibendes Rauschen zu filtern.
 Ein Beispiel für ein gefaltetes Bild ist in Abb. \ref{fig:460nm_109muW_gefaltet} dargestellt.
 Nach einem weiteren Threshhold, über den die gefalteten Daten kommen müssen um weiteres Rauschen zu minimieren, werden die Maxima in den Daten gesucht.
-Daher kann dieser Algorithmus sehr dicht beieinanderliegende Elektronen nicht auseinanderhalten.
+Da dicht beienander liegende Elektronen nur ein gemeinsames haben, kann dieser Algorithmus solche nicht auseinanderhalten.
 Die Anzahl und Position der Maxima in den verarbeiteten Daten sollte dann mit denen der Elektronen übereinstimmen.
 
 In Abb. \ref{fig:460nm_109muW} kann man die ROI eines typischen Bildes erkennen.
 Zu erkennen ist, dass die Elektronen noch räumlich getrennt sind.
-Daher ist es nicht verwunderlich, dass die in Bild \ref{fig:460nm_109muW_e} noch zusätzlich eingetragenen gefundenen Elektronen in guter Übereinstimmung mit den von Menschen erkannten liegen.
+Daher ist es nicht verwunderlich, dass die in Bild \ref{fig:460nm_109muW_e} gefundenen Elektronen in guter Übereinstimmung mit den von Menschen erkannten liegen.
+Einige Punkte, welche man auf dem Bild erkennt nicht detektiert wurden, liegt daran, dass die Farbskala sehr eingeschr\"ankt ist und die Punkte nur sehr schwach sind.
+Die blau umrandeten beispielsweise sind nur wenige Pixel im Durchmesser und k\"onnen so auch durch Rauschen hervorgerufen worden sein und nur f\"ur das Auge dominant wirken.
 
 Bei einer zu großen Elektronenrate (bzw. Belichtungszeit)kann der Algorithmus zwischen einzelnen Elektronen nicht mehr differenzieren.
 Dies geschieht langsam und von der Mitte, wo die meisten Elektronen auftreffen, beginnend.
