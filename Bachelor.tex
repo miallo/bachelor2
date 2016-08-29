@@ -1,13 +1,4 @@
 \NeedsTeXFormat{LaTeX2e}[2005/12/01]
-%%    2009/03/12 v1.0 GAUBM Vorlage für Abschlussarbeiten Physik
-%% Template fuer Bachelor- und Masterarbeiten
-%% an der Fakultaet fuer Physik (c) Thomas Pruschke der GA Universität
-%% Verbesserungsvorschlaege bitte an pruschke@theorie.physik.uni-goettingen.de
-%%
-%% Benoetigte Pakete: datenumber
-%%
-
-
 %% scrbook - Ersatz für LaTeX book Klasse aus dem KOMA Script
 %% Moegliche Optionen: diejenigen der Klasse scrbook ausser titlepage
 
@@ -36,8 +27,9 @@
 \usepackage{lmodern} %% type1-taugliche CM-Schrift als Variante zur
                      %% "normalen" EC-Schrift
 %% Paket fuer bibtex-Datenbanken
-\usepackage[comma,super,sort&compress]{natbib}
-\bibliographystyle{abbrvnat}
+\usepackage{babelbib}
+\selectbiblanguage{ngerman}
+\bibliographystyle{apalikeGerman}
 
 \newcommand{\tabheadfont}[1]{\textbf{#1}} %% Tabellenkopf in Fett
 \usepackage{booktabs}                      %% Befehle fuer besseres Tabellenlayout
@@ -105,8 +97,8 @@
 \Institute{4. Physikalischen Institut}
 \SecondReferee{Prof.\ Dr.\ Christian Jooß}
 %% Beginn und Ende des Anfertigungszeitraumes
-\ThesisBegin{1}{4}{2016}
-\ThesisEnd{15}{7}{2016}
+\ThesisBegin{23}{5}{2016}
+\ThesisEnd{29}{8}{2016}
 %% DO NOT TOUCH THESE LINES!!!!
 \frontmatter
 \maketitle
@@ -200,14 +192,14 @@ Daher wurden gerade seit den dreißiger Jahren des 19. Jahrhunderts immer ausgef
 Die höchsten räumlichen Auflösungen bieten hierbei noch immer Rastertunnelmikroskope (engl. \textit{scanning tunneling microscopy}, kurz STM) und Transmissionenelektronenmikroskope (\textit{transmission elektron microscope}, kurz TEM).
 Deren Auflösungsvermögen, welches wichtig ist, um makroskopische Prozesse auch auf mikroskopischer Skala zu verstehen, liegt zwar auf atomarer Ebene ($\approx\SI{1}{\angstrom}$), jedoch ist die Zeitauflösung beider Methoden sehr begrenzt.
 Gerade um dynamische Prozesse wie strukturelle Änderungen und Phasenübergänge zu untersuchen ist dies jedoch wichtig.
-Um auch die temporale Auflösung zu erhalten, ist eine Elektronenquelle notwendig, welche räumlich kohärente kurze Elektronenpulse bereitstellt (z.B. \citet{gulde_ultrafast_2014}).
+Um auch die temporale Auflösung zu erhalten, ist eine Elektronenquelle notwendig, welche räumlich kohärente kurze Elektronenpulse bereitstellt (z.B. \cite{gulde_ultrafast_2014}).
 
 Eine Lösungsmöglichkeit besteht darin, Nanospitzen mit Femtosekunden-Laserpulsen zu beleuchten.
 Die kleine Emissionsfläche, die durch Feldverstärkung und elektrostatische Felder auf den nanometrischen Apex begrenzbar ist, gewährleistet eine hohe räumliche Kohärenz der $e^-$-Pulse.
-Dieser Ansatz wurde bisher schon erfolgreich in der ultraschnellen niedrigenergetischen Beugung von Elektronen (ULEED) und der ultraschnellen Transmissionselektronenmikroskopie (UTEM) verwendet (z.B. \citet{gulde_ultrafast_2014} und \citet{barwick_4d_2008}).
+Dieser Ansatz wurde bisher schon erfolgreich in der ultraschnellen niedrigenergetischen Beugung von Elektronen (ULEED) und der ultraschnellen Transmissionselektronenmikroskopie (UTEM) verwendet (z.B. \cite{gulde_ultrafast_2014} und \cite{barwick_4d_2008}).
 <+Dabei wird die hohe Zeitauflösung durch das Pump-Probe verfahren erreicht, bei dem das Experiment sehr häufig wiederholt wird und durch Aufnahmen zu unterschiedlichen Zeitpunkten ein Verlauf aufgenommen wird.
 Ein Laserpuls regt beispielsweise einen Phasenübergang an.
-Der Elektronenpuls trifft nun mit variabler Verzögerung auf die zu untersuchende Position.
+Der Elektronenpuls trifft nun mit variabler Verzögerung auf die zu untersuchende Position und gibt ein variables Signal abhängig von dem momentanen Zustand der Probe zurück.
 Dies ist allerdings nur machbar bei reversiblen Prozessen.+>
 
 Um ein Elektron zu emittieren kann entweder die Energie eines einzelnen Photons ausreichen, um die Austrittsarbeit zu überwinden, oder es muss Multiphotonemission stattfinden.
@@ -219,8 +211,10 @@ So stellte man bei vielen Experimenten beispielsweise eine benötigte Anzahl von
 
 In dieser Arbeit soll diese nichtlineare Photoemission einer systematischen Untersuchung über einen breiten Wellenlängenbereich erfolgen. Im genauen wird eine Gold-Nanospitze mit fs-Pulsen mit \SI{1.5}{\eV} bis \SI{2.7}{\eV} Photonenergie beleuchtet.
 
-Um die Wellenlänge des Lasers verändern zu können wurde einen Optisch Parametrischen Verstärker (OPA) verwendet, mit dessen Hilfe sich die Wellenlänge des Lasers kontinuierlich von $250-\SI{20000}{\nano\meter}$ durchstimmen lässt (Ausgangsleistungen nach Hersteller in Abb. \ref{fig:orpheus_tuningcurve}).
-Im Rahmen dieser Arbeit wurde der Bereich von 460 bis \SI{850}{\nm} untersucht.
+Um die Wellenlänge des Lasers verändern zu können wurde einen Optisch Parametrischen Verstärker (OPA) verwendet, mit dessen Hilfe sich die Wellenlänge des Lasers kontinuierlich von $250-\SI{20000}{\nano\meter}$ durchstimmen lässt.
+Im Rahmen dieser Arbeit wurde der Bereich von 460 bis \SI{850}{\nm} untersucht.\newline\newline
+
+Im Folgenden werden zunächst die Grundlagen der Arbeit erläutert, dann das Experiment erklärt und die Ergebnisse vorgestellt. Abschließend werden diese diskutiert.
 
 
 
@@ -242,19 +236,19 @@ Aber auch bei der gleichen Kristallebene finden sich Unterschiede in den Ergebni
 \hline 
 Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\ 
 \hline\hline
-\citet[1931]{fowler_1931} & ? 			& 4.9 				& th \\\hline
-\citet[1932]{dubridge_further_1932} & ? 	& 4.81 			& ph \\\hline
+\cite{fowler_1931} & ? 			& 4.9 				& th \\\hline
+\cite{dubridge_further_1932} & ? 	& 4.81 			& ph \\\hline
 
-\citet[1966]{sachtler_work_1966} & ? 	& \numrange{5.30}{5.45} & ph \\\hline
+\cite{sachtler_work_1966} & ? 	& \numrange{5.30}{5.45} & ph \\\hline
 
-\citet[1974]{trasatti_operative_1974} & ? 	& 4.8 		& ec \\\hline
-\citet[1982]{pescia_spin_1982} & (1 1 1) 	& 5.5 		& ph \\\hline
-\citet[1986]{koetz_1986} & ? 				& $5.1\pm0.15$ 		& XPS \\\hline
-\citet[1990]{lecoeur_1990}	& (1 1 1) 		& $5.30\pm0.05$ 	& ph \\
+\cite{trasatti_operative_1974} & ? 	& 4.8 		& ec \\\hline
+\cite{pescia_spin_1982} & (1 1 1) 	& 5.5 		& ph \\\hline
+\cite{koetz_1986} & ? 				& $5.1\pm0.15$ 		& XPS \\\hline
+\cite{lecoeur_1990}	& (1 1 1) 		& $5.30\pm0.05$ 	& ph \\
 					& (3 1 1) 		& $5.16\pm0.07$ 	& Kontakt \\
 					& (1 1 0) 		& $5.12\pm0.07$ 	& Kontakt \\
 					& (2 1 0) 		& $4.96\pm0.07$ 	& Kontakt \\\hline
-\citet[2004]{crc}		&(1 0 0) 			& 5.47 				& ph \\
+\cite{crc}		&(1 0 0) 			& 5.47 				& ph \\
  				&(1 1 0) 			& 5.37 				& ph \\
 				&(1 1 1) 			& 5.31 				& ph \\\hline
 \end{tabular} 
@@ -264,12 +258,12 @@ Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\
 
 
 \section{Mechanismen der Photoemission}
-Photoemission (PE) beschreibt die Auslösung von Elektronen aus Materie durch Bestrahlung mit Licht.
+Photoemission (PES) beschreibt die Auslösung von Elektronen aus Materie durch Bestrahlung mit Licht.
 Dabei muss die absorbierte Energie die Austrittsarbeit übersteigen.
 
-PE lässt sich in mindestens fünf Bereiche unterteilen, welche sich in der eingestrahlten Intensität $I$ unterscheiden:
+PES lässt sich in mindestens fünf Bereiche unterteilen, welche sich in der eingestrahlten Intensität $I$ unterscheiden:
 \begin{itemize}
-	\item\textit{klassischer (linearer) Photoeffekt}
+	\item\textit{Klassischer (linearer) Photoeffekt}
 	Der klassische Photoeffekt nach \textsc{Einstein} \cite{einstein1905} besagt, dass Elektronen aus einem Festkörper nur dann ausgelöst werden, wenn ein einzelnes Photon genügend Energie $W_\text{Ph}$ besitzt, um die Auslösearbeit $\Phi$ zu leisten.
 	Diese ist bedingt durch die unterschiedliche Ladung von Atomkern und Elektron, weshalb sich diese anziehen und Energie aufgewendet werden muss, um sie zu trennen.
 	Die Bilanzgleichung lautet dann
@@ -278,12 +272,13 @@ PE lässt sich in mindestens fünf Bereiche unterteilen, welche sich in der eing
 	\end{align*}
 	Es muss also gelten $W_\text{Ph}\geq\Phi$, damit die kinetische Energie des Elektrons $W_\text{EL}$ positiv ist.
 	Eine größere Photonenenergie bewirkt eine höhere Überschussenergie.
-	Kann man diese messen, so kann man Rückschlüsse auf die Austrittsarbeit schließen und mit der <+PhotoElektron Spektroskopie+> eine Analyse der Inhaltsstoffe einer Probe machen
+	Kann man diese messen, so kann man Rückschlüsse auf die Austrittsarbeit schließen und mit der Photoelektron Spektroskopie eine Analyse der Inhaltsstoffe einer Probe machen.
 	Für typische Metalle gilt $\Phi\approx4\ldots\SI7\electronvolt$ was einer Wellenlänge von höchstens \SI{300}{\nm} entspricht \cite{crc}.
-	
+	Höhere Intensitäten des eingestrahlten Lichts führen zu einem größerem Elektronenstrom, jedoch nur, wenn die Photonenenergie ausreichend groß ist.
+e
 	\item \textit{Multi-Photon-Emission}
 	Nach Einstein ist nur die Photonenenergie ausschlaggebend für die Fähigkeit des Lichtes, Elektronen zu emmittieren.
-	Allerdings trifft dies nur für kleine Intensitäten zu, da im Rahmen einer störungstheoretischen Betrachtung des Emissionsprozesses gezeigt werden kann, dassfür große Intensitäten des eingestrahlten optischen Feldes die Wahrscheinlichkeit mit $I^N$ ansteigt, dass $N$ Photonen <+annähernd gleichzeitig+> auftreffen und wechselwirken.
+	Allerdings trifft dies nur für kleine Intensitäten zu, da im Rahmen einer störungstheoretischen Betrachtung des Emissionsprozesses gezeigt werden kann, dass für große Intensitäten des eingestrahlten optischen Feldes die Wahrscheinlichkeit mit $I^N$ ansteigt, dass $N$ Photonen <+annähernd gleichzeitig+> auftreffen und wechselwirken.
 	Dann berechnet sich die kinetische Energie der Elektronen aus der folgenden Formel:
 	\begin{align*}
 		W_\text{El}=N\cdot W_\text{Ph}-\Phi
@@ -329,16 +324,16 @@ In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime 
 
 
 \section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
-Die Multiphoton-PE kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
+Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
 Nach ihr setzt sich der Elektronenstrom aus
 \begin{align}
 	J&=\sum_{N=0}^\infty J_N=\sum_N\sigma_NI^N \quad ,\label{eq:photostrom}
 \end{align}
 mit
-\begin{align*}
-\sigma_N=\alpha_NA\left(\frac{e}{\hbar\omega}\right)^N(1-R_\omega)^NT^2F\left(\frac{N\cdot \hbar\omega-\Phi}{k_BT}\right)\qquad&\text{(Wirkungsquerschnitt)}\\\\
-\text{und}\qquad F(x)=\int_0^\infty dy\ln \left(1+e^{-(y+x)}\right)\qquad &\text{(Fowler-Funktion).}
-\end{align*}
+\begin{align}
+	\sigma_N=\alpha_NA\left(\frac{e}{\hbar\omega}\right)^N(1-R_\omega)^NT^2F\left(\frac{N\cdot \hbar\omega-\Phi}{k_BT}\right)\qquad&\text{(Wirkungsquerschnitt)}\label{eq:wirkungsquerschnitt}\\\nonumber\\
+\text{und}\qquad F(x)=\int_0^\infty dy\ln \left(1+e^{-(y+x)}\right)\qquad &\text{(Fowler-Funktion).}\nonumber
+\end{align}
 zusammen.
 Hierbei ist $A=\SI{120}{\A\cm^{-2}\K^{-2}}$ die Richardson-Konstante, $k_B$ die Boltzmann-Konstante, $e$ die Elementarladung und $R_\omega$ die Oberflächenreflektivität.
 Des Weiteren ist $T$ die Temperatur, $\hbar\omega$ die Photonenenergie und $\alpha_N$ ist eine materialspezifische Konstante, welche die restlichen bisher unberücksichtigten Prozesse berücksichtigt (z.B. Streuung im Metall und Reflektionswahrscheinlichkeit an der Oberfläche)\cite{brogle}.
@@ -360,6 +355,7 @@ Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effe
 
 
 \section{Der Schottky-Effekt}
+\label{sec:schottky}
 Der sogenannte \textsc{Schottky}-Effekt erm\"oglicht die Verringerung der Austrittsarbeit.
 Dies ist m\"oglich, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen.
 Auf langen Distanzen nimmt die Reduktion des Potentials durch die attraktive Bildladung jedoch ab, sodass zum Emittieren ohne zusätzliches Feld noch die volle Austrittsarbeit $E_\infty-E_F$ geleistet werden muss (Abb. \ref{fig:schottky} in schwarz).
@@ -390,6 +386,34 @@ Daher wird die Austrittsarbeit um $\Delta W=\SI{0.7}{\eV}$ gesenkt.
 
 
 
+\section{Die Elektronische Zustandsdichte}
+\label{sec:zustandsdichte}
+
+Elektronen mit Spin $\nicefrac{1}{2}$ müssen dem Pauli-Prinzip genügen, nach dem sich keine zwei Elektronen in dem selben Zustand befinden können.
+Dies führt dazu, dass mit dem hinzufügen von weiteren Elektronen zu einem System immer energetisch höhere Zustände besetzt werden müssen.
+Mit einem Band werden viele energetisch dicht beieinander liegende mögliche Zustände bezeichnet.
+In einem Isolator sind alle Bänder entweder komplett gefüllt, oder leer, was dazu führt, dass kein Strom fließen kann.
+Auch sind die Bänder im Gegensatz zu einem Halbleiter so weit entfernt, dass keine Elektronen aus einem gefüllten Valenzband (zum Beispiel durch thermische Fluktuation) in ein leeres Band (Leitungsband) kommt.
+Ist dies der Fall, so können sowohl Elektron, als auch Loch zu einem Stromfluss beitragen.
+Bei Metallen ist mindestens eines der Bänder nur teilweise gefüllt, wodurch ein Strom fließen kann.
+
+Durch die Interaktion zwischen Kristallgitter mit dem periodischen Potential und den Elektronen ergibt sich die sogenannte elektronische Zustandsdichte.
+Mit der elektronischen Zustandsdichte werden die Anzahl von stationären Elektronenzuständen in einem Energieintervall und Volumen bezeichnet.
+
+In Abb. \ref{fig:gold_zustandsdichte} ist diese für Gold aufgeführt.
+Zu sehen ist, dass es um eine Größenordnung mehr Elektronen gibt, die im $d$-Band $\SI2{\electronvolt}$ weniger Energie besitzen, als die Fermi-Energie.
+Dies bedeutet, dass zur Ionisierung zwar ungefähr ein Photon mehr benötigt wird, es jedoch auch deutlich mehr Elektronen gibt.
+
+Aufgrund der Tatsache, dass ein drei-Photonen-Prozess bei gleicher Intensität deutlich unwahrscheinlicher ist, als ein zwei-Photonen-Prozess, dieser Unterschied jedoch nicht so stark bei höheren Ordnungen ist, ist zu erwarten, dass je höher die Nichtlinearität ist, mehr Elektronen aus dem $d$-Band gelöst werden.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics{GoldZustandsdichte}
+	\caption{Elektronische Zustandsdichte aus \cite{gold_zustandsdichte}}
+	\label{fig:gold_zustandsdichte}
+\end{figure}
+
+
 \chapter{Experimentelle Vorgehensweise}
 Im Rahmen des folgenden Kapitels soll das verwendete Experiment n\"aher erläutert werden.\\\\
 
@@ -405,7 +429,7 @@ Die emittierten Elektronen werden (wie in Grafik \ref{fig:aufbau_kammer} dargest
 Der Supressor, dessen Spannung $U_\text{Sup}$ jedoch bei den hier durchgeführten Versuchen auf dem selben Potential (\SI{100}{\V}) lag, wie die Spitze, fokussiert den Elektronenstrahl, damit die Elektronen auf die MCP treffen.\newline\newline
 
 Anschließend treffen die einzelnen Elektronen (wie in Abb. \ref{fig:aufbau_kammer} zu sehen) auf eine Micro Channel Plate (MCP), welche ortsaufgelöst die Elektronen verstärkt.
-Die austretenden Elektronenb\"undel treffen daraufhin auf einen Phosphorschirm, den sie punktuell zum Leuchten anregen.
+Die austretenden Elektronenbündel treffen daraufhin auf einen Phosphorschirm, den sie punktuell zum Leuchten anregen.
 Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle zur Auswertung.
 
 
@@ -470,7 +494,7 @@ Damit l\"asst sich begr\"unden, dass einige Daten deutliche Ausreißer waren, we
 Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
 
 Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
-Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \citet[S. 71 ff.]{bormann_2015}).
+Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \cite[S. 71 ff.]{bormann_2015}).
 Das Problem hierbei ist jedoch, dass die Elektronen in diesem Fall sehr fokussiert auf dem Phosphorschirm auftreffen, was dazu führt, dass man sie nicht einzeln zählen kann (siehe Kapitel \ref{sec:zaehlalgorithmus}).
 Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor auf die selbe Spannung gestellt (soweit keine andere Bemerkung gilt $U_\text{Tip}=U_\text{Sup}=\SI{100}{\V}$).
 
@@ -544,9 +568,9 @@ Daher ist es nicht verwunderlich, dass die in Bild \ref{fig:460nm_109muW_e} gefu
 Einige Punkte, welche man auf dem Bild erkennt nicht detektiert wurden, liegt daran, dass die Farbskala sehr eingeschr\"ankt ist und die Punkte nur sehr schwach sind.
 Die blau umrandeten beispielsweise sind nur wenige Pixel im Durchmesser und k\"onnen so auch durch Rauschen hervorgerufen worden sein und nur f\"ur das Auge dominant wirken.
 
-Bei einer zu großen Elektronenrate (bzw. Belichtungszeit)kann der Algorithmus zwischen einzelnen Elektronen nicht mehr differenzieren.
+Bei einer zu großen Elektronenanzahl (bzw. Belichtungszeit) kann der Algorithmus zwischen einzelnen Elektronen nicht mehr differenzieren.
 Dies geschieht langsam und von der Mitte, wo die meisten Elektronen auftreffen, beginnend.
-Daher sinkt die Steigung der Messpunkte zum Beispiel in Diagramm \ref{fig:520e} langsam.
+Daher sinkt in diesem Fall die Steigung der Messpunkte zum Beispiel in Diagramm \ref{fig:520e} langsam.
 
 
 \begin{figure}[h!]
@@ -558,7 +582,7 @@ Daher sinkt die Steigung der Messpunkte zum Beispiel in Diagramm \ref{fig:520e} 
   {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_gefaltet_g}}
   \hfill
   \subfigure[Bild (a) mit den vom Algorithmus gefundenen Elektronenpositionen\label{fig:460nm_109muW_e}]
-  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_e_g}}
+  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_e_g_fPos}}
 %  \hfill
 %  \subfigure[Wellenlänge $\SI{460}{\nano\meter}$, Belichtungszeit $\SI{10}{\milli\second}$, Laserleistung $\SI{308}{\micro\watt}$, Ausschnitt\label{fig:460nm_308muW}]
 %  {\includegraphics[width=0.49\textwidth]{460nm_308muW_10ms_ganz}}
@@ -578,12 +602,13 @@ In diesem Kapitel soll die Auswertung der Daten präsentiert werden.
 In Abb. \ref{fig:e} sind beispielhaft für Wellenlängen von $\SI{480}{\nano\meter}$, $\SI{520}{\nano\meter}$ und $\SI{690}{\nano\meter}$ die Anzahl der Elektronen gegen die Intensität des Laserstrahls doppellogarithmisch aufgetragen.
 Es lässt sich eindeutig ein linearer Zusammenhang erkennen, welcher ebenfalls gefittet ist.
 Bei sehr schwachen Laserintensitäten ist offensichtlich, dass die Streuung der Werte stark zunimmt.
-Da dies jedoch mit einer unzureichenden Anzahl an Elektronen in Bildern zu erklären ist, wurden die linearen Regressionen ohne die Werte, welche weniger als 10 Elektronen pro Sekunde haben, durchgeführt.
-Auch konnte der Algorithmus zum Elektronenzählen bei großen Anzahlen an Elektronen nicht zwischen diesen differenzieren, so dass die zugehörigen Werte, wie in Grafik \ref{fig:520e} von Hand aussortiert werden mussten.
-Betrachtet man die Bilder mit den <+'abknickenden'+> Daten, an denen der Algorithmus Elektronen findet, so lässt sich erkennen, dass er ab einer gewissen Dichte viele nicht mehr zählt.
+Da dies jedoch mit einer unzureichenden Anzahl an Elektronen in den Bildern zu erklären ist, wurden die linearen Regressionen ohne Aufnahmen mit weniger als 10 Elektronen pro Sekunde durchgeführt.
+Darüber hinaus konnte der Algorithmus zum Elektronenzählen bei großen Anzahlen an Elektronen nicht zwischen diesen differenzieren, so dass die zugehörigen Werte, wie in Grafik \ref{fig:520e} von Hand aussortiert werden mussten.
+
+Betrachtet man die Bilder mit den sättingenden Daten, so lässt sich erkennen, dass ab einer gewissen Dichte viele Elektronen nicht mehr gezählt werden.
 
 
-Der Wert dieser Steigungen wird wiederum in Abb. \ref{fig:ges_messung} für die jeweilige Wellenlänge eingetragen.\newline\newline
+In Abb. \ref{fig:ges_messung} sind die Steigungen für die jeweiligen Wellenlängen eingetragen.\newline\newline
 
 \begin{figure}[h!]
   \centering
@@ -601,18 +626,20 @@ Der Wert dieser Steigungen wird wiederum in Abb. \ref{fig:ges_messung} für die 
 
 
 Plottet man wie in Abb. \ref{fig:ges_messung} zu sehen alle Steigungen, so ergibt sich nicht das einfachste zu erwartende Bild einer Treppenfunktion.
-Die Gründe hierfür können vielfältig sein: zum Beispiel ist im Gegensatz zu den meisten bisherigen Messungen der Austrittsarbeit wie in Tabelle \ref{tab:austrittsarbeit} nicht eine einzige Kristallebene an der Oberfläche, sondern durch die runde Spitze sind viele verschiedene Facetten an der Oberfläche.
-Da jedoch alle Ebenen eine unterschiedliche Austrittsarbeit besitzen, erhält man eine Überlagerung der verschiedenen Austrittsarbeiten, wodurch auch Nichtlinearitäten von 2.5 eine sinnvolle Erklärung bekommen, da die eine Fläche einen 2-Photonen-Prozess, eine andere jedoch einen 3-Photonen-Prozess haben kann.
+Die Gründe hierfür können vielfältig sein: Zum Beispiel wurden die meisten bisherigen Messungen der Austrittsarbeit wie in Tabelle \ref{tab:austrittsarbeit} an einer einzigen Kristallfacette durchgeführt.
+Eine Spitze hat jedoch viele Kristallebenen an der Oberfläche welche alle unterschiedliche Austrittsarbeit besitzen.
+Daher erhält man eine Überlagerung der verschiedenen Austrittsarbeiten.
+Nicht ganzzahlige Nichtlinearitäten bekommen so eine sinnvolle Erklärung, da sich die verschiedenen Ordnungen an unterschiedlichen Flächen überlagern.
 Dies führt dazu, dass man sowohl energiearme, als auch energiereiche Elektronen detektieren können müsste.
 Dies wäre im Rahmen einer zukünftigen Messreihe empfehlenswert zu überprüfen.
 Sollte die Hypothese der Überlagerung verschiedener Multiphotonen-Prozesse zutreffen, so kann man bei größeren Wellenlängen keine energetisch schmalbandigen Elektronen zum Beispiel für das Ultrafast Low Energy Electron Defraction (ULEED) Experiment mit dieser Methode bereitstellen.
-Dies benötigt sehr energetisch schmalbandige Elektronen, damit die Elektronenpulse durch Dispersion nicht zu stark verlängert werden, was die Zeitauflösung verringern würde<+\cite{uleed}+>.
+Dies benötigt sehr schmalbandige Elektronenspektren, damit die Elektronenpulse durch Dispersion nicht zu stark verlängert werden, was die Zeitauflösung verringern würde \cite{gahlmann_2008}.
 
 In Abb. \ref{fig:ges_energie} ist die Nichtlinearität aus Diagramm \ref{fig:ges_messung} multipliziert mit der Photonenenergie der jeweiligen Wellenlänge aufgetragen.
-Diese mittlere Energie, die bei einem Emissionsprozess benötigt wird 
-Zu erkennen ist, dass bei $\SI{480}{\nano\meter}$ eine Energie von $\SI{5.49}\electronvolt$ vorliegt.
-Dies passt gut zu den Literaturwerten.
-Dass die Gesamtenergie bei einem Emissionsprozess mit größeren Wellenlängen ansteigt, lässt sich so erklären, dass bei größeren benötigten Photonenanzahlen die Wahrscheinlichkeit, dass ein weiteres zeitgleich ankommt, größer ist.
+Dies entspricht der mittleren Energie, die bei einem Emissionsprozess freigesetzt wird.
+Zu erkennen ist, dass bei $\SI{480}{\nano\meter}$ eine Energie von $\SI{5.49}\electronvolt$ vorliegt, was gut zu den Literaturwerten passt.
+%Dass die Gesamtenergie bei einem Emissionsprozess mit größeren Wellenlängen ansteigt, lässt sich damit erklären, dass bei größeren benötigten Photonenanzahlen die Wahrscheinlichkeit, dass ein weiteres zeitgleich ankommt, größer ist.
+Bei höheren Ordnungen $N$ steigt der relative Wirkungsquerschnitt $\sigma_N$ aus Gleichung \ref{eq:wirkungsquerschnitt} von Prozessen mit einer ähnlichen Anzahl an Photonen.
 Mit dieser zusätzlichen Energie ist es dann jedoch möglich, nicht nur Elektronen von der Fermi-Kante, sondern auch aus dem $d$-Band zu emittieren.
 Da es von diesen jedoch nach Kapitel \ref{sec:zustandsdichte} um eine Größenordnung mehr Elektronen gibt, steigt die Wahrscheinlichkeit einer Emission.\newline\newline
 
@@ -633,7 +660,7 @@ In Abb. \ref{fig:ges_messung} ist der Wellenlängenbereich aufgetragen, in dem d
 Zu erkennen ist, dass die Kurven überwiegend in guter Übereinstimmung liegen und die Ausreißer durch Datenpunkte der jeweils anderen Kurve ausgeglichen werden.
 Allerdings ist es nicht auszuschließen, dass manche der Messwerte in blau nicht am Apex, sondern an dem nächsten hellen Spot $\SI{20}{\micro\meter}$ von der Spitze entfernt aufgenommen wurden.
 Dies führt dazu, dass manche Werte deutliche Abweichungen von der Kurve zeigen.
-Es ist vermutlich nicht darin Begründet, dass die Messungen sehr streuen, da erneute Messungen an den selben Positionen kaum Abweichungen hatten.
+Es ist vermutlich nicht darin begründet, dass die Messungen sehr streuen, da erneute Messungen an den selben Positionen kaum Abweichungen hatten.
 \begin{figure}[h]
 	\centering
 	\includegraphics{Vergleich}
@@ -644,7 +671,7 @@ Es ist vermutlich nicht darin Begründet, dass die Messungen sehr streuen, da er
 \begin{figure}[h]
 	\centering
 	\includegraphics{Stufen}
-	\caption{Daten aus Abb. \ref{fig:ges_messung} zusammen mit den einfachst denkbaren Modellen, welche eine Stufen sind. Eingetragen sind in grün mit \SI{4.8}\eV Austrittsarbeit ein niedriger Wert der Fermienergie aus \cite{trasatti_operative_1974}, welcher die Daten nach unten hin begrenzen sollte. In rot ist der höchste Wert einer Austrittsarbeit für eine Facette nach \cite{gold_hoch} eingezeichnet als Referenz, um zu sehen, ob Elektronen ausschließlich von der Fermikante kommen. Wäre dies der Fall, so müssten die Daten zwischen den beiden Kurven liegen. In pink ist dann die ungefähre Lage des $d$-Bandes eingezeichnet. Klar zu erkennen ist, dass die Messwerte zwischen der grünen und der pinken, jedoch auf beiden Seiten der roten Kurve liegen.}
+	\caption{Daten aus Abb. \ref{fig:ges_messung} zusammen mit dem einfachsten denkbaren Modell, welches Stufen vorhersagt. Eingetragen sind in grün mit \SI{4.8}\eV Austrittsarbeit ein niedriger Wert der Fermienergie aus \cite{trasatti_operative_1974}, welcher die Daten nach unten hin begrenzen sollte. In rot ist der höchste Wert einer Austrittsarbeit für eine Facette nach \cite{crc} eingezeichnet als Referenz, um zu sehen, ob Elektronen ausschließlich von der Fermikante kommen. Wäre dies der Fall, so müssten die Daten zwischen den beiden Kurven liegen. In pink ist dann die ungefähre Lage des $d$-Bandes eingezeichnet. Klar zu erkennen ist, dass die Messwerte zwischen der grünen und der pinken, jedoch auf beiden Seiten der roten Kurve liegen.}
 	\label{fig:stufen}
 \end{figure}
 
@@ -672,12 +699,12 @@ Die Farbe der Geraden entspricht in etwa der des Lichtes, bei der die Gerade gef
 \chapter{Diskussion und Ausblick}
 In diesem Abschnitt soll auf mögliche Fehlerquellen eingegangen werden, sowie ein Ausblick auf mögliche zukünftige ergänzende Experimente gegeben werden.
 
-\section{Stabilit\"at der Laserintensit\"at}
+\section{Stabilität der Laserintensität}
 Die SHG ist sehr sensitiv auf das interne Beampointing, so dass selbst ein relativ geringer Luftzug mit seinen Dichteschwankungen schon deutliche Einbrüche in der Intensität bedeutet.
-Dies bedeutet, dass selbst das Vorbeigehen am Laser Einbr\"uche von bis zu 50\% an Leistung bewirkte.
+Dies bedeutet, dass selbst das Vorbeigehen am Laser Einbrüche von bis zu 50\% an Leistung bewirkte.
 Die Feedback-Schleife war jedoch nicht darauf ausgelegt, kontinuierlich zu regeln, sondern stellte nur zu Beginn jeder Messung die Intensit\"at ein.
-W\"ahrend die Bilder aufgenommen wurden regelte sie also nicht nach.
-Da jedoch nicht viele Leute an dem Lasersystem vorbeigingen und im sp\"ateren Verlauf der Messungen darauf geachtet wurde, dass w\"ahrend der Messungen kein Luftzug entstand, sind h\"ochstens einzelne Datenpunkte von einzelnen Wellenl\"angen betroffen.
+Während die Bilder aufgenommen wurden regelte sie also nicht nach.
+Da jedoch nicht viele Leute an dem Lasersystem vorbeigingen und im späteren Verlauf der Messungen darauf geachtet wurde, dass w\"ahrend der Messungen kein Luftzug entstand, sind höchstens einzelne Datenpunkte von einzelnen Wellenlängen betroffen.
 
 
 \section{Degradation der Spitze}
@@ -709,43 +736,27 @@ Als Strahler, der sich ungefähr in der Mitte zwischen Apex und Gitter befand k�
 
 
 
-\section{Stufen $\Rightarrow$ Gerade}
+\section{Effekte zur <+Linearisierung+> der Daten}
+Die Daten in Grafik \ref{fig:ges_messung} scheinen zunächst annähernd linear zu sein.
+Bei genauerer Betrachtung fällt auf, dass sich Ansätze von Plateaus bei den ganzzahligen Nichtlinearitäten ausmachen lassen.
+Fittet man die ermittelten Ordnungen linear, so ergibt sich eine Steigung von $\SI{-2}{\per\eV}$.
+
+Die folgenden Effekte können zu einer Glättung der Stufenfunktion führen:
 \begin{itemize}
-\item Thermisches Heizen $\Rightarrow$ höherenergetische Elektronen
-\item Absorption von niederenergetischeren Elektronen
-\item $d$-Band
-\item Schottky-Reduktion / heiße Elektronen tunneln
-\item Facetten mit unterschiedlicher Austrittsarbeit
+	\item Durch den Energieeintrag in die Spitze wird diese aufgeheizt. Die Elektronen werden so angeregt und benötigen gegebenenfalls weniger Photonen, als bei Raumtemperatur oder dem absoluten Nullpunkt.
+	\item Wie in Kapitel \ref{sec:zustandsdichte} beschrieben, existieren nicht nur Elektronen an der Fermi-Kante. Daher können sowohl Elektronen niedrigerer, als auch (jedoch weniger) höherer Energie ausgelöst werden.
+	\item In dem $d$-Band befinden sich um eine Größenordnung mehr Elektronen, als an der Fermikante (s. Kap. \ref{sec:zustandsdichte}). Daher trifft der vorherige Punkt besonders stark für diesen Energiebereich zu.
+	\item Durch den Schottky-Effekt (Kap. \ref{sec:schottky}) findet eine Erniedrigung der effektiven Austrittsarbeit statt. Thermisch angeregte Elektronen können somit tunneln (entweder durch Photo-assisted field-emission oder durch einen reinen Tunnelprozess).
+	\item Zudem führen die unterschiedlichen Kristall-Facetten mit unterschiedlichen Austrittsarbeiten zu einer Glättung der Kurve. Dies ist der Fall, da sich die unterschiedlichen Steigungen überlagern in den Bereichen, wo die Flächen eine unterschiedliche Ordnung in der Nichtlinearität haben.
 \end{itemize}
 
-
-
-\section{Die Elektronische Zustandsdichte}
-\label{sec:zustandsdichte}
-
-Elektronen mit Spin $\nicefrac{1}{2}$ müssen dem Pauli-Prinzip genügen, nach dem sich keine zwei Elektronen in dem selben Zustand befinden können.
-Dies führt dazu, dass mit dem hinzufügen von weiteren Elektronen zu einem System immer energetisch höhere Zustände besetzt werden müssen.
-Mit einem Band werden viele energetisch dicht beieinander liegende mögliche Zustände bezeichnet.
-In einem Isolator sind alle Bänder entweder komplett gefüllt, oder leer, was dazu führt, dass kein Strom fließen kann.
-Auch sind die Bänder im Gegensatz zu einem Halbleiter so weit entfernt, dass keine Elektronen aus einem gefüllten Valenzband (zum Beispiel durch thermische Fluktuation) in ein leeres Band (Leitungsband) kommt.
-Ist dies der Fall, so können sowohl Elektron, als auch Loch zu einem Stromfluss beitragen.
-Bei Metallen ist mindestens eines der Bänder nur teilweise gefüllt, wodurch ein Strom fließen kann.
-
-Durch die Interaktion zwischen Kristallgitter mit dem periodischen Potential und den Elektronen ergibt sich die sogenannte elektronische Zustandsdichte.
-Mit der elektronischen Zustandsdichte werden die Anzahl von stationären Elektronenzuständen in einem Energieintervall und Volumen bezeichnet.
-
-In Abb. \ref{fig:gold_zustandsdichte} ist diese für Gold aufgeführt.
-Zu sehen ist, dass es um eine Größenordnung mehr Elektronen gibt, die im $d$-Band $\SI2{\electronvolt}$ weniger Energie besitzen, als die Fermi-Energie.
-Dies bedeutet, dass zur Ionisierung zwar ungefähr ein Photon mehr benötigt wird, es jedoch auch deutlich mehr Elektronen gibt.
-
-Aufgrund der Tatsache, dass ein drei-Photonen-Prozess bei gleicher Intensität deutlich unwahrscheinlicher ist, als ein zwei-Photonen-Prozess, dieser Unterschied jedoch nicht so stark bei höheren Ordnungen ist, ist zu erwarten, dass je höher die Nichtlinearität ist, mehr Elektronen aus dem $d$-Band gelöst werden.
-
-\begin{figure}[h!]
-	\centering
-	\includegraphics{GoldZustandsdichte}
-	\caption{Elektronische Zustandsdichte aus \cite{gold_zustandsdichte}}
-	\label{fig:gold_zustandsdichte}
-\end{figure}
+% \begin{itemize}
+% \item Thermisches Heizen $\Rightarrow$ höherenergetische Elektronen
+% \item Absorption von niederenergetischeren Elektronen
+% \item $d$-Band
+% \item Schottky-Reduktion / heiße Elektronen tunneln
+% \item Facetten mit unterschiedlicher Austrittsarbeit
+% \end{itemize}
 
 
 
@@ -756,14 +767,15 @@ Aufgrund der Tatsache, dass ein drei-Photonen-Prozess bei gleicher Intensität d
 
 
 \appendix
+
 \chapter{Anhang}
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\linewidth]{Orpheus_Tuning_Curve}
-	\caption{Ausgangsleistung des Orpheus im gesamten emittierenden Wellenlängenbereich aus dem Datenblatt des Herstellers \cite{orpheus_tuningcurve}.}
+	\caption{Ausgangsleistung des Orpheus im gesamten emittierenden Wellenlängenbereich aus dem Datenblatt des Herstellers \protect\footnotemark.}
 	\label{fig:orpheus_tuningcurve}
 \end{figure}
-
+\footnotetext{Light Conversion Produktkatalog 2013, \url{http://www.lightcon.com/upload/iblock/2db/2db3f7cec5ac57521f58ced3aa1eb9aa.pdf}, Abgerufen 27.06.2016}
 
 \cleardoublepage
 %% Bibliographie. Das Argument muss der Name der BIBTeX-Datenbank stehen.
