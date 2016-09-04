@@ -184,7 +184,9 @@ The results do show a nearly linear growth in the examined region instead of a s
 %\listoffigures
 %\listoftables
 
-\mainmatter   %% Anfang Hauptteil
+\mainmatter
+
+
 
 \chapter{Einleitung}
 Ein grundlegendes Verständnis der Materie ist ein essentielles Ziel der Forschung.
@@ -220,6 +222,10 @@ Im Folgenden werden zunächst die Grundlagen der Arbeit erläutert, dann das Exp
 
 \chapter{Grundlagen}
 In diesem Kapitel werden die grundlegenden Begriffe und Formeln für diese Arbeit eingeführt, sowie die dahinterstehende Theorie erklärt.
+Zunächst werden die Eigenschaften der Austrittsarbeit erklärt.
+Dann wird ein Überblick über die verschiedenen Mechanismen der Photoemission gegeben, bevor die Multiphoton-Photoemission mit Hilfe der Fowler-DuBridge-Theorie hergeleitet wird.
+Folgend wird der Schottky-Effekt erläutert, bevor abschließend eine kurze Bemerkung über die elektronische Zustandsdichte gemacht wird.
+
 
 \section{Austrittsarbeit}
 Mit dem Begriff Austrittsarbeit wird die Energie, die ben\"otigt wird, um ein Elektron aus einem Atom oder Festk\"orper zu entfernen.
@@ -279,30 +285,36 @@ e
 	\item \textit{Multi-Photon-Emission}
 	Nach Einstein ist nur die Photonenenergie ausschlaggebend für die Fähigkeit des Lichtes, Elektronen zu emmittieren.
 	Allerdings trifft dies nur für kleine Intensitäten zu, da im Rahmen einer störungstheoretischen Betrachtung des Emissionsprozesses gezeigt werden kann, dass für große Intensitäten des eingestrahlten optischen Feldes die Wahrscheinlichkeit mit $I^N$ ansteigt, dass $N$ Photonen <+annähernd gleichzeitig+> auftreffen und wechselwirken.
+	Dann steht die Summe der Einzelenergien zur Verfügung.
 	Dann berechnet sich die kinetische Energie der Elektronen aus der folgenden Formel:
 	\begin{align*}
 		W_\text{El}=N\cdot W_\text{Ph}-\Phi
 	\end{align*}
-	Im Experiment lässt sich $N$ durch die Variation der eingestrahlten Lichtintensität bei gleichzeitiger Messung des Elektronenstroms bestimmen.
+%	Im Experiment lässt sich $N$ durch die Variation der eingestrahlten Lichtintensität bei gleichzeitiger Messung des Elektronenstroms bestimmen.
 	
 
 	\item \textit{Optische Feldemission}
-	Im Gegensatz zur Multi-Photon-Photoemission wird bei der Feldemission kein Photon absorbiert, um das Elektron anzuregen.
-	Vielmehr wird das Atompotential durch das eingestrahlte elektrische Feld derart verformt, dass ein elektronischer Tunnelprozess stattfinden kann.
+	Bei höheren Intensitäten wird das Atompotential durch das eingestrahlte elektrische Feld derart verformt, dass ein elektronischer Tunnelprozess stattfinden kann.
 	
 	\item \textit{Photo-assisted field-emission} Dabei tunnelt das Elektron analog zur optischen Feldemission heraus, wird jedoch vorher durch ein oder mehrere Photonen angeregt, was die Tunnelwahrscheinlichkeit erhöht.
 	
 	\item \textit{Above Threshhold Ionisation}
+		<+Ist dies nur bei Multiphoton PE möglich oder tritt das auch bei Feldemission auf?+>
 	Absorbiert ein Elektron mehr Photonen, als es zum Überwinden der Austrittsarbeit benötigen würde, so kann es deutlich höhere kinetische Energien besitzen, als anders ausgelöste.
 	
 \end{itemize}
-In welchem Bereich man sich befindet, kann man anhand der Größe des sogenannten \textsc{Keldysh}-Parameters feststellen \cite{keldysh1965}.
-Dieser berechnet sich nach
+Eine Abschätzung, ob Photoemission oder Feldemission der dominante Prozess ist, liefert der \textsc{Keldysh}-Parameter \cite{keldysh1965}.
+Dieser berechnet sich durch
 \begin{align}
-	\gamma=\sqrt{\frac{\Phi}{2U_p}}\qquad ,
+	\gamma=\sqrt{\frac{\Phi}{2U_p}}\qquad .
 	\label{eq:keldysh}
 \end{align}
-wobei mit $U_{p}$ die ponderomotive Energie bezeichnet wird, welche der mittleren kinetischen Energie der Elektronen im oszillierenden Lichtfeld entspricht:
+
+Ist $\gamma\ll 1$ ($F$ groß $\Rightarrow$ optisches Feld gr\"o{\ss}er als atomares Potential), so wird die Emission bestimmt durch das Tunneln der Elektronen.
+Für $\gamma\gg 1$ ($F$ klein $\Rightarrow$ atomares Potential \"uberwiegt) werden die Atome durch Multi-Photon Prozesse ionisiert.\newline
+In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime entspricht.
+
+In der Formel wird mit $U_{p}$ die ponderomotive Energie bezeichnet, welche der mittleren kinetischen Energie der Elektronen im oszillierenden Lichtfeld entspricht:
 \begin{align}
 	U_p=\frac{e^2F^2}{4m_e\omega^2} \quad .
 	\label{eq:ponderomotiv}
@@ -314,12 +326,8 @@ Die elektrische Feldst\"arke wird durch die Feldverst\"arkung an Nanostrukturen 
 Dies bedeutet, dass die Feldlinien, welche senkrecht auf der Oberfläche stehen, bei kleinen Krümmungsradien dichter beieinander liegen, was einem st\"arkerem Feld entspricht (s. \textit{Lightning-Rod-Effect}).
 Für eine Kugel mit Radius $r$, an der eine Spannung $U$ anliegt, ist das elektrische Feld $E=\frac{U}{r}$ nach \cite{feldverstaerkung}.
 Die sogenannte Feldverstärkung ist das Verhältnis von verstärktem zu eingestrahltem Feld.
-%Für die hier verwendete Spitze beträgt sie nach \cite{benni_15} für den beleuchteten Apex $6.4$ .
-
-Ist $\gamma\ll 1$ ($F$ groß $\Rightarrow$ optisches Feld gr\"o{\ss}er als atomares Potential), so wird die Emission bestimmt durch das Tunneln der Elektronen.
-Für $\gamma\gg 1$ ($F$ klein $\Rightarrow$ atomares Potential \"uberwiegt) werden die Atome durch Multi-Photon Prozesse ionisiert.\newline
-
-In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime entspricht.\newline\newline
+Für die hier verwendete Spitze beträgt sie nach \cite{benni_15} für den beleuchteten Apex $3.8$ .
+Dies ist nach \cite{thomas_2016} ein häufig zu findender Wert, auch wenn es für Goldspitzen auch viele andere Messungen gab (z.B. \cite{ropers_2007} mit einem Wert von 10).\newline\newline
 
 
 

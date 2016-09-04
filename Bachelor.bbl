@@ -101,6 +101,12 @@ Pescia, D. und Meier, F. (1982).
   light.
 \newblock {\em Surface Science}, 117(1):302--309.
 
+\bibitem[Ropers et~al., 2007]{ropers_2007}
+Ropers, C., Solli, D.~R., Schulz, C.~P., Lienau, C., und Elsaesser, T. (2007).
+\newblock Localized multiphoton emission of femtosecond electron pulses from
+  metal nanotips.
+\newblock {\em Phys. Rev. Lett.}, 98:043907.
+
 \bibitem[Ruska und Knoll, 1931]{ruska_1931}
 Ruska, E. und Knoll, M. (1931).
 \newblock Die magnetische {Sammelspule} für schnelle {Elektronenstrahlen}.
@@ -117,11 +123,22 @@ Schmidt, S. et~al. (2012).
   creates a 10-nm-sized light source with few-cycle time resolution.
 \newblock {\em ACS Nano}, 6:6040.
 
+\bibitem[Schröder et~al., 2015]{benni_15}
+Schröder, B. et~al. (2015).
+\newblock An ultrafast nanotip electron gun triggered by grating-coupled
+  surface plasmons.
+\newblock {\em Applied Physics Letters 107, 231105}.
+
 \bibitem[Shirley, 1972]{gold_zustandsdichte}
 Shirley, D.~A. (1972).
 \newblock High-resulution x-ray photoemission spectrum of the valence bands of
   gold.
 \newblock {\em Physical Review Letters B, Volume 5, Number 12}.
+
+\bibitem[Thomas, 2016]{thomas_2016}
+Thomas, S. (2016).
+\newblock Interaction-free measurements with electrons and optical field
+  enhancement at nanotips.
 
 \bibitem[Trasatti und Sergio, 1974]{trasatti_operative_1974}
 Trasatti und Sergio (1974).

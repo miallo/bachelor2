@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  29 AUG 2016 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  1 SEP 2016 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1657,9 +1657,9 @@ Package babel Info: Redefining ngerman shorthand "~
 [8]
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 191.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 191.
 *************************************************
 * siunitx warning: "color-not-loaded"
 * 
@@ -1701,19 +1701,19 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 
-Overfull \hbox (3.18292pt too wide) in paragraph at lines 197--204
+Overfull \hbox (3.18292pt too wide) in paragraph at lines 199--206
 []\T1/lmr/m/n/12 Eine Lö-sungs-mög-lich-keit be-steht dar-in, Na-no-spit-zen mi
 t Femtosekunden-Laserpulsen
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 210.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 208.
+(babel)             in language  on input line 210.
 [1
 
 
@@ -1722,7 +1722,7 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 
 LaTeX Warning: Reference `tab:komische_steigungen' on page 2 undefined on input
- line 209.
+ line 211.
 
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -1795,33 +1795,33 @@ LaTeX Warning: Reference `tab:komische_steigungen' on page 2 undefined on input
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--216
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 223.
 [2]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 221.
+(babel)             in language  on input line 223.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 230.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 224.
+(babel)             in language  on input line 230.
 *************************************************
 * siunitx warning: "color-not-loaded"
 * 
@@ -1846,17 +1846,17 @@ Package babel Info: Redefining ngerman shorthand "~
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 260.
+(babel)             in language  on input line 266.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 272.
+(babel)             in language  on input line 276.
 [3
 
 
@@ -1912,54 +1912,63 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 
+Underfull \vbox (badness 1062) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 290.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 290.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 290.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 290.
+ [4]
+Underfull \vbox (badness 1365) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 321.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 321.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 321.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 321.
+ [5]
+
+LaTeX Warning: Citation `feldverstaerkung' on page 6 undefined on input line 32
+7.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--331
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 334.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 334.
+
+Overfull \hbox (10.887pt too wide) in paragraph at lines 335--337
+\T1/lmr/m/n/12 werden[[]][[]]. Nach
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 284.
+(babel)             in language  on input line 344.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 284.
- [4]
-
-LaTeX Warning: Citation `feldverstaerkung' on page 5 undefined on input line 31
-4.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 317.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 317.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 317.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 317.
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 318--320
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
-
- []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 325.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 325.
-
-Overfull \hbox (383.66464pt too wide) in paragraph at lines 326--328
-\T1/lmr/m/n/12 Die Multiphoton-PE kann durch die \T1/lmr/m/sc/12 Fowler-DuBridg
-e\T1/lmr/m/n/12 -Theorie be-schrie-ben werden[[]][[]].
- []
-
+(babel)             in language  on input line 344.
+ [6]
 *************************************************
 * siunitx warning: "color-not-loaded"
 * 
@@ -2001,42 +2010,41 @@ e\T1/lmr/m/n/12 -Theorie be-schrie-ben werden[[]][[]].
 * Package "color" not loaded.
 *************************************************
 
-Overfull \hbox (20.42876pt too wide) in paragraph at lines 335--339
+Overfull \hbox (20.42876pt too wide) in paragraph at lines 344--348
 \T1/lmr/m/n/12 zusammen. Hier-bei ist $\OML/lmm/m/it/12 A \OT1/lmr/m/n/12 = [] 
 []$ \T1/lmr/m/n/12 die Richardson-Konstante, $\OML/lmm/m/it/12 k[]$ \T1/lmr/m/n
 /12 die Boltzmann-
  []
 
 
-Overfull \hbox (42.18741pt too wide) in paragraph at lines 335--339
+Overfull \hbox (42.18741pt too wide) in paragraph at lines 344--348
 \T1/lmr/m/n/12 (z.B. Streu-ung im Me-tall und Re-flek-ti-ons-wahr-schein-lich-k
 eit an der Oberfläche)[[]]. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 365.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 365.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 342.
+(babel)             in language  on input line 371.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 342.
-[6]
+(babel)             in language  on input line 371.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 356.
+(babel)             in language  on input line 371.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 356.
-
+(babel)             in language  on input line 371.
+[7]
 *************************************************
 * siunitx warning: "color-not-loaded"
 * 
@@ -2197,118 +2205,101 @@ Package babel Info: Redefining ngerman shorthand "~
 * 
 * Package "color" not loaded.
 *************************************************
-(./Schottky.pdf_tex <Schottky.pdf, id=258, page=1, 322.36882pt x 310.46721pt>
+(./Schottky.pdf_tex <Schottky.pdf, id=269, page=1, 322.36882pt x 310.46721pt>
 File: Schottky.pdf Graphic file (type pdf)
 
 <use Schottky.pdf, page 1>
 Package pdftex.def Info: Schottky.pdf, page1 used on input line 52.
 (pdftex.def)             Requested size: 322.36884pt x 310.49013pt.
 
-<Schottky.pdf, id=259, page=2, 322.36882pt x 310.46721pt>
+<Schottky.pdf, id=270, page=2, 322.36882pt x 310.46721pt>
 File: Schottky.pdf Graphic file (type pdf)
 
 <use Schottky.pdf, page 2>
 Package pdftex.def Info: Schottky.pdf, page2 used on input line 58.
 (pdftex.def)             Requested size: 322.36884pt x 310.49013pt.
 )
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 388.
+(babel)             in language  on input line 397.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 388.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(babel)             in language  on input line 397.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 398.
+(babel)             in language  on input line 407.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 398.
+(babel)             in language  on input line 407.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 398.
+(babel)             in language  on input line 407.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 398.
- [7]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-
-Underfull \vbox (badness 1436) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 405.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 405.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 405.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 405.
+(babel)             in language  on input line 407.
  [8 <./Schottky.pdf> <./Schottky.pdf
 
 pdfTeX warning: pdflatex (file ./Schottky.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
->] <./Bilder/GoldZustandsdichte.pdf, id=275, 206.19264pt x 140.5803pt>
+>]
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+*************************************************
+* siunitx warning: "color-not-loaded"
+* 
+* Package "color" not loaded.
+*************************************************
+<./Bilder/GoldZustandsdichte.pdf, id=280, 206.19264pt x 140.5803pt>
 File: ./Bilder/GoldZustandsdichte.pdf Graphic file (type pdf)
 
 <use ./Bilder/GoldZustandsdichte.pdf>
-Package pdftex.def Info: ./Bilder/GoldZustandsdichte.pdf used on input line 410
+Package pdftex.def Info: ./Bilder/GoldZustandsdichte.pdf used on input line 419
 .
 (pdftex.def)             Requested size: 206.19212pt x 140.57994pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
  [9 <./Bilder/GoldZustandsdichte.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 
 [10
 
@@ -2316,16 +2307,16 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 425.
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--418
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
 
  []
 
@@ -2340,49 +2331,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--418
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--429
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
-<Aufbau2.pdf, id=302, 559.5521pt x 362.46927pt>
+<Aufbau2.pdf, id=308, 559.5521pt x 362.46927pt>
 File: Aufbau2.pdf Graphic file (type pdf)
  <use Aufbau2.pdf>
-Package pdftex.def Info: Aufbau2.pdf used on input line 437.
+Package pdftex.def Info: Aufbau2.pdf used on input line 446.
 (pdftex.def)             Requested size: 341.43442pt x 221.18336pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Kammer_Aufbau.pdf, id=303, 1010.75468pt x 469.32619pt>
+<Kammer_Aufbau.pdf, id=309, 1010.75468pt x 469.32619pt>
 File: Kammer_Aufbau.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau.pdf>
-Package pdftex.def Info: Kammer_Aufbau.pdf used on input line 445.
+Package pdftex.def Info: Kammer_Aufbau.pdf used on input line 454.
 (pdftex.def)             Requested size: 384.10965pt x 178.35297pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 476.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 476.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 470.
+(babel)             in language  on input line 479.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 470.
+(babel)             in language  on input line 479.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 470.
+(babel)             in language  on input line 479.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 470.
+(babel)             in language  on input line 479.
  [11]
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -2395,7 +2386,7 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 
-Overfull \hbox (5.02623pt too wide) in paragraph at lines 470--473
+Overfull \hbox (5.02623pt too wide) in paragraph at lines 479--482
 []\T1/lmr/m/n/12 Die Spit-ze wur-de aus ei-nem ge-glüh-ten Gold-draht mit ei-ne
 m Durch-mes-ser von [][]
  []
@@ -2451,20 +2442,20 @@ m Durch-mes-ser von [][]
 * Package "color" not loaded.
 *************************************************
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 493.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 484.
+(babel)             in language  on input line 493.
 
 Underfull \vbox (badness 6284) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 487.
+(babel)             in language  on input line 496.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 487.
+(babel)             in language  on input line 496.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 487.
+(babel)             in language  on input line 496.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 487.
+(babel)             in language  on input line 496.
  [12 <./Aufbau2.pdf>]
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -2517,18 +2508,18 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 499.
+(babel)             in language  on input line 508.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 499.
+(babel)             in language  on input line 508.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 499.
+(babel)             in language  on input line 508.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 499.
+(babel)             in language  on input line 508.
 [13 <./Kammer_Aufbau.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 514.
+(babel)             in language  on input line 523.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 514.
+(babel)             in language  on input line 523.
 
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -2621,48 +2612,48 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--522
+Underfull \hbox (badness 10000) in paragraph at lines 524--531
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--522
+Underfull \hbox (badness 10000) in paragraph at lines 524--531
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 528.
+(babel)             in language  on input line 537.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 528.
+(babel)             in language  on input line 537.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 547.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 547.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 547.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 538.
+(babel)             in language  on input line 547.
 [14]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 564.
+(babel)             in language  on input line 573.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 564.
+(babel)             in language  on input line 573.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 564.
+(babel)             in language  on input line 573.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 564.
+(babel)             in language  on input line 573.
  [15]
-<./Bilder/460nm_109muW_10ms_g.png, id=407, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_g.png, id=413, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_g.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_g.png>
-Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_g.png used on input line 57
-8.
+Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_g.png used on input line 58
+7.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 578.
+(Font)              <10> on input line 587.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 578.
+(Font)              <7> on input line 587.
 
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -2905,70 +2896,70 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 6910) in paragraph at lines 578--578
+Underfull \hbox (badness 6910) in paragraph at lines 587--587
 []\T1/lmr/m/n/10 (a) Wel-len-län-ge $[] []$, Be-lich-tungs-zeit
  []
 
 
-<./Bilder/460nm_109muW_10ms_gefaltet_g.png, id=408, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_gefaltet_g.png, id=414, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_gefaltet_g.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_gefaltet_g.png>
 Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_gefaltet_g.png used on inpu
-t line 581.
+t line 590.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 
-<./Bilder/460nm_109muW_10ms_e_g_fPos.png, id=409, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_e_g_fPos.png, id=415, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_e_g_fPos.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_e_g_fPos.png>
 Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_e_g_fPos.png used on input 
-line 584.
+line 593.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 [16]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
  [17 <./Bilder/460nm_109muW_10ms_g.png> <./Bilder/460nm_109muW_10ms_gefaltet_g.
 png> <./Bilder/460nm_109muW_10ms_e_g_fPos.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
  [18
 
 
 ]
 chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 597.
+(babel)             in language  on input line 606.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 600.
+(babel)             in language  on input line 609.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 600.
+(babel)             in language  on input line 609.
 *************************************************
 * siunitx warning: "color-not-loaded"
 * 
@@ -3090,44 +3081,44 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
  []
 
-<./Bilder/480e.pdf, id=436, 342.27875pt x 260.975pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+ []
+
+<./Bilder/480e.pdf, id=442, 342.27875pt x 260.975pt>
 File: ./Bilder/480e.pdf Graphic file (type pdf)
  <use ./Bilder/480e.pdf>
-Package pdftex.def Info: ./Bilder/480e.pdf used on input line 615.
+Package pdftex.def Info: ./Bilder/480e.pdf used on input line 624.
 (pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
-<./Bilder/520e.pdf, id=437, 342.27875pt x 260.975pt>
+<./Bilder/520e.pdf, id=443, 342.27875pt x 260.975pt>
 File: ./Bilder/520e.pdf Graphic file (type pdf)
  <use ./Bilder/520e.pdf>
-Package pdftex.def Info: ./Bilder/520e.pdf used on input line 618.
+Package pdftex.def Info: ./Bilder/520e.pdf used on input line 627.
 (pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
-<./Bilder/690e.pdf, id=438, 342.27875pt x 260.975pt>
+<./Bilder/690e.pdf, id=444, 342.27875pt x 260.975pt>
 File: ./Bilder/690e.pdf Graphic file (type pdf)
  <use ./Bilder/690e.pdf>
-Package pdftex.def Info: ./Bilder/690e.pdf used on input line 621.
+Package pdftex.def Info: ./Bilder/690e.pdf used on input line 630.
 (pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 636.
+(babel)             in language  on input line 645.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 636.
+(babel)             in language  on input line 645.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 636.
+(babel)             in language  on input line 645.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 636.
+(babel)             in language  on input line 645.
 [19]
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -3210,12 +3201,12 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--644
+Underfull \hbox (badness 10000) in paragraph at lines 646--653
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 637--644
+Underfull \hbox (badness 10000) in paragraph at lines 646--653
 
  []
 
@@ -3223,20 +3214,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 637--644
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 644.
+(babel)             in language  on input line 653.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 644.
+(babel)             in language  on input line 653.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 644.
+(babel)             in language  on input line 653.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 644.
+(babel)             in language  on input line 653.
  [20 <./Bilder/480e.pdf> <./Bilder/520e.pdf> <./Bilder/690e.pdf>]
-<./Bilder/Gesamtenergie.pdf, id=646, 342.27875pt x 260.975pt>
+<./Bilder/Gesamtenergie.pdf, id=652, 370.38374pt x 258.9675pt>
 File: ./Bilder/Gesamtenergie.pdf Graphic file (type pdf)
 
 <use ./Bilder/Gesamtenergie.pdf>
-Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 653.
-(pdftex.def)             Requested size: 342.2779pt x 260.97437pt.
+Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 662.
+(pdftex.def)             Requested size: 370.38283pt x 258.96684pt.
 
 *************************************************
 * siunitx warning: "color-not-loaded"
@@ -3278,26 +3269,26 @@ Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 653.
 * 
 * Package "color" not loaded.
 *************************************************
-<./Bilder/Vergleich.pdf, id=650, 341.275pt x 324.21124pt>
+<./Bilder/Vergleich.pdf, id=656, 341.275pt x 324.21124pt>
 File: ./Bilder/Vergleich.pdf Graphic file (type pdf)
 
 <use ./Bilder/Vergleich.pdf>
-Package pdftex.def Info: ./Bilder/Vergleich.pdf used on input line 665.
+Package pdftex.def Info: ./Bilder/Vergleich.pdf used on input line 674.
 (pdftex.def)             Requested size: 341.27415pt x 324.21045pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 678.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 678.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 678.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 669.
+(babel)             in language  on input line 678.
  [21 <./Bilder/Gesamtenergie.pdf>]
-<./Bilder/Stufen.pdf, id=711, 342.27875pt x 305.14pt>
+<./Bilder/Stufen.pdf, id=675, 342.27875pt x 305.14pt>
 File: ./Bilder/Stufen.pdf Graphic file (type pdf)
 
 <use ./Bilder/Stufen.pdf>
-Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 672.
+Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 681.
 (pdftex.def)             Requested size: 342.2779pt x 305.13924pt.
 
 *************************************************
@@ -3321,19 +3312,19 @@ Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 672.
 * Package "color" not loaded.
 *************************************************
 
-Underfull \hbox (badness 6236) in paragraph at lines 673--673
+Underfull \hbox (badness 6236) in paragraph at lines 682--682
 [][]\T1/lmr/m/n/12 Daten aus Abb. []4.3[] zu-sam-men mit dem ein-fachs-ten denk
 -ba-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 673--673
+Underfull \hbox (badness 2005) in paragraph at lines 682--682
 \T1/lmr/m/n/12 ren Mo-dell, wel-ches Stu-fen vor-her-sagt. Ein-ge-tra-gen sind 
 in grün
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 673--673
+Underfull \hbox (badness 1902) in paragraph at lines 682--682
 \T1/lmr/m/n/12 mit [][]Austrittsarbeit ein nied-ri-ger Wert der Fer-mi-ener-gie
  aus
  []
@@ -3341,86 +3332,86 @@ Underfull \hbox (badness 1902) in paragraph at lines 673--673
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Bilder/Faecher_Daten.pdf, id=719, 341.43358pt x 256.07469pt>
+<./Bilder/Faecher_Daten.pdf, id=683, 341.43358pt x 256.07469pt>
 File: ./Bilder/Faecher_Daten.pdf Graphic file (type pdf)
 
 <use ./Bilder/Faecher_Daten.pdf>
-Package pdftex.def Info: ./Bilder/Faecher_Daten.pdf used on input line 685.
+Package pdftex.def Info: ./Bilder/Faecher_Daten.pdf used on input line 694.
 (pdftex.def)             Requested size: 298.75267pt x 224.08041pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 [22 <./Bilder/Vergleich.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
  [23 <./Bilder/Stufen.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
  [24 <./Bilder/Faecher_Daten.pdf>]
 chapter 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 698.
+(babel)             in language  on input line 707.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 701.
+(babel)             in language  on input line 710.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 701.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 709.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 709.
+(babel)             in language  on input line 710.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 718.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 718.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 718.
+(babel)             in language  on input line 727.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 718.
+(babel)             in language  on input line 727.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 727.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 727.
 [25
 
 
-] <./Bilder/spitze_vorher.jpg, id=962, 859.21pt x 495.8525pt>
+] <./Bilder/spitze_vorher.jpg, id=925, 859.21pt x 495.8525pt>
 File: ./Bilder/spitze_vorher.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_vorher.jpg>
-Package pdftex.def Info: ./Bilder/spitze_vorher.jpg used on input line 722.
+Package pdftex.def Info: ./Bilder/spitze_vorher.jpg used on input line 731.
 (pdftex.def)             Requested size: 209.13013pt x 120.68669pt.
 
-<./Bilder/spitze_vorher2.jpg, id=963, 517.935pt x 304.13625pt>
+<./Bilder/spitze_vorher2.jpg, id=926, 517.935pt x 304.13625pt>
 File: ./Bilder/spitze_vorher2.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_vorher2.jpg>
-Package pdftex.def Info: ./Bilder/spitze_vorher2.jpg used on input line 725.
+Package pdftex.def Info: ./Bilder/spitze_vorher2.jpg used on input line 734.
 (pdftex.def)             Requested size: 209.13013pt x 122.80324pt.
 
-<./Bilder/spitze_nachher.jpg, id=964, 701.62125pt x 408.52625pt>
+<./Bilder/spitze_nachher.jpg, id=927, 701.62125pt x 408.52625pt>
 File: ./Bilder/spitze_nachher.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_nachher.jpg>
-Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 728.
+Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 737.
 (pdftex.def)             Requested size: 209.13013pt x 121.76715pt.
 
 *************************************************
@@ -3434,9 +3425,9 @@ Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 728.
 * Package "color" not loaded.
 *************************************************
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 738.
+(babel)             in language  on input line 747.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 738.
+(babel)             in language  on input line 747.
 *************************************************
 * siunitx warning: "color-not-loaded"
 * 
@@ -3478,76 +3469,76 @@ Package babel Info: Redefining ngerman shorthand "~
 * Package "color" not loaded.
 *************************************************
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 747.
+(babel)             in language  on input line 756.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 747.
+(babel)             in language  on input line 756.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 747.
+(babel)             in language  on input line 756.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 747.
+(babel)             in language  on input line 756.
 [26 <./Bilder/spitze_vorher.jpg> <./Bilder/spitze_vorher2.jpg> <./Bilder/spitze
 _nachher.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
  [27]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
  [28
 
 
 ]
 chapter A.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 770.
+(babel)             in language  on input line 779.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 770.
-<./Bilder/Orpheus_Tuning_Curve.png, id=982, 972.63374pt x 771.88374pt>
+(babel)             in language  on input line 779.
+<./Bilder/Orpheus_Tuning_Curve.png, id=946, 972.63374pt x 771.88374pt>
 File: ./Bilder/Orpheus_Tuning_Curve.png Graphic file (type png)
 
 <use ./Bilder/Orpheus_Tuning_Curve.png>
 Package pdftex.def Info: ./Bilder/Orpheus_Tuning_Curve.png used on input line 7
-73.
+82.
 (pdftex.def)             Requested size: 298.75267pt x 237.09077pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 777.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 786.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2951) in paragraph at lines 777--777
+Underfull \hbox (badness 2951) in paragraph at lines 786--786
 [][][]\T1/lmr/m/n/10 Light Con-ver-si-on Pro-dukt-ka-ta-log 2013, []$\T1/lmtt/m
 /n/10 http : / / www . lightcon . com / upload / iblock / 2db /
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 [29 <./Bilder/Orpheus_Tuning_Curve.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 788.
  [30
 
 
@@ -3578,43 +3569,43 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 125.
  [32])
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 806.
+(babel)             in language  on input line 815.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 806.
+(babel)             in language  on input line 815.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 806.
+(babel)             in language  on input line 815.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 806.
+(babel)             in language  on input line 815.
  [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 807.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 816.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 807.
+(babel)             in language  on input line 816.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 807.
+(babel)             in language  on input line 816.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 807.
+(babel)             in language  on input line 816.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 807.
+(babel)             in language  on input line 816.
  [34
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 807.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 816.
  (./Bachelor.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 807.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 807.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 816.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 816.
 Package rerunfilecheck Info: File `Bachelor.out' has not changed.
 (rerunfilecheck)             Checksum: 665F9887FB57D0E407C8D457A918B4FA;1374.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 807.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 816.
  ) 
 Here is how much of TeX's memory you used:
- 21550 strings out of 493013
- 404217 string characters out of 6133343
- 533943 words of memory out of 5000000
- 24603 multiletter control sequences out of 15000+600000
+ 21556 strings out of 493013
+ 404298 string characters out of 6133343
+ 534092 words of memory out of 5000000
+ 24606 multiletter control sequences out of 15000+600000
  103419 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,14n,68p,10380b,1060s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3639,10 +3630,10 @@ e1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
 lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.p
 fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on Bachelor.pdf (42 pages, 2461654 bytes).
+Output written on Bachelor.pdf (42 pages, 2438126 bytes).
 PDF statistics:
- 1114 PDF objects out of 1200 (max. 8388607)
- 796 compressed objects within 8 object streams
- 128 named destinations out of 1000 (max. 500000)
+ 1078 PDF objects out of 1200 (max. 8388607)
+ 782 compressed objects within 8 object streams
+ 131 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

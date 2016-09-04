@@ -5,45 +5,46 @@ The style file: apalikeGerman.bst
 Database file #1: bthesis_datenbank.bib
 Warning--I didn't find a database entry for "feldverstaerkung"
 Warning--to sort, need author or key in orpheus_tuningcurve
-You've used 22 entries,
+Warning--empty note in thomas_2016
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            609 strings with 7277 characters,
-and the built_in function-call counts, 8178 in all, are:
-= -- 802
-> -- 300
-< -- 14
-+ -- 106
-- -- 98
-* -- 697
-:= -- 1444
-add.period$ -- 66
-call.type$ -- 22
-change.case$ -- 156
-chr.to.int$ -- 22
-cite$ -- 24
-duplicate$ -- 306
-empty$ -- 583
-format.name$ -- 128
-if$ -- 1579
+            625 strings with 7811 characters,
+and the built_in function-call counts, 9189 in all, are:
+= -- 897
+> -- 348
+< -- 16
++ -- 124
+- -- 114
+* -- 780
+:= -- 1635
+add.period$ -- 74
+call.type$ -- 25
+change.case$ -- 178
+chr.to.int$ -- 25
+cite$ -- 28
+duplicate$ -- 342
+empty$ -- 645
+format.name$ -- 148
+if$ -- 1766
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 20
-newline$ -- 113
-num.names$ -- 63
-pop$ -- 116
+missing$ -- 22
+newline$ -- 127
+num.names$ -- 72
+pop$ -- 132
 preamble$ -- 1
-purify$ -- 158
+purify$ -- 180
 quote$ -- 0
-skip$ -- 241
+skip$ -- 272
 stack$ -- 0
-substring$ -- 608
-swap$ -- 30
+substring$ -- 664
+swap$ -- 32
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 130
-warning$ -- 1
-while$ -- 65
+type$ -- 148
+warning$ -- 2
+while$ -- 72
 width$ -- 0
-write$ -- 283
-(There were 2 warnings)
+write$ -- 318
+(There were 3 warnings)
