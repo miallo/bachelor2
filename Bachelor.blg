@@ -2,67 +2,49 @@ This is BibTeX, Version 0.99d (TeX Live 2016)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bachelor.aux
 The style file: apalikeGerman.bst
-I found no \bibdata command---while reading file Bachelor.aux
-Warning--I didn't find a database entry for "ruska_1931"
-Warning--I didn't find a database entry for "gulde_ultrafast_2014"
-Warning--I didn't find a database entry for "barwick_4d_2008"
-Warning--I didn't find a database entry for "fowler_1931"
-Warning--I didn't find a database entry for "dubridge_further_1932"
-Warning--I didn't find a database entry for "sachtler_work_1966"
-Warning--I didn't find a database entry for "trasatti_operative_1974"
-Warning--I didn't find a database entry for "pescia_spin_1982"
-Warning--I didn't find a database entry for "koetz_1986"
-Warning--I didn't find a database entry for "lecoeur_1990"
-Warning--I didn't find a database entry for "crc"
-Warning--I didn't find a database entry for "einstein1905"
-Warning--I didn't find a database entry for "keldysh1965"
+Database file #1: bthesis_datenbank.bib
 Warning--I didn't find a database entry for "feldverstaerkung"
-Warning--I didn't find a database entry for "benni_15"
-Warning--I didn't find a database entry for "thomas_2016"
-Warning--I didn't find a database entry for "ropers_2007"
-Warning--I didn't find a database entry for "bechtel_1977"
-Warning--I didn't find a database entry for "girardeau_1995"
-Warning--I didn't find a database entry for "brogle"
-Warning--I didn't find a database entry for "gold_zustandsdichte"
-You've used 0 entries,
+Warning--to sort, need author or key in orpheus_tuningcurve
+Warning--empty note in thomas_2016
+You've used 25 entries,
             1935 wiz_defined-function locations,
-            491 strings with 3953 characters,
-and the built_in function-call counts, 17 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            625 strings with 7811 characters,
+and the built_in function-call counts, 9189 in all, are:
+= -- 897
+> -- 348
+< -- 16
++ -- 124
+- -- 114
+* -- 780
+:= -- 1635
+add.period$ -- 74
+call.type$ -- 25
+change.case$ -- 178
+chr.to.int$ -- 25
+cite$ -- 28
+duplicate$ -- 342
+empty$ -- 645
+format.name$ -- 148
+if$ -- 1766
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 22
+newline$ -- 127
+num.names$ -- 72
+pop$ -- 132
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 180
 quote$ -- 0
-skip$ -- 1
+skip$ -- 272
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 664
+swap$ -- 32
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 148
+warning$ -- 2
+while$ -- 72
 width$ -- 0
-write$ -- 2
-(There was 1 error message)
+write$ -- 318
+(There were 3 warnings)
