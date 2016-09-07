@@ -1,7 +1,7 @@
 phi = 4.8*eV;
 leist = 750e-6/100000/200e-15/(16e-6)^2;
 omega = 2*pi*c/800e-9;
-k = 6.4;
+k = 5; %6.4; %Geometrischer Anschwaechungsfaktor, nicht Feldverstaerkung
 E = sqrt(leist/eps0/c)*k;
 Up = eV^2*E^2/(4*m0*omega^2);
 gamma = sqrt(phi/(2*Up));

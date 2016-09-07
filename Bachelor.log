@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  1 SEP 2016 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  7 SEP 2016 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,6 +1029,23 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen186
 \@vwid@roff=\dimen187
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -1327,27 +1344,27 @@ LaTeX Warning: Unused global option(s):
 (./Bachelor.aux)
 \openout1 = `Bachelor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 82.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1426,18 +1443,18 @@ e
 ))
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 82.
-Package gensymb Info: Math companion symbols declared on input line 82.
-LaTeX Info: Redefining \degree on input line 82.
-LaTeX Info: Redefining \celsius on input line 82.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 84.
+Package gensymb Info: Math companion symbols declared on input line 84.
+LaTeX Info: Redefining \degree on input line 84.
+LaTeX Info: Redefining \celsius on input line 84.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 82.
-LaTeX Info: Redefining \ohm on input line 82.
-Package gensymb Info: Using \textohm for \ohm on input line 82.
-LaTeX Info: Redefining \micro on input line 82.
-Package gensymb Info: Using \textmu for \micro on input line 82.
+erthousand on input line 84.
+LaTeX Info: Redefining \ohm on input line 84.
+Package gensymb Info: Using \textohm for \ohm on input line 84.
+LaTeX Info: Redefining \micro on input line 84.
+Package gensymb Info: Using \textmu for \micro on input line 84.
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 82.
+Package hyperref Info: Link coloring OFF on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1447,89 +1464,89 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count195
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
 
 (./Bachelor.out) (./Bachelor.out)
 \@outlinefile=\write3
 \openout3 = `Bachelor.out'.
 
 \c__siunitx_mathsf_int=\count196
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 82.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 82.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 84.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 82.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 84.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 82.
+(Font)              <12> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 82.
+(Font)              <8> on input line 84.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 82.
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
+(Font)              <6> on input line 84.
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 82.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 84.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 84.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count197
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 82.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 84.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 104.
+(babel)             in language  on input line 106.
 
 <figures/Logo_Uni_Goettingen.pdf, id=84, 312.16624pt x 60.225pt>
 File: figures/Logo_Uni_Goettingen.pdf Graphic file (type pdf)
 
 <use figures/Logo_Uni_Goettingen.pdf>
-Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 105
+Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 107
 .
 (pdftex.def)             Requested size: 221.22517pt x 42.67912pt.
 
@@ -1537,26 +1554,26 @@ Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 105
 File: figures/Logo_Physik_links.pdf Graphic file (type pdf)
 
 <use figures/Logo_Physik_links.pdf>
-Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 105.
+Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 107.
 (pdftex.def)             Requested size: 133.26126pt x 42.67912pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 105.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 107.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 105--105
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 107--107
 [] [][][][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 [1
 
 
@@ -1566,34 +1583,34 @@ Package babel Info: Redefining ngerman shorthand "~
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 es/Logo_Uni_Goettingen.pdf> <./figures/Logo_Physik_links.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 105.
+(babel)             in language  on input line 107.
  [2
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
  [3]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 132.
+(babel)             in language  on input line 134.
 
 [4
 
@@ -1603,117 +1620,92 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout4 = `Bachelor.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
  [5
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
  [6
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 140.
+(babel)             in language  on input line 142.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 181.
+(babel)             in language  on input line 183.
  [7
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 189.
 
 [8]
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 191.
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
+(babel)             in language  on input line 193.
 
-Overfull \hbox (3.18292pt too wide) in paragraph at lines 199--206
+LaTeX Warning: Citation `ruska_1931' on page 1 undefined on input line 195.
+
+
+LaTeX Warning: Citation `gulde_ultrafast_2014' on page 1 undefined on input lin
+e 199.
+
+
+LaTeX Warning: Citation `gulde_ultrafast_2014' on page 1 undefined on input lin
+e 203.
+
+
+LaTeX Warning: Citation `barwick_4d_2008' on page 1 undefined on input line 203
+.
+
+
+Overfull \hbox (3.18292pt too wide) in paragraph at lines 201--208
 []\T1/lmr/m/n/12 Eine Lö-sungs-mög-lich-keit be-steht dar-in, Na-no-spit-zen mi
 t Femtosekunden-Laserpulsen
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 212.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 212.
 [1
 
 
@@ -1722,497 +1714,202 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 
 LaTeX Warning: Reference `tab:komische_steigungen' on page 2 undefined on input
- line 211.
+ line 213.
 
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 [2]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 223.
+(babel)             in language  on input line 225.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 230.
+(babel)             in language  on input line 232.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 230.
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
+(babel)             in language  on input line 232.
+
+LaTeX Warning: Citation `fowler_1931' on page 3 undefined on input line 247.
+
+
+LaTeX Warning: Citation `dubridge_further_1932' on page 3 undefined on input li
+ne 248.
+
+
+LaTeX Warning: Citation `sachtler_work_1966' on page 3 undefined on input line 
+250.
+
+
+LaTeX Warning: Citation `trasatti_operative_1974' on page 3 undefined on input 
+line 252.
+
+
+LaTeX Warning: Citation `pescia_spin_1982' on page 3 undefined on input line 25
+3.
+
+
+LaTeX Warning: Citation `koetz_1986' on page 3 undefined on input line 254.
+
+
+LaTeX Warning: Citation `lecoeur_1990' on page 3 undefined on input line 255.
+
+
+LaTeX Warning: Citation `crc' on page 3 undefined on input line 259.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 268.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 266.
+(babel)             in language  on input line 268.
+
+LaTeX Warning: Citation `einstein1905' on page 3 undefined on input line 275.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 278.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 278.
 [3
 
 
 ]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
+
+LaTeX Warning: Citation `crc' on page 4 undefined on input line 284.
+
 
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 292.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 290.
+(babel)             in language  on input line 292.
  [4]
+
+LaTeX Warning: Citation `keldysh1965' on page 5 undefined on input line 308.
+
+
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 324.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 324.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 324.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 321.
+(babel)             in language  on input line 324.
  [5]
 
-LaTeX Warning: Citation `feldverstaerkung' on page 6 undefined on input line 32
-7.
+LaTeX Warning: Citation `feldverstaerkung' on page 6 undefined on input line 33
+0.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--331
+LaTeX Warning: Citation `benni_15' on page 6 undefined on input line 332.
+
+
+LaTeX Warning: Citation `thomas_2016' on page 6 undefined on input line 333.
+
+
+LaTeX Warning: Citation `ropers_2007' on page 6 undefined on input line 333.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--331
+Underfull \hbox (badness 10000) in paragraph at lines 328--334
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 337.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 334.
+(babel)             in language  on input line 337.
 
-Overfull \hbox (10.887pt too wide) in paragraph at lines 335--337
-\T1/lmr/m/n/12 werden[[]][[]]. Nach
- []
+LaTeX Warning: Citation `bechtel_1977' on page 6 undefined on input line 338.
+
+
+LaTeX Warning: Citation `girardeau_1995' on page 6 undefined on input line 338.
+
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 344.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 344.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 344.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 344.
+(babel)             in language  on input line 347.
  [6]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
 
-Overfull \hbox (20.42876pt too wide) in paragraph at lines 344--348
-\T1/lmr/m/n/12 zusammen. Hier-bei ist $\OML/lmm/m/it/12 A \OT1/lmr/m/n/12 = [] 
-[]$ \T1/lmr/m/n/12 die Richardson-Konstante, $\OML/lmm/m/it/12 k[]$ \T1/lmr/m/n
-/12 die Boltzmann-
+LaTeX Warning: Citation `brogle' on page 7 undefined on input line 350.
+
+
+Overfull \hbox (13.05641pt too wide) in paragraph at lines 353--354
+[]\T1/lmr/m/n/12 Der Wir-kungs-quer-schnitt ist so-mit ein Maÿ für die Wahr-sch
+ein-lich-keit der $\OML/lmm/m/it/12 N$\T1/lmr/m/n/12 -Photonen-
  []
 
 
-Overfull \hbox (42.18741pt too wide) in paragraph at lines 344--348
-\T1/lmr/m/n/12 (z.B. Streu-ung im Me-tall und Re-flek-ti-ons-wahr-schein-lich-k
-eit an der Oberfläche)[[]]. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 369.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 365.
+(babel)             in language  on input line 369.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 371.
+(babel)             in language  on input line 376.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 371.
+(babel)             in language  on input line 376.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 371.
+(babel)             in language  on input line 376.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 371.
-[7]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-(./Schottky.pdf_tex <Schottky.pdf, id=269, page=1, 322.36882pt x 310.46721pt>
+(babel)             in language  on input line 376.
+[7] (./Schottky.pdf_tex
+<Schottky.pdf, id=229, page=1, 322.36882pt x 310.46721pt>
 File: Schottky.pdf Graphic file (type pdf)
 
 <use Schottky.pdf, page 1>
 Package pdftex.def Info: Schottky.pdf, page1 used on input line 52.
 (pdftex.def)             Requested size: 322.36884pt x 310.49013pt.
 
-<Schottky.pdf, id=270, page=2, 322.36882pt x 310.46721pt>
+<Schottky.pdf, id=230, page=2, 322.36882pt x 310.46721pt>
 File: Schottky.pdf Graphic file (type pdf)
 
 <use Schottky.pdf, page 2>
@@ -2220,993 +1917,433 @@ Package pdftex.def Info: Schottky.pdf, page2 used on input line 58.
 (pdftex.def)             Requested size: 322.36884pt x 310.49013pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 405.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 397.
+(babel)             in language  on input line 405.
+
+Underfull \vbox (badness 3260) has occurred while \output is active []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 415.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 415.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 415.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 407.
+(babel)             in language  on input line 415.
  [8 <./Schottky.pdf> <./Schottky.pdf
 
 pdfTeX warning: pdflatex (file ./Schottky.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
->]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-<./Bilder/GoldZustandsdichte.pdf, id=280, 206.19264pt x 140.5803pt>
+>] <./Bilder/GoldZustandsdichte.pdf, id=240, 206.19264pt x 140.5803pt>
 File: ./Bilder/GoldZustandsdichte.pdf Graphic file (type pdf)
 
 <use ./Bilder/GoldZustandsdichte.pdf>
-Package pdftex.def Info: ./Bilder/GoldZustandsdichte.pdf used on input line 419
+Package pdftex.def Info: ./Bilder/GoldZustandsdichte.pdf used on input line 427
 .
 (pdftex.def)             Requested size: 206.19212pt x 140.57994pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 425.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 425.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 425.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 425.
- [9 <./Bilder/GoldZustandsdichte.pdf>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 425.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 425.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 425.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 425.
 
-[10
+
+LaTeX Warning: Citation `gold_zustandsdichte' on page 9 undefined on input line
+ 428.
+
+
+LaTeX Warning: Citation `gold_zustandsdichte' on page 9 undefined on input line
+ 428.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 433.
+[9 <./Bilder/GoldZustandsdichte.pdf>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 433.
+ [10
 
 
 ]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 425.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 425.
+(babel)             in language  on input line 433.
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
-
- []
-
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--438
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
-<Aufbau2.pdf, id=308, 559.5521pt x 362.46927pt>
-File: Aufbau2.pdf Graphic file (type pdf)
- <use Aufbau2.pdf>
-Package pdftex.def Info: Aufbau2.pdf used on input line 446.
-(pdftex.def)             Requested size: 341.43442pt x 221.18336pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--446
+
+ []
+
+(./Aufbau3.pdf_tex <Aufbau3.pdf, id=265, page=1, 556.70686pt x 354.93231pt>
+File: Aufbau3.pdf Graphic file (type pdf)
+
+<use Aufbau3.pdf, page 1>
+Package pdftex.def Info: Aufbau3.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
+
+<Aufbau3.pdf, id=266, page=2, 556.70686pt x 354.93231pt>
+File: Aufbau3.pdf Graphic file (type pdf)
+
+<use Aufbau3.pdf, page 2>
+Package pdftex.def Info: Aufbau3.pdf, page2 used on input line 55.
+(pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
+
+<Aufbau3.pdf, id=267, page=3, 556.70686pt x 354.93231pt>
+File: Aufbau3.pdf Graphic file (type pdf)
+
+<use Aufbau3.pdf, page 3>
+Package pdftex.def Info: Aufbau3.pdf, page3 used on input line 60.
+(pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Kammer_Aufbau.pdf, id=309, 1010.75468pt x 469.32619pt>
-File: Kammer_Aufbau.pdf Graphic file (type pdf)
+(./Kammer_Aufbau_rot.pdf_tex
+<Kammer_Aufbau_rot.pdf, id=268, page=1, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
-<use Kammer_Aufbau.pdf>
-Package pdftex.def Info: Kammer_Aufbau.pdf used on input line 454.
-(pdftex.def)             Requested size: 384.10965pt x 178.35297pt.
+<use Kammer_Aufbau_rot.pdf, page 1>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page1 used on input line 52.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
 
+<Kammer_Aufbau_rot.pdf, id=269, page=2, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 2>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page2 used on input line 59.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=270, page=3, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 3>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page3 used on input line 61.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=271, page=4, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 4>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page4 used on input line 63.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=272, page=5, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 5>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page5 used on input line 65.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=273, page=6, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 6>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page6 used on input line 67.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=274, page=7, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 7>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page7 used on input line 69.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=275, page=8, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 8>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page8 used on input line 71.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=276, page=9, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 9>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page9 used on input line 73.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+
+<Kammer_Aufbau_rot.pdf, id=277, page=10, 1007.9094pt x 480.31398pt>
+File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
+
+<use Kammer_Aufbau_rot.pdf, page 10>
+Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page10 used on input line 75.
+(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 476.
+(babel)             in language  on input line 488.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 476.
+(babel)             in language  on input line 488.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 479.
+(babel)             in language  on input line 491.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 479.
+(babel)             in language  on input line 491.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 479.
+(babel)             in language  on input line 491.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 479.
+(babel)             in language  on input line 491.
  [11]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
 
-Overfull \hbox (5.02623pt too wide) in paragraph at lines 479--482
+LaTeX Warning: Citation `schmidt_2012' on page 12 undefined on input line 491.
+
+
+LaTeX Warning: Citation `neacsu_2007' on page 12 undefined on input line 491.
+
+
+Overfull \hbox (5.02623pt too wide) in paragraph at lines 491--494
 []\T1/lmr/m/n/12 Die Spit-ze wur-de aus ei-nem ge-glüh-ten Gold-draht mit ei-ne
 m Durch-mes-ser von [][]
  []
 
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 493.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 493.
 
-Underfull \vbox (badness 6284) has occurred while \output is active []
+Underfull \vbox (badness 1466) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 496.
+(babel)             in language  on input line 494.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 496.
+(babel)             in language  on input line 494.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 496.
+(babel)             in language  on input line 494.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 496.
- [12 <./Aufbau2.pdf>]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 508.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 508.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 508.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 508.
-[13 <./Kammer_Aufbau.pdf>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 523.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 523.
+(babel)             in language  on input line 494.
+ [12 <./Aufbau3.pdf> <./Aufbau3.pdf
 
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
+pdfTeX warning: pdflatex (file ./Aufbau3.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./Aufbau3.pdf
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--531
+pdfTeX warning: pdflatex (file ./Aufbau3.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./Kammer_Aufbau_rot.pdf
+
+pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 505.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 505.
+
+
+LaTeX Warning: Citation `bormann_2015' on page 13 undefined on input line 517.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 535.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 535.
+
+LaTeX Warning: Citation `orpheus_tuningcurve' on page 13 undefined on input lin
+e 538.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--543
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 524--531
+Underfull \hbox (badness 10000) in paragraph at lines 536--543
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 537.
+(babel)             in language  on input line 543.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 537.
+(babel)             in language  on input line 543.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 547.
+(babel)             in language  on input line 543.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 547.
+(babel)             in language  on input line 543.
+[13]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 547.
+(babel)             in language  on input line 549.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 547.
-[14]
+(babel)             in language  on input line 549.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 563.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 563.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 563.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 573.
+(babel)             in language  on input line 563.
+ [14]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 591.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 591.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 591.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 591.
  [15]
-<./Bilder/460nm_109muW_10ms_g.png, id=413, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_g.png, id=368, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_g.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_g.png>
-Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_g.png used on input line 58
-7.
+Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_g.png used on input line 59
+9.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 587.
+(Font)              <10> on input line 599.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 587.
+(Font)              <7> on input line 599.
 
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-
-Underfull \hbox (badness 6910) in paragraph at lines 587--587
+Underfull \hbox (badness 6910) in paragraph at lines 599--599
 []\T1/lmr/m/n/10 (a) Wel-len-län-ge $[] []$, Be-lich-tungs-zeit
  []
 
 
-<./Bilder/460nm_109muW_10ms_gefaltet_g.png, id=414, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_gefaltet_g.png, id=369, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_gefaltet_g.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_gefaltet_g.png>
 Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_gefaltet_g.png used on inpu
-t line 590.
+t line 602.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 
-<./Bilder/460nm_109muW_10ms_e_g_fPos.png, id=415, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_e_g_fPos.png, id=370, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_e_g_fPos.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_e_g_fPos.png>
 Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_e_g_fPos.png used on input 
-line 593.
+line 605.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 618.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 618.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 618.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 618.
+ [16 <./Bilder/460nm_109muW_10ms_g.png> <./Bilder/460nm_109muW_10ms_gefaltet_g.
+png> <./Bilder/460nm_109muW_10ms_e_g_fPos.png>]
+chapter 4.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 618.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 618.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 621.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 621.
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--632
+
+ []
+
+<./Bilder/480e.pdf, id=385, 342.27875pt x 260.975pt>
+File: ./Bilder/480e.pdf Graphic file (type pdf)
+ <use ./Bilder/480e.pdf>
+Package pdftex.def Info: ./Bilder/480e.pdf used on input line 636.
+(pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
+
+<./Bilder/520e.pdf, id=386, 342.27875pt x 260.975pt>
+File: ./Bilder/520e.pdf Graphic file (type pdf)
+ <use ./Bilder/520e.pdf>
+Package pdftex.def Info: ./Bilder/520e.pdf used on input line 639.
+(pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
+
+<./Bilder/690e.pdf, id=387, 342.27875pt x 260.975pt>
+File: ./Bilder/690e.pdf Graphic file (type pdf)
+ <use ./Bilder/690e.pdf>
+Package pdftex.def Info: ./Bilder/690e.pdf used on input line 642.
+(pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Citation `gahlmann_2008' on page 17 undefined on input line 656.
+
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
+(babel)             in language  on input line 657.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
+(babel)             in language  on input line 657.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
+(babel)             in language  on input line 657.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
-[16]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
- [17 <./Bilder/460nm_109muW_10ms_g.png> <./Bilder/460nm_109muW_10ms_gefaltet_g.
-png> <./Bilder/460nm_109muW_10ms_e_g_fPos.png>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
- [18
+(babel)             in language  on input line 657.
+[17
 
 
 ]
-chapter 4.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 606.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 609.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 609.
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
+Underfull \hbox (badness 10000) in paragraph at lines 658--665
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--620
-
- []
-
-<./Bilder/480e.pdf, id=442, 342.27875pt x 260.975pt>
-File: ./Bilder/480e.pdf Graphic file (type pdf)
- <use ./Bilder/480e.pdf>
-Package pdftex.def Info: ./Bilder/480e.pdf used on input line 624.
-(pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
-
-<./Bilder/520e.pdf, id=443, 342.27875pt x 260.975pt>
-File: ./Bilder/520e.pdf Graphic file (type pdf)
- <use ./Bilder/520e.pdf>
-Package pdftex.def Info: ./Bilder/520e.pdf used on input line 627.
-(pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
-
-<./Bilder/690e.pdf, id=444, 342.27875pt x 260.975pt>
-File: ./Bilder/690e.pdf Graphic file (type pdf)
- <use ./Bilder/690e.pdf>
-Package pdftex.def Info: ./Bilder/690e.pdf used on input line 630.
-(pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 645.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 645.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 645.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 645.
-[19]
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-
-Underfull \hbox (badness 10000) in paragraph at lines 646--653
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 646--653
+Underfull \hbox (badness 10000) in paragraph at lines 658--665
 
  []
 
@@ -3214,401 +2351,281 @@ Underfull \hbox (badness 10000) in paragraph at lines 646--653
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 653.
+(babel)             in language  on input line 665.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 653.
- [20 <./Bilder/480e.pdf> <./Bilder/520e.pdf> <./Bilder/690e.pdf>]
-<./Bilder/Gesamtenergie.pdf, id=652, 370.38374pt x 258.9675pt>
+(babel)             in language  on input line 665.
+ [18 <./Bilder/480e.pdf> <./Bilder/520e.pdf> <./Bilder/690e.pdf>]
+<./Bilder/Gesamtenergie.pdf, id=593, 370.38374pt x 258.9675pt>
 File: ./Bilder/Gesamtenergie.pdf Graphic file (type pdf)
 
 <use ./Bilder/Gesamtenergie.pdf>
-Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 662.
+Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 674.
 (pdftex.def)             Requested size: 370.38283pt x 258.96684pt.
 
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-<./Bilder/Vergleich.pdf, id=656, 341.275pt x 324.21124pt>
+<./Bilder/Vergleich.pdf, id=597, 341.275pt x 324.21124pt>
 File: ./Bilder/Vergleich.pdf Graphic file (type pdf)
 
 <use ./Bilder/Vergleich.pdf>
-Package pdftex.def Info: ./Bilder/Vergleich.pdf used on input line 674.
+Package pdftex.def Info: ./Bilder/Vergleich.pdf used on input line 686.
 (pdftex.def)             Requested size: 341.27415pt x 324.21045pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 678.
+(babel)             in language  on input line 690.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 678.
+(babel)             in language  on input line 690.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 678.
+(babel)             in language  on input line 690.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 678.
- [21 <./Bilder/Gesamtenergie.pdf>]
-<./Bilder/Stufen.pdf, id=675, 342.27875pt x 305.14pt>
+(babel)             in language  on input line 690.
+ [19 <./Bilder/Gesamtenergie.pdf>]
+<./Bilder/Stufen.pdf, id=617, 342.27875pt x 305.14pt>
 File: ./Bilder/Stufen.pdf Graphic file (type pdf)
 
 <use ./Bilder/Stufen.pdf>
-Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 681.
+Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 693.
 (pdftex.def)             Requested size: 342.2779pt x 305.13924pt.
 
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
 
-Underfull \hbox (badness 6236) in paragraph at lines 682--682
-[][]\T1/lmr/m/n/12 Daten aus Abb. []4.3[] zu-sam-men mit dem ein-fachs-ten denk
--ba-
+LaTeX Warning: Citation `trasatti_operative_1974' on page 20 undefined on input
+ line 694.
+
+
+LaTeX Warning: Citation `crc' on page 20 undefined on input line 694.
+
+
+LaTeX Warning: Citation `trasatti_operative_1974' on page 20 undefined on input
+ line 694.
+
+
+LaTeX Warning: Citation `crc' on page 20 undefined on input line 694.
+
+
+Underfull \hbox (badness 3199) in paragraph at lines 694--694
+[][][]\T1/lmr/m/n/12 Daten aus Abb. []4.3[] zu-sam-men mit dem ein-fachs-ten de
+nk-ba-ren
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 682--682
-\T1/lmr/m/n/12 ren Mo-dell, wel-ches Stu-fen vor-her-sagt. Ein-ge-tra-gen sind 
-in grün
- []
-
-
-Underfull \hbox (badness 1902) in paragraph at lines 682--682
-\T1/lmr/m/n/12 mit [][]Austrittsarbeit ein nied-ri-ger Wert der Fer-mi-ener-gie
- aus
+Underfull \hbox (badness 1824) in paragraph at lines 694--694
+\T1/lmr/m/n/12 Mo-dell, wel-ches Stu-fen vor-her-sagt. Ein-ge-tra-gen sind in g
+rün mit
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Bilder/Faecher_Daten.pdf, id=683, 341.43358pt x 256.07469pt>
+<./Bilder/Faecher_Daten.pdf, id=621, 341.43358pt x 256.07469pt>
 File: ./Bilder/Faecher_Daten.pdf Graphic file (type pdf)
 
 <use ./Bilder/Faecher_Daten.pdf>
-Package pdftex.def Info: ./Bilder/Faecher_Daten.pdf used on input line 694.
+Package pdftex.def Info: ./Bilder/Faecher_Daten.pdf used on input line 706.
 (pdftex.def)             Requested size: 298.75267pt x 224.08041pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
-[22 <./Bilder/Vergleich.pdf>]
+(babel)             in language  on input line 719.
+[20 <./Bilder/Vergleich.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
- [23 <./Bilder/Stufen.pdf>]
+(babel)             in language  on input line 719.
+ [21 <./Bilder/Stufen.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
- [24 <./Bilder/Faecher_Daten.pdf>]
+(babel)             in language  on input line 719.
+ [22 <./Bilder/Faecher_Daten.pdf>]
 chapter 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 707.
+(babel)             in language  on input line 719.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 710.
+(babel)             in language  on input line 722.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 710.
+(babel)             in language  on input line 722.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 718.
+(babel)             in language  on input line 730.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 718.
+(babel)             in language  on input line 730.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 727.
+(babel)             in language  on input line 739.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 727.
+(babel)             in language  on input line 739.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 727.
+(babel)             in language  on input line 739.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 727.
-[25
+(babel)             in language  on input line 739.
+[23
 
 
-] <./Bilder/spitze_vorher.jpg, id=925, 859.21pt x 495.8525pt>
+] <./Bilder/spitze_vorher.jpg, id=863, 859.21pt x 495.8525pt>
 File: ./Bilder/spitze_vorher.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_vorher.jpg>
-Package pdftex.def Info: ./Bilder/spitze_vorher.jpg used on input line 731.
+Package pdftex.def Info: ./Bilder/spitze_vorher.jpg used on input line 743.
 (pdftex.def)             Requested size: 209.13013pt x 120.68669pt.
 
-<./Bilder/spitze_vorher2.jpg, id=926, 517.935pt x 304.13625pt>
+<./Bilder/spitze_vorher2.jpg, id=864, 517.935pt x 304.13625pt>
 File: ./Bilder/spitze_vorher2.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_vorher2.jpg>
-Package pdftex.def Info: ./Bilder/spitze_vorher2.jpg used on input line 734.
+Package pdftex.def Info: ./Bilder/spitze_vorher2.jpg used on input line 746.
 (pdftex.def)             Requested size: 209.13013pt x 122.80324pt.
 
-<./Bilder/spitze_nachher.jpg, id=927, 701.62125pt x 408.52625pt>
+<./Bilder/spitze_nachher.jpg, id=865, 701.62125pt x 408.52625pt>
 File: ./Bilder/spitze_nachher.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_nachher.jpg>
-Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 737.
+Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 749.
 (pdftex.def)             Requested size: 209.13013pt x 121.76715pt.
-
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 747.
+(babel)             in language  on input line 759.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 747.
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
-*************************************************
-* siunitx warning: "color-not-loaded"
-* 
-* Package "color" not loaded.
-*************************************************
+(babel)             in language  on input line 759.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 756.
+(babel)             in language  on input line 768.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 756.
+(babel)             in language  on input line 768.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 756.
+(babel)             in language  on input line 768.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 756.
-[26 <./Bilder/spitze_vorher.jpg> <./Bilder/spitze_vorher2.jpg> <./Bilder/spitze
-_nachher.jpg>]
+(babel)             in language  on input line 768.
+ [24 <./Bilder/spitze_vorher.jpg> <./Bilder/spitze_vorher2.jpg> <./Bilder/spitz
+e_nachher.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
- [27]
+(babel)             in language  on input line 791.
+ [25]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
- [28
+(babel)             in language  on input line 791.
+ [26
 
 
 ]
 chapter A.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 779.
+(babel)             in language  on input line 791.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 779.
-<./Bilder/Orpheus_Tuning_Curve.png, id=946, 972.63374pt x 771.88374pt>
+(babel)             in language  on input line 791.
+<./Bilder/Orpheus_Tuning_Curve.png, id=883, 972.63374pt x 771.88374pt>
 File: ./Bilder/Orpheus_Tuning_Curve.png Graphic file (type png)
 
 <use ./Bilder/Orpheus_Tuning_Curve.png>
 Package pdftex.def Info: ./Bilder/Orpheus_Tuning_Curve.png used on input line 7
-82.
+94.
 (pdftex.def)             Requested size: 298.75267pt x 237.09077pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 786.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 798.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2951) in paragraph at lines 786--786
+Underfull \hbox (badness 2951) in paragraph at lines 798--798
 [][][]\T1/lmr/m/n/10 Light Con-ver-si-on Pro-dukt-ka-ta-log 2013, []$\T1/lmtt/m
 /n/10 http : / / www . lightcon . com / upload / iblock / 2db /
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
-[29 <./Bilder/Orpheus_Tuning_Curve.png>]
+(babel)             in language  on input line 800.
+[27 <./Bilder/Orpheus_Tuning_Curve.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
- [30
+(babel)             in language  on input line 800.
+ [28
 
 
 ] (./Bachelor.bbl
-Underfull \hbox (badness 7397) in paragraph at lines 57--61
-[]\T1/lmr/m/n/12 Girardeau-Montaut, J. und
- []
 
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 61.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 61.
-[31
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
 
+)
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 827.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 827.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 827.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 827.
+ [29
 
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 125.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 125.
- [32])
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 815.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 815.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 815.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 815.
- [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 816.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 816.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 816.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 816.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 816.
- [34
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 816.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 828.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 828.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 828.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 828.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 828.
+ [30
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 828.
  (./Bachelor.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 816.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 816.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 828.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 828.
 Package rerunfilecheck Info: File `Bachelor.out' has not changed.
 (rerunfilecheck)             Checksum: 665F9887FB57D0E407C8D457A918B4FA;1374.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 816.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 828.
  ) 
 Here is how much of TeX's memory you used:
- 21556 strings out of 493013
- 404298 string characters out of 6133343
- 534092 words of memory out of 5000000
- 24606 multiletter control sequences out of 15000+600000
- 103419 words of font info for 84 fonts, out of 8000000 for 9000
+ 22010 strings out of 493013
+ 410183 string characters out of 6133343
+ 542346 words of memory out of 5000000
+ 25079 multiletter control sequences out of 15000+600000
+ 106409 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,14n,68p,10380b,1060s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,15n,68p,10380b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2016/texmf-dist
@@ -3621,19 +2638,19 @@ al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
 f-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fon
 ts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
 blic/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
-12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/lm/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/
-lm/lmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.p
-fb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm
-10.pfb>
-Output written on Bachelor.pdf (42 pages, 2438126 bytes).
+12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmro12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
+/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Bachelor.pdf (38 pages, 2437711 bytes).
 PDF statistics:
- 1078 PDF objects out of 1200 (max. 8388607)
- 782 compressed objects within 8 object streams
- 131 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1005 PDF objects out of 1200 (max. 8388607)
+ 706 compressed objects within 8 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 

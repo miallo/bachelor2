@@ -61,6 +61,8 @@
 %keine Einrückung, wenn Latex doppelte Leerzeile
 \parindent0pt
 
+\usepackage{xcolor}
+\definecolor{elecgruen}{rgb}{0,0.66667,0}
 %% umfangreiche Pakete fuer Symbole wie \micro, \ohm, \degree, \celsius etc.
 \usepackage{textcomp,gensymb}
 
@@ -312,7 +314,8 @@ Dieser berechnet sich durch
 
 Ist $\gamma\ll 1$ ($F$ groß $\Rightarrow$ optisches Feld gr\"o{\ss}er als atomares Potential), so wird die Emission bestimmt durch das Tunneln der Elektronen.
 Für $\gamma\gg 1$ ($F$ klein $\Rightarrow$ atomares Potential \"uberwiegt) werden die Atome durch Multi-Photon Prozesse ionisiert.\newline
-In dem verwendeten Aufbau war $12\leq\gamma\leq22$, was dem Multi-Photon-Regime entspricht.
+Die in dieser Arbeit verwendeten Parameter führen zu $12\leq\gamma\leq22$.
+Es ist also Multi-Photon-PES zu erwarten.
 
 In der Formel wird mit $U_{p}$ die ponderomotive Energie bezeichnet, welche der mittleren kinetischen Energie der Elektronen im oszillierenden Lichtfeld entspricht:
 \begin{align}
@@ -343,12 +346,13 @@ mit
 \text{und}\qquad F(x)=\int_0^\infty dy\ln \left(1+e^{-(y+x)}\right)\qquad &\text{(Fowler-Funktion).}\nonumber
 \end{align}
 zusammen.
-Hierbei ist $A=\SI{120}{\A\cm^{-2}\K^{-2}}$ die Richardson-Konstante, $k_B$ die Boltzmann-Konstante, $e$ die Elementarladung und $R_\omega$ die Oberflächenreflektivität.
-Des Weiteren ist $T$ die Temperatur, $\hbar\omega$ die Photonenenergie und $\alpha_N$ ist eine materialspezifische Konstante, welche die restlichen bisher unberücksichtigten Prozesse berücksichtigt (z.B. Streuung im Metall und Reflektionswahrscheinlichkeit an der Oberfläche)\cite{brogle}.
+Hierbei ist $A=\SI{120}{\A\cm^{-2}\K^{-2}}$ die Richardson-Konstante, $e$ die Elementarladung, $k_B$ die Boltzmann-Konstante und $R_\omega$ die Oberflächenreflektivität.
+Des Weiteren ist $T$ die Temperatur, $\hbar\omega$ die Photonenenergie und $\alpha_N$ ist eine materialspezifische Konstante, welche die restlichen bisher unberücksichtigten Prozesse berücksichtigt (z.B. Streuung im Metall und Reflektionswahrscheinlichkeit an der Oberfläche) \cite{brogle}.
+Mit der Fowler-Funktion wird die dominante Ordnung des nichtlinearen Prozesses ausgewählt.
 
-Mit der Fowler-Funktion wird die dominante Ordnung des nichtlinearen Prozesses ausgewählt.\\\\
+Der Wirkungsquerschnitt ist somit ein Maß für die Wahrscheinlichkeit der $N$-Photonen-Emission.\\\\
 
-Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ f\"ur $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.
+Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ für $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.
 
 
 
@@ -364,18 +368,22 @@ Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effe
 
 \section{Der Schottky-Effekt}
 \label{sec:schottky}
-Der sogenannte \textsc{Schottky}-Effekt erm\"oglicht die Verringerung der Austrittsarbeit.
-Dies ist m\"oglich, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen.
-Auf langen Distanzen nimmt die Reduktion des Potentials durch die attraktive Bildladung jedoch ab, sodass zum Emittieren ohne zusätzliches Feld noch die volle Austrittsarbeit $E_\infty-E_F$ geleistet werden muss (Abb. \ref{fig:schottky} in schwarz).
-Wirkt jedoch eine elektrische Feldst\"arke (in diesem Fall eine angelegte Spannung zwischen Spitze und Extraktor, eingezeichnet in rot), so wird das Potential im Vergleich zu dem gestrichelten Fall ohne Spiegelladung um
+Der sogenannte \textsc{Schottky}-Effekt erm\"oglicht die Verringerung der Austrittsarbeit durch das Anlegen einer Spannung $U$.
+Dies wird in der schematischen Abbildung \ref{fig:schottky} dargestellt.
+Dies ist m\"oglich, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen (siehe unverändertes Potential in schwarz mit $U=\SI0\V$).
+Auf langen Distanzen nimmt die Reduktion des Potentials durch die attraktive Bildladung jedoch ab, sodass zum Emittieren ohne zusätzliches Feld noch die volle Austrittsarbeit $E_\infty-E_F$ geleistet werden muss.
+Wirkt jedoch eine elektrische Feldstärke (in diesem Fall eine angelegte Spannung zwischen Spitze und Extraktor, eingezeichnet in rot), so wird das Potential im Vergleich zu dem gestrichelten Fall ohne Spiegelladung um
 \begin{align}
 	\Delta W&=\sqrt{\frac{e^3F}{4\pi\epsilon_0}}
 	\label{eq:schottky_dW}\\
 	\text{mit\qquad}F&=\frac{U}{k\cdot r}
 \end{align}
 erniedrigt.
-Für die hier verwendeten Parameter $r=\SI{45}{\nm}$ und $U_\text{Tip}=\SI{100}{\V}$ ergibt sich eine Feldstärke von  $F=\SI{0.35}{\V\per\nm}$.
-Daher wird die Austrittsarbeit um $\Delta W=\SI{0.7}{\eV}$ gesenkt.
+Dabei wird mit $k$ der geometrischer Abschwächungsfaktor bezeichnet.
+Dieser bezieht die Tatsache mit ein, dass Teile des Feldes im Vergleich zu einer Kugel durch den Schaft abgeschirmt werden.
+In der Literatur wird meist $k\approx5$ angenommen (z.B. \cite{}).
+Für die hier verwendeten Parameter Spitzenradius $r=\SI{45}{\nm}$ und angelegte Spannung $U_\text{Tip}=\SI{100}{\V}$ ergibt sich eine Feldstärke von  $F=\SI{0.35}{\V\per\nm}$.
+Daher wird die Austrittsarbeit um $\Delta W=\SI{0.8}{\eV}$ gesenkt.
 
 
 
@@ -443,16 +451,20 @@ Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.8\linewidth]{Aufbau2}
-	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition wird durch eine bewegliche Linse festgelegt. <+Feedback-Schleife in Bild ersetzen+>}
+	\def\svgwidth{0.7\textwidth}
+	\input{Aufbau3.pdf_tex}
+	%\includegraphics[width=0.8\linewidth]{Aufbau2}
+	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition wird durch eine bewegliche Linse festgelegt.}
 	\label{fig:aufbau}
 \end{figure}
 
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
-	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird. <+Geometrie und Abst\"ande einzeichen+>}
+	\def\svgwidth{0.7\textwidth}
+	\input{Kammer_Aufbau_rot.pdf_tex}
+%	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
+	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
 	\label{fig:aufbau_kammer}
 \end{figure}
 
@@ -481,9 +493,6 @@ Das anschlie{\ss}ende Ausglühen hat den Effekt, dass die zu Beginn polykristall
 Daher ist der Apex mit hoher Wahrscheinlichkeit monokristallin, was dazu führt, dass keine weiteren Facetten (und damit Austrittsarbeiten) durch Korngrenzen hinzukommen.
 
 Die Abma{\ss}e des verwendeten Aufbaus sind in Abb. \ref{fig:aufbau_kammer} dargestellt.
-Die Entfernung zwischen Suppressor und Extraktor beträgt \SI{1.44}{\mm}, die Länge der Spitze \SI{0.29}{\mm}.
-Der Apex ist von der MCP \SI{26}{\mm} entfernt, welche einen Durchmesser von \SI{26}{\mm} hat.
-Die Apertur des Extraktors hat einen Durchmesser von \SI3{\mm}.
 
 %Zusätzlich besitzt die untersuchte Spitze ein mit dem Focused Ion Beam (FIB) eingraviertes Gitter, um Oberflächenplasmon-Polaritone (SPP) einkoppeln zu können.
 %Um Apex und Gitter getrennt anregen zu können sind diese ca. \SI{45}{\micro\m} voneinander entfernt.

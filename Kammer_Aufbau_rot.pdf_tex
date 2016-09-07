@@ -1,0 +1,79 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Kammer_Aufbau_rot.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{1004.14387009bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.47654479)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.42924487,0.27167558){\color[rgb]{0,0.66666667,0}\makebox(0,0)[lb]{\smash{$\textcolor{elecgruen}e^-$}}}%
+    \put(0.22945683,0.46207317){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\small{Supressor}}}}%
+    \put(0.57801757,0.46207317){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\small{Extraktor}}}}%
+    \put(0.20290817,0.22782492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\footnotesize{Spitze}}}}%
+    \put(0.6601592,0.46207317){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\small{MCP}}}}%
+    \put(0.7140161,0.46207317){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{Phosphorschirm}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.36322903,0.46207317){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\small{Laser}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.11657775,0.28112135){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_\text{Tip}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.12001947,0.13342805){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$U_\text{Sup}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.92894339,0.13507216){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Kamera}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.41181425,0.54495327){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.38763571,0.11097135){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\tiny{1.44 mm}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.31276945,0.16210691){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\tiny{0.29 mm}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.57535675,0.24873616){\color[rgb]{0,0,0}\makebox(0,0)[rb]{\smash{\tiny{3 mm}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Kammer_Aufbau_rot.pdf}}%
+    \put(0.50677785,0.1612666){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\tiny{36 mm}}}}%
+    \put(0.75811145,0.00207149){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{\tiny{26 mm}}}}%
+  \end{picture}%
+\endgroup%
