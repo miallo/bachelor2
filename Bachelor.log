@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  7 SEP 2016 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  16 SEP 2016 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1029,6 +1029,894 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen186
 \@vwid@roff=\dimen187
 ))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vnabla with sig. '' on line 25.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \varE with sig. '' on line 29.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ordersymbol with sig. '' on line 30.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lparen with sig. '' on line 31.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \rparen with sig. '' on line 32.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \quantity with sig. '' on line 35.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@quantity with sig. ' t\big t\Big t\bigg t\Bigg g o d()
+. d|| ' on line 62.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qty with sig. '' on line 63.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pqty with sig. ' l m ' on line 64.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bqty with sig. ' l m ' on line 65.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Bqty with sig. ' l m ' on line 66.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vqty with sig. ' l m ' on line 67.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmqty with sig. 'm' on line 70.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Pmqty with sig. 'm' on line 71.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bmqty with sig. 'm' on line 72.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vmqty with sig. 'm' on line 73.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixquantity with sig. '' on line 74.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@matrixquantity with sig. ' s g o d() d|| ' on line 100.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mqty with sig. '' on line 101.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixdeterminant with sig. 'm' on line 102.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mdet with sig. '' on line 103.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \spmqty with sig. 'm' on line 105.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sPmqty with sig. 'm' on line 106.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sbmqty with sig. 'm' on line 107.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \svmqty with sig. 'm' on line 108.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smallmatrixquantity with sig. ' s g o d() d|| ' on line
+. 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smqty with sig. '' on line 134.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smallmatrixdeterminant with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \smdet with sig. '' on line 136.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \argopen with sig. 's' on line 138.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \argclose with sig. 's' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \braces with sig. '' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@braces with sig. ' s t\big t\Big t\bigg t\Bigg m m m ' on
+. line 156.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fbraces with sig. ' s t\big t\Big t\bigg t\Bigg m m m m '
+. on line 174.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \absolutevalue with sig. ' l m ' on line 176.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \abs with sig. '' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \norm with sig. ' l m ' on line 178.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \order with sig. ' l m ' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \evaluated with sig. ' s g d[| d(| ' on line 194.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \eval with sig. '' on line 195.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \poissonbracket with sig. ' l m m ' on line 197.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pb with sig. '' on line 198.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \commutator with sig. ' l m m ' on line 201.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \comm with sig. '' on line 202.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \anticommutator with sig. ' l m m ' on line 203.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acommutator with sig. '' on line 204.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acomm with sig. '' on line 205.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorbold with sig. ' s m ' on line 208.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vb with sig. '' on line 209.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorarrow with sig. ' s m ' on line 211.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \va with sig. '' on line 212.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vectorunit with sig. ' s m ' on line 214.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vu with sig. '' on line 215.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dotproduct with sig. '' on line 217.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vdot with sig. '' on line 218.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \crossproduct with sig. '' on line 220.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cross with sig. '' on line 221.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \cp with sig. '' on line 222.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \gradient with sig. ' g o d() ' on line 232.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \grad with sig. '' on line 233.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \divergence with sig. ' g o d() ' on line 243.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \div with sig. '' on line 246.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \curl with sig. ' g o d() ' on line 256.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \laplacian with sig. ' g o d() ' on line 266.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \principalvalue with sig. 'g' on line 274.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pv with sig. '' on line 275.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \PV with sig. 'g' on line 276.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Re with sig. 'g' on line 277.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Im with sig. 'g' on line 278.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \opbraces with sig. ' m g o d() ' on line 299.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \trigbraces with sig. ' m o d() ' on line 305.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sin with sig. '' on line 309.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cos with sig. '' on line 310.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \tan with sig. '' on line 311.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \csc with sig. '' on line 312.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sec with sig. '' on line 313.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cot with sig. '' on line 314.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arcsin with sig. '' on line 316.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arccos with sig. '' on line 317.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \arctan with sig. '' on line 318.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arccsc with sig. '' on line 320.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arcsec with sig. '' on line 322.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \arccot with sig. '' on line 324.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \asin with sig. '' on line 327.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acos with sig. '' on line 329.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \atan with sig. '' on line 331.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acsc with sig. '' on line 333.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \asec with sig. '' on line 335.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \acot with sig. '' on line 337.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \sinh with sig. '' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \cosh with sig. '' on line 340.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \tanh with sig. '' on line 341.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \csch with sig. '' on line 343.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \sech with sig. '' on line 345.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \coth with sig. '' on line 346.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \exp with sig. '' on line 348.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \log with sig. '' on line 349.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \ln with sig. '' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \det with sig. '' on line 351.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \Pr with sig. '' on line 352.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \tr with sig. '' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Tr with sig. '' on line 354.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \Res with sig. '' on line 355.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qqtext with sig. ' s m ' on line 377.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qq with sig. '' on line 378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qcomma with sig. '' on line 380.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qc with sig. '' on line 381.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qif with sig. 's' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qthen with sig. 's' on line 384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qelse with sig. 's' on line 385.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qotherwise with sig. 's' on line 386.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qunless with sig. 's' on line 387.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qgiven with sig. 's' on line 388.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qusing with sig. 's' on line 389.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qassume with sig. 's' on line 390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qsince with sig. 's' on line 391.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qlet with sig. 's' on line 392.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qfor with sig. 's' on line 393.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qall with sig. 's' on line 394.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qeven with sig. 's' on line 395.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qodd with sig. 's' on line 396.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qinteger with sig. 's' on line 397.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qand with sig. 's' on line 398.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qor with sig. 's' on line 399.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qas with sig. 's' on line 400.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qin with sig. 's' on line 401.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \qcc with sig. 's' on line 402.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \differential with sig. ' o g d() ' on line 415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dd with sig. '' on line 416.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \derivative with sig. ' s o m g d() ' on line 435.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dv with sig. '' on line 436.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \partialderivative with sig. ' s o m g g d() ' on line 460.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pderivative with sig. '' on line 461.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pdv with sig. '' on line 462.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \variation with sig. ' o g d() ' on line 474.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \var with sig. '' on line 475.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \functionalderivative with sig. ' s o m g d() ' on line
+. 494.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fderivative with sig. '' on line 495.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fdv with sig. '' on line 496.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \bra with sig. ' s m t\ket s g ' on line 526.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ket with sig. ' s m ' on line 533.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \innerproduct with sig. ' s m g ' on line 548.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \braket with sig. '' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ip with sig. '' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \outerproduct with sig. ' s m g ' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dyad with sig. '' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \op with sig. '' on line 567.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ketbra with sig. '' on line 568.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \expectationvalue with sig. ' s s m g ' on line 587.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \expval with sig. '' on line 588.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ev with sig. '' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \vev with sig. ' m ' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixelement with sig. ' s s m m m ' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \matrixel with sig. '' on line 602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \mel with sig. '' on line 603.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \identitymatrix with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \imat with sig. '' on line 634.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xmatrix with sig. ' s m m m ' on line 659.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xmat with sig. '' on line 660.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zeromatrix with sig. ' m g ' on line 662.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zmat with sig. '' on line 663.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulixmatrix with sig. '' on line 665.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pauliymatrix with sig. '' on line 666.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulizmatrix with sig. '' on line 667.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \paulimatrix with sig. 'm' on line 678.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \pmat with sig. '' on line 679.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \diagonalmatrix with sig. 'O{} >{\SplitList {,}}m ' on line
+. 681.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@dmat with sig. 'mmggggggg' on line 714.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \dmat with sig. '' on line 715.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \antidiagonalmatrix with sig. 'O{} >{\SplitList {,}}m ' on
+. line 717.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \@admat with sig. 'mmggggggg' on line 750.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \admat with sig. '' on line 751.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \flatfrac with sig. ' m m ' on line 754.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \homework with sig. '' on line 764.
+.................................................
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/braket/braket.sty)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -1344,27 +2232,27 @@ LaTeX Warning: Unused global option(s):
 (./Bachelor.aux)
 \openout1 = `Bachelor.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 94.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 84.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1443,18 +2331,18 @@ e
 ))
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 84.
-Package gensymb Info: Math companion symbols declared on input line 84.
-LaTeX Info: Redefining \degree on input line 84.
-LaTeX Info: Redefining \celsius on input line 84.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 94.
+Package gensymb Info: Math companion symbols declared on input line 94.
+LaTeX Info: Redefining \degree on input line 94.
+LaTeX Info: Redefining \celsius on input line 94.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 84.
-LaTeX Info: Redefining \ohm on input line 84.
-Package gensymb Info: Using \textohm for \ohm on input line 84.
-LaTeX Info: Redefining \micro on input line 84.
-Package gensymb Info: Using \textmu for \micro on input line 84.
+erthousand on input line 94.
+LaTeX Info: Redefining \ohm on input line 94.
+Package gensymb Info: Using \textohm for \ohm on input line 94.
+LaTeX Info: Redefining \micro on input line 94.
+Package gensymb Info: Using \textmu for \micro on input line 94.
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1464,116 +2352,116 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count195
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 94.
+LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
 
 (./Bachelor.out) (./Bachelor.out)
 \@outlinefile=\write3
 \openout3 = `Bachelor.out'.
 
 \c__siunitx_mathsf_int=\count196
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 84.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 84.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 94.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 84.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 94.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 84.
+(Font)              <12> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 84.
+(Font)              <8> on input line 94.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 84.
-LaTeX Font Info:    Try loading font information for U+msa on input line 84.
+(Font)              <6> on input line 94.
+LaTeX Font Info:    Try loading font information for U+msa on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 84.
+LaTeX Font Info:    Try loading font information for U+msb on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 94.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 94.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count197
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 84.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 94.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 116.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 106.
+(babel)             in language  on input line 116.
 
-<figures/Logo_Uni_Goettingen.pdf, id=84, 312.16624pt x 60.225pt>
+<figures/Logo_Uni_Goettingen.pdf, id=88, 312.16624pt x 60.225pt>
 File: figures/Logo_Uni_Goettingen.pdf Graphic file (type pdf)
 
 <use figures/Logo_Uni_Goettingen.pdf>
-Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 107
+Package pdftex.def Info: figures/Logo_Uni_Goettingen.pdf used on input line 117
 .
 (pdftex.def)             Requested size: 221.22517pt x 42.67912pt.
 
-<figures/Logo_Physik_links.pdf, id=85, 307.1475pt x 98.3675pt>
+<figures/Logo_Physik_links.pdf, id=89, 307.1475pt x 98.3675pt>
 File: figures/Logo_Physik_links.pdf Graphic file (type pdf)
 
 <use figures/Logo_Physik_links.pdf>
-Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 107.
+Package pdftex.def Info: figures/Logo_Physik_links.pdf used on input line 117.
 (pdftex.def)             Requested size: 133.26126pt x 42.67912pt.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 107.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 117.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (2.61105pt too wide) in paragraph at lines 107--107
+Overfull \hbox (2.61105pt too wide) in paragraph at lines 117--117
 [] [][][][] 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 [1
 
 
@@ -1583,34 +2471,34 @@ Package babel Info: Redefining ngerman shorthand "~
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
 es/Logo_Uni_Goettingen.pdf> <./figures/Logo_Physik_links.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 117.
  [2
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
  [3]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 134.
+(babel)             in language  on input line 144.
 
 [4
 
@@ -1620,77 +2508,77 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout4 = `Bachelor.toc'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
  [5
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
  [6
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 152.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 193.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 183.
+(babel)             in language  on input line 193.
  [7
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 199.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 189.
+(babel)             in language  on input line 199.
 
 [8]
 chapter 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 203.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 203.
 
-Overfull \hbox (3.18292pt too wide) in paragraph at lines 201--208
+Overfull \hbox (3.18292pt too wide) in paragraph at lines 211--218
 []\T1/lmr/m/n/12 Eine Lö-sungs-mög-lich-keit be-steht dar-in, Na-no-spit-zen mi
 t Femtosekunden-Laserpulsen
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 222.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 222.
 [1
 
 
@@ -1699,51 +2587,51 @@ Package babel Info: Redefining ngerman shorthand "~
 ]
 
 LaTeX Warning: Reference `tab:komische_steigungen' on page 2 undefined on input
- line 213.
+ line 223.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 228--230
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 235.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 235.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 235.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 235.
 [2]
 chapter 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 235.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 225.
+(babel)             in language  on input line 235.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 242.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 232.
+(babel)             in language  on input line 242.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 268.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 268.
-Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 278.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 278.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 288.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 278.
+(babel)             in language  on input line 288.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 288.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 288.
 [3
 
 
@@ -1751,45 +2639,45 @@ Package babel Info: Redefining ngerman shorthand "~
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 302.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 292.
+(babel)             in language  on input line 302.
  [4]
 Underfull \vbox (badness 1365) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 324.
+(babel)             in language  on input line 334.
  [5]
 
-LaTeX Warning: Citation `feldverstaerkung' on page 6 undefined on input line 33
+LaTeX Warning: Citation `feldverstaerkung' on page 6 undefined on input line 34
 0.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--334
+Underfull \hbox (badness 10000) in paragraph at lines 338--344
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--334
+Underfull \hbox (badness 10000) in paragraph at lines 338--344
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 347.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 337.
+(babel)             in language  on input line 347.
 
-Overfull \hbox (10.887pt too wide) in paragraph at lines 338--340
+Overfull \hbox (10.887pt too wide) in paragraph at lines 348--350
 \T1/lmr/m/n/12 werden[[]][[]]. Nach
  []
 
@@ -1797,50 +2685,87 @@ Overfull \hbox (10.887pt too wide) in paragraph at lines 338--340
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 347.
+(babel)             in language  on input line 357.
  [6]
-Overfull \hbox (13.05641pt too wide) in paragraph at lines 353--354
+Overfull \hbox (13.05641pt too wide) in paragraph at lines 363--364
 []\T1/lmr/m/n/12 Der Wir-kungs-quer-schnitt ist so-mit ein Maÿ für die Wahr-sch
 ein-lich-keit der $\OML/lmm/m/it/12 N$\T1/lmr/m/n/12 -Photonen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 385.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 385.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 385.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 385.
+ [7]
+LaTeX Font Info:    Try loading font information for U+bbm on input line 410.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bbm-macros/ubbm.fd
+File: ubbm.fd 1999/03/15 V 1.2 Font definition for bbm font - TH
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 420.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 420.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 420.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 420.
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 439--442
 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 369.
+(babel)             in language  on input line 449.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 369.
+(babel)             in language  on input line 449.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 467.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 467.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 376.
+(babel)             in language  on input line 467.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 376.
-[7] (./Schottky.pdf_tex
-<Schottky.pdf, id=269, page=1, 322.36882pt x 310.46721pt>
+(babel)             in language  on input line 467.
+[9] (./Schottky.pdf_tex
+<Schottky.pdf, id=298, page=1, 322.36882pt x 310.46721pt>
 File: Schottky.pdf Graphic file (type pdf)
 
 <use Schottky.pdf, page 1>
 Package pdftex.def Info: Schottky.pdf, page1 used on input line 52.
 (pdftex.def)             Requested size: 322.36884pt x 310.49013pt.
 
-<Schottky.pdf, id=270, page=2, 322.36882pt x 310.46721pt>
+<Schottky.pdf, id=299, page=2, 322.36882pt x 310.46721pt>
 File: Schottky.pdf Graphic file (type pdf)
 
 <use Schottky.pdf, page 2>
@@ -1848,93 +2773,84 @@ Package pdftex.def Info: Schottky.pdf, page2 used on input line 58.
 (pdftex.def)             Requested size: 322.36884pt x 310.49013pt.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 405.
+(babel)             in language  on input line 485.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 405.
-
-Underfull \vbox (badness 3260) has occurred while \output is active []
-
+(babel)             in language  on input line 485.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 415.
+(babel)             in language  on input line 498.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 415.
+(babel)             in language  on input line 498.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 415.
+(babel)             in language  on input line 498.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 415.
- [8 <./Schottky.pdf> <./Schottky.pdf
+(babel)             in language  on input line 498.
+ [10 <./Schottky.pdf> <./Schottky.pdf
 
 pdfTeX warning: pdflatex (file ./Schottky.pdf): PDF inclusion: multiple pdfs wi
 th page group included in a single page
->] <./Bilder/GoldZustandsdichte.pdf, id=280, 206.19264pt x 140.5803pt>
+>] <./Bilder/GoldZustandsdichte.pdf, id=307, 206.19264pt x 140.5803pt>
 File: ./Bilder/GoldZustandsdichte.pdf Graphic file (type pdf)
 
 <use ./Bilder/GoldZustandsdichte.pdf>
-Package pdftex.def Info: ./Bilder/GoldZustandsdichte.pdf used on input line 427
+Package pdftex.def Info: ./Bilder/GoldZustandsdichte.pdf used on input line 507
 .
 (pdftex.def)             Requested size: 206.19212pt x 140.57994pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 433.
- [9 <./Bilder/GoldZustandsdichte.pdf>]
+(babel)             in language  on input line 513.
+ [11 <./Bilder/GoldZustandsdichte.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 
-[10
+[12
 
 
 ]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 433.
+(babel)             in language  on input line 513.
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 514--517
 
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 519.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 519.
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
+Underfull \hbox (badness 10000) in paragraph at lines 528--530
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 444--446
-
- []
-
-(./Aufbau3.pdf_tex <Aufbau3.pdf, id=308, page=1, 556.70686pt x 354.93231pt>
+(./Aufbau3.pdf_tex <Aufbau3.pdf, id=338, page=1, 556.70686pt x 354.93231pt>
 File: Aufbau3.pdf Graphic file (type pdf)
 
 <use Aufbau3.pdf, page 1>
 Package pdftex.def Info: Aufbau3.pdf, page1 used on input line 52.
 (pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
 
-<Aufbau3.pdf, id=309, page=2, 556.70686pt x 354.93231pt>
+<Aufbau3.pdf, id=339, page=2, 556.70686pt x 354.93231pt>
 File: Aufbau3.pdf Graphic file (type pdf)
 
 <use Aufbau3.pdf, page 2>
 Package pdftex.def Info: Aufbau3.pdf, page2 used on input line 55.
 (pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
 
-<Aufbau3.pdf, id=310, page=3, 556.70686pt x 354.93231pt>
+<Aufbau3.pdf, id=340, page=3, 556.70686pt x 354.93231pt>
 File: Aufbau3.pdf Graphic file (type pdf)
 
 <use Aufbau3.pdf, page 3>
@@ -1944,113 +2860,115 @@ Package pdftex.def Info: Aufbau3.pdf, page3 used on input line 60.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./Kammer_Aufbau_rot.pdf_tex
-<Kammer_Aufbau_rot.pdf, id=311, page=1, 1007.9094pt x 480.31398pt>
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 545.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 545.
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--554
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--554
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 554.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 554.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 554.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 554.
+[13]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 579.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 579.
+ (./Kammer_Aufbau_rot.pdf_tex
+<Kammer_Aufbau_rot.pdf, id=348, page=1, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 1>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page1 used on input line 52.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=312, page=2, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=349, page=2, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 2>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page2 used on input line 59.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=313, page=3, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=350, page=3, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 3>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page3 used on input line 61.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=314, page=4, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=351, page=4, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 4>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page4 used on input line 63.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=315, page=5, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=352, page=5, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 5>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page5 used on input line 65.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=316, page=6, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=353, page=6, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 6>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page6 used on input line 67.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=317, page=7, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=354, page=7, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 7>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page7 used on input line 69.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=318, page=8, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=355, page=8, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 8>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page8 used on input line 71.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=319, page=9, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=356, page=9, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 9>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page9 used on input line 73.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 
-<Kammer_Aufbau_rot.pdf, id=320, page=10, 1007.9094pt x 480.31398pt>
+<Kammer_Aufbau_rot.pdf, id=357, page=10, 1007.9094pt x 480.31398pt>
 File: Kammer_Aufbau_rot.pdf Graphic file (type pdf)
 
 <use Kammer_Aufbau_rot.pdf, page 10>
 Package pdftex.def Info: Kammer_Aufbau_rot.pdf, page10 used on input line 75.
-(pdftex.def)             Requested size: 298.75267pt x 142.36566pt.
+(pdftex.def)             Requested size: 341.43442pt x 162.70361pt.
 )
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 488.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 488.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5681) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 491.
+(babel)             in language  on input line 587.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 491.
+(babel)             in language  on input line 587.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 491.
+(babel)             in language  on input line 587.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 491.
- [11]
-Overfull \hbox (5.02623pt too wide) in paragraph at lines 491--494
-[]\T1/lmr/m/n/12 Die Spit-ze wur-de aus ei-nem ge-glüh-ten Gold-draht mit ei-ne
-m Durch-mes-ser von [][]
- []
-
-
-Underfull \vbox (badness 1466) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 494.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 494.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 494.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 494.
- [12 <./Aufbau3.pdf> <./Aufbau3.pdf
+(babel)             in language  on input line 587.
+ [14 <./Aufbau3.pdf> <./Aufbau3.pdf
 
 pdfTeX warning: pdflatex (file ./Aufbau3.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
@@ -2058,11 +2976,25 @@ h page group included in a single page
 
 pdfTeX warning: pdflatex (file ./Aufbau3.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
-> <./Kammer_Aufbau_rot.pdf
+>]
+Overfull \hbox (5.02623pt too wide) in paragraph at lines 590--593
+[]\T1/lmr/m/n/12 Die Spit-ze wur-de aus ei-nem ge-glüh-ten Gold-draht mit ei-ne
+m Durch-mes-ser von [][]
+ []
 
-pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./Kammer_Aufbau_rot.pdf
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 601.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 601.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 611.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 611.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 611.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 611.
+[15 <./Kammer_Aufbau_rot.pdf> <./Kammer_Aufbau_rot.pdf
 
 pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
@@ -2100,158 +3032,144 @@ pdfTeX warning: pdflatex (file ./Kammer_Aufbau_rot.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
 >]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 502.
+(babel)             in language  on input line 636.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 502.
+(babel)             in language  on input line 636.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 532.
+(babel)             in language  on input line 636.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 532.
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--540
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 533--540
-
- []
-
-
-Underfull \vbox (badness 4805) has occurred while \output is active []
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 540.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 540.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 540.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 540.
- [13]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 546.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 546.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 560.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 560.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 560.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 560.
-
-[14]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 588.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 588.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 588.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 588.
- [15]
-<./Bilder/460nm_109muW_10ms_g.png, id=419, 446.66875pt x 446.66875pt>
+(babel)             in language  on input line 636.
+ [16] <./Bilder/460nm_109muW_10ms_g.png, id=435, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_g.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_g.png>
-Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_g.png used on input line 59
-6.
+Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_g.png used on input line 64
+0.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 596.
+(Font)              <10> on input line 640.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 596.
+(Font)              <7> on input line 640.
 
-Underfull \hbox (badness 6910) in paragraph at lines 596--596
+Underfull \hbox (badness 6910) in paragraph at lines 640--640
 []\T1/lmr/m/n/10 (a) Wel-len-län-ge $[] []$, Be-lich-tungs-zeit
  []
 
 
-<./Bilder/460nm_109muW_10ms_gefaltet_g.png, id=420, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_gefaltet_g.png, id=436, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_gefaltet_g.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_gefaltet_g.png>
 Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_gefaltet_g.png used on inpu
-t line 599.
+t line 643.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 
-<./Bilder/460nm_109muW_10ms_e_g_fPos.png, id=421, 446.66875pt x 446.66875pt>
+<./Bilder/460nm_109muW_10ms_e_g_fPos.png, id=437, 446.66875pt x 446.66875pt>
 File: ./Bilder/460nm_109muW_10ms_e_g_fPos.png Graphic file (type png)
 
 <use ./Bilder/460nm_109muW_10ms_e_g_fPos.png>
 Package pdftex.def Info: ./Bilder/460nm_109muW_10ms_e_g_fPos.png used on input 
-line 602.
+line 646.
 (pdftex.def)             Requested size: 192.05482pt x 192.05699pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 615.
+(babel)             in language  on input line 661.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 615.
+(babel)             in language  on input line 661.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 615.
+(babel)             in language  on input line 661.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 615.
- [16 <./Bilder/460nm_109muW_10ms_g.png> <./Bilder/460nm_109muW_10ms_gefaltet_g.
+(babel)             in language  on input line 661.
+ [17 <./Bilder/460nm_109muW_10ms_g.png> <./Bilder/460nm_109muW_10ms_gefaltet_g.
 png> <./Bilder/460nm_109muW_10ms_e_g_fPos.png>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 670.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 670.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 700.
+ [18]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 700.
+ [19]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 700.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 700.
+ [20
+
+
+]
 chapter 4.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 615.
+(babel)             in language  on input line 700.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 615.
+(babel)             in language  on input line 700.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 618.
+(babel)             in language  on input line 703.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 618.
+(babel)             in language  on input line 703.
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
 
  []
 
-<./Bilder/480e.pdf, id=436, 342.27875pt x 260.975pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
+
+ []
+
+<./Bilder/480e.pdf, id=475, 342.27875pt x 260.975pt>
 File: ./Bilder/480e.pdf Graphic file (type pdf)
  <use ./Bilder/480e.pdf>
-Package pdftex.def Info: ./Bilder/480e.pdf used on input line 633.
+Package pdftex.def Info: ./Bilder/480e.pdf used on input line 718.
 (pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
-<./Bilder/520e.pdf, id=437, 342.27875pt x 260.975pt>
+<./Bilder/520e.pdf, id=476, 342.27875pt x 260.975pt>
 File: ./Bilder/520e.pdf Graphic file (type pdf)
  <use ./Bilder/520e.pdf>
-Package pdftex.def Info: ./Bilder/520e.pdf used on input line 636.
+Package pdftex.def Info: ./Bilder/520e.pdf used on input line 721.
 (pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
-<./Bilder/690e.pdf, id=438, 342.27875pt x 260.975pt>
+<./Bilder/690e.pdf, id=477, 342.27875pt x 260.975pt>
 File: ./Bilder/690e.pdf Graphic file (type pdf)
  <use ./Bilder/690e.pdf>
-Package pdftex.def Info: ./Bilder/690e.pdf used on input line 639.
+Package pdftex.def Info: ./Bilder/690e.pdf used on input line 724.
 (pdftex.def)             Requested size: 209.13013pt x 159.45734pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 654.
+(babel)             in language  on input line 739.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 654.
+(babel)             in language  on input line 739.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 654.
+(babel)             in language  on input line 739.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 654.
-[17
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 655--662
+(babel)             in language  on input line 739.
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 740--747
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 655--662
+Underfull \hbox (badness 10000) in paragraph at lines 740--747
 
  []
 
@@ -2259,56 +3177,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 655--662
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 662.
+(babel)             in language  on input line 747.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 662.
+(babel)             in language  on input line 747.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 662.
+(babel)             in language  on input line 747.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 662.
- [18 <./Bilder/480e.pdf> <./Bilder/520e.pdf> <./Bilder/690e.pdf>]
-<./Bilder/Gesamtenergie.pdf, id=647, 370.38374pt x 258.9675pt>
+(babel)             in language  on input line 747.
+ [22 <./Bilder/480e.pdf> <./Bilder/520e.pdf> <./Bilder/690e.pdf>]
+<./Bilder/Gesamtenergie.pdf, id=684, 370.38374pt x 258.9675pt>
 File: ./Bilder/Gesamtenergie.pdf Graphic file (type pdf)
 
 <use ./Bilder/Gesamtenergie.pdf>
-Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 671.
+Package pdftex.def Info: ./Bilder/Gesamtenergie.pdf used on input line 756.
 (pdftex.def)             Requested size: 370.38283pt x 258.96684pt.
 
-<./Bilder/Vergleich.pdf, id=651, 341.275pt x 324.21124pt>
+<./Bilder/Vergleich.pdf, id=688, 341.275pt x 324.21124pt>
 File: ./Bilder/Vergleich.pdf Graphic file (type pdf)
 
 <use ./Bilder/Vergleich.pdf>
-Package pdftex.def Info: ./Bilder/Vergleich.pdf used on input line 683.
+Package pdftex.def Info: ./Bilder/Vergleich.pdf used on input line 768.
 (pdftex.def)             Requested size: 341.27415pt x 324.21045pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 772.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 772.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 687.
+(babel)             in language  on input line 772.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 687.
- [19 <./Bilder/Gesamtenergie.pdf>]
-<./Bilder/Stufen.pdf, id=670, 342.27875pt x 305.14pt>
+(babel)             in language  on input line 772.
+ [23 <./Bilder/Gesamtenergie.pdf>]
+<./Bilder/Stufen.pdf, id=708, 342.27875pt x 305.14pt>
 File: ./Bilder/Stufen.pdf Graphic file (type pdf)
 
 <use ./Bilder/Stufen.pdf>
-Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 690.
+Package pdftex.def Info: ./Bilder/Stufen.pdf used on input line 775.
 (pdftex.def)             Requested size: 342.2779pt x 305.13924pt.
 
-Underfull \hbox (badness 6236) in paragraph at lines 691--691
+Underfull \hbox (badness 6236) in paragraph at lines 776--776
 [][][]\T1/lmr/m/n/12 Daten aus Abb. []4.3[] zu-sam-men mit dem ein-fachs-ten de
 nk-ba-
  []
 
 
-Underfull \hbox (badness 2005) in paragraph at lines 691--691
+Underfull \hbox (badness 2005) in paragraph at lines 776--776
 \T1/lmr/m/n/12 ren Mo-dell, wel-ches Stu-fen vor-her-sagt. Ein-ge-tra-gen sind 
 in grün
  []
 
 
-Underfull \hbox (badness 1902) in paragraph at lines 691--691
+Underfull \hbox (badness 1902) in paragraph at lines 776--776
 \T1/lmr/m/n/12 mit [][]Austrittsarbeit ein nied-ri-ger Wert der Fer-mi-ener-gie
  aus
  []
@@ -2316,163 +3234,163 @@ Underfull \hbox (badness 1902) in paragraph at lines 691--691
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Bilder/Faecher_Daten.pdf, id=678, 341.43358pt x 256.07469pt>
+<./Bilder/Faecher_Daten.pdf, id=716, 341.43358pt x 256.07469pt>
 File: ./Bilder/Faecher_Daten.pdf Graphic file (type pdf)
 
 <use ./Bilder/Faecher_Daten.pdf>
-Package pdftex.def Info: ./Bilder/Faecher_Daten.pdf used on input line 703.
+Package pdftex.def Info: ./Bilder/Faecher_Daten.pdf used on input line 788.
 (pdftex.def)             Requested size: 298.75267pt x 224.08041pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
-[20 <./Bilder/Vergleich.pdf>]
+(babel)             in language  on input line 801.
+[24 <./Bilder/Vergleich.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
- [21 <./Bilder/Stufen.pdf>]
+(babel)             in language  on input line 801.
+ [25 <./Bilder/Stufen.pdf>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
- [22 <./Bilder/Faecher_Daten.pdf>]
+(babel)             in language  on input line 801.
+ [26 <./Bilder/Faecher_Daten.pdf>]
 chapter 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 801.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 719.
+(babel)             in language  on input line 804.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 719.
+(babel)             in language  on input line 804.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 727.
+(babel)             in language  on input line 812.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 727.
+(babel)             in language  on input line 812.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 821.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 821.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 736.
+(babel)             in language  on input line 821.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 736.
-[23
+(babel)             in language  on input line 821.
+[27
 
 
-] <./Bilder/spitze_vorher.jpg, id=920, 859.21pt x 495.8525pt>
+] <./Bilder/spitze_vorher.jpg, id=958, 859.21pt x 495.8525pt>
 File: ./Bilder/spitze_vorher.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_vorher.jpg>
-Package pdftex.def Info: ./Bilder/spitze_vorher.jpg used on input line 740.
+Package pdftex.def Info: ./Bilder/spitze_vorher.jpg used on input line 825.
 (pdftex.def)             Requested size: 209.13013pt x 120.68669pt.
 
-<./Bilder/spitze_vorher2.jpg, id=921, 517.935pt x 304.13625pt>
+<./Bilder/spitze_vorher2.jpg, id=959, 517.935pt x 304.13625pt>
 File: ./Bilder/spitze_vorher2.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_vorher2.jpg>
-Package pdftex.def Info: ./Bilder/spitze_vorher2.jpg used on input line 743.
+Package pdftex.def Info: ./Bilder/spitze_vorher2.jpg used on input line 828.
 (pdftex.def)             Requested size: 209.13013pt x 122.80324pt.
 
-<./Bilder/spitze_nachher.jpg, id=922, 701.62125pt x 408.52625pt>
+<./Bilder/spitze_nachher.jpg, id=960, 701.62125pt x 408.52625pt>
 File: ./Bilder/spitze_nachher.jpg Graphic file (type jpg)
 
 <use ./Bilder/spitze_nachher.jpg>
-Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 746.
+Package pdftex.def Info: ./Bilder/spitze_nachher.jpg used on input line 831.
 (pdftex.def)             Requested size: 209.13013pt x 121.76715pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 756.
+(babel)             in language  on input line 841.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 756.
+(babel)             in language  on input line 841.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 850.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 850.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 765.
+(babel)             in language  on input line 850.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 765.
- [24 <./Bilder/spitze_vorher.jpg> <./Bilder/spitze_vorher2.jpg> <./Bilder/spitz
+(babel)             in language  on input line 850.
+ [28 <./Bilder/spitze_vorher.jpg> <./Bilder/spitze_vorher2.jpg> <./Bilder/spitz
 e_nachher.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
- [25]
+(babel)             in language  on input line 873.
+ [29]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
- [26
+(babel)             in language  on input line 873.
+ [30
 
 
 ]
 chapter A.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 788.
+(babel)             in language  on input line 873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 788.
-<./Bilder/Orpheus_Tuning_Curve.png, id=940, 972.63374pt x 771.88374pt>
+(babel)             in language  on input line 873.
+<./Bilder/Orpheus_Tuning_Curve.png, id=979, 972.63374pt x 771.88374pt>
 File: ./Bilder/Orpheus_Tuning_Curve.png Graphic file (type png)
 
 <use ./Bilder/Orpheus_Tuning_Curve.png>
-Package pdftex.def Info: ./Bilder/Orpheus_Tuning_Curve.png used on input line 7
-91.
+Package pdftex.def Info: ./Bilder/Orpheus_Tuning_Curve.png used on input line 8
+76.
 (pdftex.def)             Requested size: 298.75267pt x 237.09077pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 795.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 880.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 2951) in paragraph at lines 795--795
+Underfull \hbox (badness 2951) in paragraph at lines 880--880
 [][][]\T1/lmr/m/n/10 Light Con-ver-si-on Pro-dukt-ka-ta-log 2013, []$\T1/lmtt/m
 /n/10 http : / / www . lightcon . com / upload / iblock / 2db /
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 797.
+(babel)             in language  on input line 882.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 797.
+(babel)             in language  on input line 882.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 797.
+(babel)             in language  on input line 882.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 797.
-[27 <./Bilder/Orpheus_Tuning_Curve.png>]
+(babel)             in language  on input line 882.
+[31 <./Bilder/Orpheus_Tuning_Curve.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 797.
+(babel)             in language  on input line 882.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 797.
+(babel)             in language  on input line 882.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 797.
+(babel)             in language  on input line 882.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 797.
- [28
+(babel)             in language  on input line 882.
+ [32
 
 
 ] (./Bachelor.bbl
@@ -2488,7 +3406,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 61.
-[29
+[33
 
 
 ]
@@ -2500,73 +3418,126 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 125.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 125.
- [30])
+ [34])
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 824.
+(babel)             in language  on input line 887.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 824.
+(babel)             in language  on input line 887.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 824.
+(babel)             in language  on input line 887.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 824.
- [31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 825.
+(babel)             in language  on input line 887.
+ [35]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 825.
+(babel)             in language  on input line 887.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 825.
+(babel)             in language  on input line 887.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 825.
+(babel)             in language  on input line 887.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 825.
- [32
+(babel)             in language  on input line 887.
+ [36
+
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 825.
+Underfull \hbox (badness 10000) in paragraph at lines 888--889
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 890--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 893--894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 895--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 908.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 908.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 908.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 908.
+[37]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 909.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 909.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 909.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 909.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 909.
+ [38
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 909.
  (./Bachelor.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 825.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 825.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 909.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 909.
 Package rerunfilecheck Info: File `Bachelor.out' has not changed.
-(rerunfilecheck)             Checksum: 665F9887FB57D0E407C8D457A918B4FA;1374.
+(rerunfilecheck)             Checksum: 943499ECB9DC441F3037BB8153BD1353;1445.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 825.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 909.
  ) 
 Here is how much of TeX's memory you used:
- 22037 strings out of 493013
- 410652 string characters out of 6133343
- 543621 words of memory out of 5000000
- 25079 multiletter control sequences out of 15000+600000
- 106409 words of font info for 85 fonts, out of 8000000 for 9000
+ 22511 strings out of 493013
+ 415990 string characters out of 6133343
+ 556040 words of memory out of 5000000
+ 25519 multiletter control sequences out of 15000+600000
+ 109967 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  49i,15n,68p,10380b,1061s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 16/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2016/texmf-dist
 /fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvi
-ps/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-m
-athsy.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/pu
-blic/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr
-12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmro12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
-ublic/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm
-/lmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Bachelor.pdf (40 pages, 2449480 bytes).
+ps/lm/lm-mathsy.enc} </Users/Michael/Library/texlive/2016/texmf-var/fonts/pk/lj
+four/public/bbm/bbm12.600pk>{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips
+/lm/lm-mathex.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmb
+x12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmmi8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/lm/lmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.
+pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/lo
+cal/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/
+type1/public/lm/lmro12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
+sy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Bachelor.pdf (46 pages, 2467024 bytes).
 PDF statistics:
- 1076 PDF objects out of 1200 (max. 8388607)
- 772 compressed objects within 8 object streams
- 129 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 823 compressed objects within 9 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 329 words of extra memory for PDF output out of 10000 (max. 10000000)
 

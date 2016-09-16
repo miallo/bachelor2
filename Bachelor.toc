@@ -9,17 +9,18 @@
 \contentsline {section}{\numberline {2.1}Austrittsarbeit}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Mechanismen der Photoemission}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Fowler-DuBridge-Theorie der Multiphoton-Photoemission}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Der Schottky-Effekt}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Die Elektronische Zustandsdichte}{9}{section.2.5}
-\contentsline {chapter}{\numberline {3}Experimentelle Vorgehensweise}{11}{chapter.3}
-\contentsline {section}{\numberline {3.1}Supressor-Extraktor Geometrie}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}Intensit\IeC {\"a}tsabh\IeC {\"a}ngiger Photostrom}{13}{section.3.2}
-\contentsline {section}{\numberline {3.3}Laser}{14}{section.3.3}
-\contentsline {section}{\numberline {3.4}Z\IeC {\"a}hlalgorithmus der Elektronen}{14}{section.3.4}
-\contentsline {chapter}{\numberline {4}Ergebnisse}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Intensit\IeC {\"a}tsabh\IeC {\"a}ngigkeit}{17}{section.4.1}
-\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Stabilit\IeC {\"a}t der Laserintensit\IeC {\"a}t}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}Degradation der Spitze}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Effekte zur <+Linearisierung+> der Daten}{24}{section.5.3}
-\contentsline {chapter}{\numberline {A}Anhang}{27}{appendix.A}
+\contentsline {section}{\numberline {2.4}Der Schottky-Effekt}{9}{section.2.4}
+\contentsline {section}{\numberline {2.5}Die Elektronische Zustandsdichte}{10}{section.2.5}
+\contentsline {chapter}{\numberline {3}Experimentelle Vorgehensweise}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Strahlengang}{13}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Laser}{14}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Supressor-Extraktor Geometrie}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Z\IeC {\"a}hlalgorithmus der Elektronen}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Intensit\IeC {\"a}tsabh\IeC {\"a}ngiger Photostrom}{18}{section.3.4}
+\contentsline {chapter}{\numberline {4}Ergebnisse}{21}{chapter.4}
+\contentsline {section}{\numberline {4.1}Intensit\IeC {\"a}tsabh\IeC {\"a}ngigkeit}{21}{section.4.1}
+\contentsline {chapter}{\numberline {5}Diskussion und Ausblick}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Stabilit\IeC {\"a}t der Laserintensit\IeC {\"a}t}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}Degradation der Spitze}{27}{section.5.2}
+\contentsline {section}{\numberline {5.3}Effekte zur <+Linearisierung+> der Daten}{28}{section.5.3}
+\contentsline {chapter}{\numberline {A}Anhang}{31}{appendix.A}

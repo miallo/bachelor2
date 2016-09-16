@@ -61,6 +61,16 @@
 %keine Einrückung, wenn Latex doppelte Leerzeile
 \parindent0pt
 
+% Ableitungen: partiell: \pdv[n]{Q}{t} total \dv[n]{Q}{t} auch ohne [n] möglich
+\usepackage{physics}
+
+% Bra-Ket Vektor Notation für Quantenmechanik
+\usepackage{braket}
+
+% Für einheitsmatrix
+\usepackage{bbm}
+
+
 \usepackage{xcolor}
 \definecolor{elecgruen}{rgb}{0,0.66667,0}
 %% umfangreiche Pakete fuer Symbole wie \micro, \ohm, \degree, \celsius etc.
@@ -332,7 +342,7 @@ Die sogenannte Feldverstärkung ist das Verhältnis von verstärktem zu eingestr
 Für die hier verwendete Spitze beträgt sie nach \cite{benni_15} für den beleuchteten Apex $3.8$ .
 Dies ist nach \cite{thomas_2016} ein häufig zu findender Wert, auch wenn es für Goldspitzen auch viele andere Messungen gab (z.B. \cite{ropers_2007} mit einem Wert von 10).\newline\newline
 
-
+Im folgenden wird genauer auf die Theorie hinter der Multiphoton-PES eingegangen.
 
 \section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
 Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
@@ -350,15 +360,85 @@ Hierbei ist $A=\SI{120}{\A\cm^{-2}\K^{-2}}$ die Richardson-Konstante, $e$ die El
 Des Weiteren ist $T$ die Temperatur, $\hbar\omega$ die Photonenenergie und $\alpha_N$ ist eine materialspezifische Konstante, welche die restlichen bisher unberücksichtigten Prozesse berücksichtigt (z.B. Streuung im Metall und Reflektionswahrscheinlichkeit an der Oberfläche) \cite{brogle}.
 Mit der Fowler-Funktion wird die dominante Ordnung des nichtlinearen Prozesses ausgewählt.
 
-Der Wirkungsquerschnitt ist somit ein Maß für die Wahrscheinlichkeit der $N$-Photonen-Emission.\\\\
+Der Wirkungsquerschnitt ist somit ein Maß für die Wahrscheinlichkeit der $N$-Photonen-Emission.\\
 
-Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ für $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.
+Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ für $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.\\\\
+
+
+Dies lässt sich ebenfalls aus einer störungstheoretischen Betrachtung herleiten.
+Dabei wird das Atompotential $H_0$ durch das zeitabhängige Potential des elektrischen Feldes erweitert, wodurch die Schrödingergleichung für die Wellenfunktion $\psi$
+\begin{align}
+	i\hbar\pdv{}{t}\Psi(t)=[H_0+ V(t)]\Psi(t)
+	\label{eq:schroedinger}
+\end{align}
+lautet.
+Gilt $V(t)\rightarrow0$ für $t\rightarrow\pm\infty$, so kann man mit
+\begin{align*}
+	\Psi(t)=\exp\left( -iH_0t/\hbar \right)\psi(t)
+\end{align*}
+Gleichung \ref{eq:schroedinger} durch
+\begin{align}
+	i\hbar\pdv{}{t}\psi(t)=\hat V(t)\psi(t)	
+	\label{eq:schroedinger_kompakt}
+\end{align}
+ersetzen.
+Dabei ist das neue Interaktionspotential $$\hat V(t)=\exp\left( iH_0t/\hbar \right)V(t)\exp\left( -iH_0t/\hbar \right)$$ (i.A. zeitabhängig, auch wenn $V(t)$ zeitunabhängig ist).
+
+Für die Energie-Eigenzustände $\ket i$ des ungestörten Atompotentials gilt dabei $$H_0\ket i=\hbar\omega_i\ket i$$
+Was als bekannt voraus gesetzt wird.
+Eine Lösung für Gleigung \ref{eq:schroedinger_kompakt} ist
+\begin{align}
+	\psi_i=\ket i+\left( -i/\hbar \right)\int\limits_{-\infty}^tV(t')\ket{\psi_i(t')}dt'	\label{eq:psi_i}
+\end{align}
+wenn das Elektron ursprünglich im Zustand $\ket i$ war (für $t\rightarrow-\infty$ offensichtlich erfüllt).
+Leitet man $\psi_i$ nach der Zeit ab, so ist Formel \ref{eq:schroedinger_kompakt} offensichtlich erfüllt.
+
+Ist der Endzustand $\ket f$, so ist die Übergangswahrscheinlichkeit von $\ket i$ nach $\ket f$ natürlich $\braket{f|\psi_i(t)}$ oder
+\begin{align}
+	\braket{f|\psi_i(t)}=\bra fA(t)\ket i \label{eq:uebergangswahrscheinlichkeit_1}
+\end{align}
+mit dem Amplitudenoperator $A(t)$.
+Dies kann auch durch
+\begin{align}
+	\ket{\psi_i(t)}=A(t)\ket i
+	\label{eq:psiA}
+\end{align}
+geschrieben werden, da $\ket f$ unabhängig ist.
+Setzt man dies in Gleichung \ref{eq:psi_i} ein, so erhält man
+\begin{align*}
+	A(t)=\mathbbm{1}+\left( -i/\hbar \right)\int\limits_{-\infty}^tV(t')A(t')dt'
+\end{align*}
+oder durch Interiertes einsetzen
+\begin{align}
+	A(t)=\mathbbm1+\sum\limits_{N=1}^\infty A_N(t)
+	\label{eq:A}
+\end{align}
+mit
+\begin{align*}
+	A_1(t)&=-i/\hbar\int\limits_{-\infty}^tV(t_1)A(t_1)dt_1\\
+	A_N(t)&=(-i/\hbar)^N\int\limits_{-\infty}^tV(t_1)\int\limits_{-\infty}^{t_1}V(t_2)\cdots\int\limits_{-\infty}^{t_{N-1}}V(t_{N})dt_N\cdots dt_2dt_1\qquad.
+\end{align*}
+
+
+
+
+
+
+% Der Hamiltonian der Wechselwirkung von Elektron und elektromagnetischem Feld lautet nach \cite[S. 130]{sakurai}
+% \begin{align}
+% 	\begin{split}
+% 	H'&=\frac{1}{2m}\left(\boldsymbol p-\frac{e\bold A}{c} \right)^2+e\phi\\\
+% 	&=\frac{p^2}{2m}-\frac{e}{2mc}\left( \boldsymbol p \cdot\bold A+\bold A\cdot\boldsymbol p \right)+\frac{e^2}{2mc^2}\bold A^2+e\phi\qquad .
+% 	\label{eq:kopplung}
+% \end{split}
+% \end{align}
+% Dabei bezeichnet $\boldsymbol p=-i\hbar\nabla$ den kanonischen Impuls-Operator, $\bold A$ das Vektorpotential des Magnetfeldes ($\bold B=\nabla\times \bold A$), $\phi$ das Potential des elektrischen Feldes ($\bold E=-\nabla\phi$).\\\\
 
 
 
 In den Messungen wurde statt der Intensität die Leistung $P$ mit einem Powermeter gemessen.
 Da jedoch die Intensität die eingestrahlte Leistung pro Fläche ist und sich diese durch die Reduzierung der Intensität bei konstanter Wellenlänge nicht ändert, gilt $I\propto P$.
-In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achsenabschnitt, aber keine Steigungsänderung.
+In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achsenabschnitt, aber keine Steigungsänderung.\newline
 
 
 Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effekt ver\"andert werden.
@@ -431,10 +511,14 @@ Aufgrund der Tatsache, dass ein drei-Photonen-Prozess bei gleicher Intensität d
 
 
 \chapter{Experimentelle Vorgehensweise}
-Im Rahmen des folgenden Kapitels soll das verwendete Experiment n\"aher erläutert werden.\\\\
+Im Rahmen des folgenden Kapitels soll das verwendete Experiment n\"aher erläutert werden.
+Dazu werden Strahlengang, Kontrolle der Emission durch Supressor-Extraktor-Geometrie und Detektion erläutert.
+Anschließend wird beschrieben, wie aus den Messdaten die Nichtlinearität ermittelt werden kann.\\
 
+
+\section{Strahlengang}
 In der hier vorgestellten Arbeit wurde der in Abb. \ref{fig:aufbau} dargestellte Aufbau verwendet.
-Dieser beinhaltet einen fs-Laser, dessen Leistung mit einem kontinuierlichen ND-Filterrad variabel abgeschwächt werden kann.
+Dieser beinhaltet einen fs-Laser (Details s. Kap. \ref{sec:laser}), dessen Leistung mit einem kontinuierlichen ND-Filterrad variabel abgeschwächt werden kann.
 Dieser ist in der Achse der Spitze polarisiert.
 Um die Laserintensit\"at zeitlich zu stabilisieren wird ein Teil des transmittierten Strahls mit einem Beamsplitter auf den Messkopf eines Powermeters geleitet, welches mit einer Feedback-Schleife das Filterrad steuert.
 Der restliche Teil des Strahls wird mit einer in drei Richtungen beweglichen Linse auf die Spitze fokussiert.
@@ -442,7 +526,7 @@ Kleinere Korrekturen der Strahlposition werden so durch einen nicht zentralen Ei
 
 
 Die emittierten Elektronen werden (wie in Grafik \ref{fig:aufbau_kammer} dargestellt) zunächst mit der Beschleunigungsspannung $U_\text{Tip}$ zum Extraktor hin beschleunigt.
-Der Supressor, dessen Spannung $U_\text{Sup}$ jedoch bei den hier durchgeführten Versuchen auf dem selben Potential (\SI{100}{\V}) lag, wie die Spitze, fokussiert den Elektronenstrahl, damit die Elektronen auf die MCP treffen.\newline\newline
+Der Supressor, dessen Spannung $U_\text{Sup}$ jedoch bei den hier durchgeführten Versuchen auf dem selben Potential (\SI{100}{\V}) lag, wie die Spitze, fokussiert den Elektronenstrahl, damit die Elektronen auf die MCP treffen.\newline
 
 Anschließend treffen die einzelnen Elektronen (wie in Abb. \ref{fig:aufbau_kammer} zu sehen) auf eine Micro Channel Plate (MCP), welche ortsaufgelöst die Elektronen verstärkt.
 Die austretenden Elektronenbündel treffen daraufhin auf einen Phosphorschirm, den sie punktuell zum Leuchten anregen.
@@ -458,15 +542,22 @@ Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle 
 	\label{fig:aufbau}
 \end{figure}
 
+\subsection{Laser}
+\label{sec:laser}
+In dem verwendeten Aufbau wurde ein Lasersystem der Firma \textit{Light Conversion} verwendet.
+Dieses besteht aus einem Pumplaser (\textsc{Pharos}), welcher \SI{200}{\fs} Pulse mit einigen $\unit{mJ}$ Pulsenergie und $\SI{100}{\kilo\hertz}$ Repetitionsrate zum Pumpen des Optisch Parametrischen Verstärkers (\textsc{Orpheus}) bereitstellt.
+Dieser erzeugt wiederum Pulse mit Pulslängen von $\approx \SI{200}{\fs}$ in einem Resonator mit einem nichtlinearen optischen Kristall\cite{orpheus_tuningcurve}.
+Dabei entstehen zwei Laserstrahlen unterschiedlicher Wellenlänge (das sogenannte Signal mit höherer Energie und Idler mit größerer Wellenlänge).
+Um an dem Experiment nur einen der beiden zu bekommen, muss der andere mit einem Wellenlängenseparator getrennt werden.
+Jedoch funktioniert die optisch parametrische Verstärkung nur in einem relativ kleinen spektralen Bereich um die eingestrahlten Frequenzen.
+Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harmonic-Generation (SHG) noch einmal frequenzverdoppelt werden.\\\\
 
-\begin{figure}[h!]
-	\centering
-	\def\svgwidth{0.7\textwidth}
-	\input{Kammer_Aufbau_rot.pdf_tex}
-%	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
-	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
-	\label{fig:aufbau_kammer}
-\end{figure}
+
+
+<+Pulslänge+>
+<+Spektrum+>
+
+
 
 \begin{comment}
 <+rausnehmen+>$\Downarrow$
@@ -486,7 +577,15 @@ Dies lag augenscheinlich daran, dass vom Gitter andere Elektronen ebenfalls aufg
 
 \end{comment}
 \section{Supressor-Extraktor Geometrie}
-Die hier verwendete Geometrie (Abb. \ref{fig:aufbau_kammer}) besteht aus der Spitze, einem Supressor und einem Extraktor.
+\begin{figure}[h!]
+	\centering
+	\def\svgwidth{0.8\textwidth}
+	\input{Kammer_Aufbau_rot.pdf_tex}
+%	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
+	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
+	\label{fig:aufbau_kammer}
+\end{figure}
+Die hier verwendete Geometrie (Abb. \ref{fig:aufbau_kammer}) besteht aus der Gold-Spitze, einem Supressor und einem Extraktor.
 
 Die Spitze wurde aus einem geglühten Golddraht mit einem Durchmesser von \SI{0.25}{\mm} durch elektrochemisches Ätzen mit Salzsäure hergestellt (ausführliche Ausführungen hierzu in \cite{schmidt_2012} und \cite{neacsu_2007}).
 Das anschlie{\ss}ende Ausglühen hat den Effekt, dass die zu Beginn polykristalline Struktur größere Körner gleicher Kristallstrukturen ausbildet.
@@ -498,50 +597,6 @@ Die Abma{\ss}e des verwendeten Aufbaus sind in Abb. \ref{fig:aufbau_kammer} darg
 %Um Apex und Gitter getrennt anregen zu können sind diese ca. \SI{45}{\micro\m} voneinander entfernt.
 %Im Rahmen dieser Arbeit wurde sich jedoch darauf beschränkt, den Apex zu beleuchten, da das Gitter mit einer Periodizität von \SI{800}{\nm} nur in einem geringen Wellenlängenbereich eine effiziente Einkopplung der elektromagnetischen Wellen zulässt.
 %Zusätzlich zu der nicht konstanten Einkopplung werden auch an dem Gitter Elektronen ausgelöst.
-
-\section{Intensitätsabhängiger Photostrom}
-Ein wesentliches Ziel der vorliegenden Arbeit ist die Bestimmung des intensit\"atsabh\"angigen Photostroms in Abh\"angigkeit der Wellenl\"ange.
-
-Dabei wird der Photostrom in Abh\"angigkeit der Laserintensit\"at bei konstanter Wellenl\"ange gemessen.
-Nach Gleichung \ref{eq:photostrom} gilt $J\propto I^N$, wodurch sich $N$ als Geradensteigung in einem doppel-logarithmischen Plot ablesen l\"asst.
-
-Als größter Störfaktor stellte sich bei den Messungen heraus, dass die Strahlposition sich bei ge\"anderter Wellenlänge verstellte.
-Dies führte dazu, dass der Strahl augenscheinlich bei leichten Korrekturen noch immer am Apex zu sein schien, obwohl er in Wirklichkeit auf einem anderen hellen Spot war.
-Damit l\"asst sich begr\"unden, dass einige Daten deutliche Ausreißer waren, welche an der exakt selben Position auch vergleichbare Werte lieferten.
-Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
-
-Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
-Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \cite[S. 71 ff.]{bormann_2015}).
-Das Problem hierbei ist jedoch, dass die Elektronen in diesem Fall sehr fokussiert auf dem Phosphorschirm auftreffen, was dazu führt, dass man sie nicht einzeln zählen kann (siehe Kapitel \ref{sec:zaehlalgorithmus}).
-Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor auf die selbe Spannung gestellt (soweit keine andere Bemerkung gilt $U_\text{Tip}=U_\text{Sup}=\SI{100}{\V}$).
-
-
-
-
-
-% \subsection{Spannungsscan}
-% Im Rahmen eines Spanungsscans wurde versucht, die Verringerung der Austrittsarbeit durch das Anlegen eines statischen Feldes zu vermessen.
-% Durch den sogenannten Schottky-Effekt \cite{schottky-paper} sinkt die Austrittsarbeit bei richtig gepoltem Feld, da das Potential herabgebogen wird.
-% \begin{align}
-% 	V(x)=\Phi - \frac{e^2}{16\pi\epsilon_0x}-\frac{eFx}{4\pi\epsilon_0}
-% 	\label{schottky-potential}
-% \end{align}
-% Durch das Automatisieren der Messung konnten immer wieder vergleichbare Bedingungen hergestellt werden.
-
-
-\section{Laser}
-In dem verwendeten Aufbau wurde ein Lasersystem der Firma \textit{Light Conversion} verwendet.
-Dieses besteht aus einem Pumplaser (\textsc{Pharos}), welcher \SI{200}{\fs} Pulse mit einigen $\unit{mJ}$ Pulsenergie und $\SI{100}{\kilo\hertz}$ Repetitionsrate zum Pumpen des Optisch Parametrischen Verstärkers (\textsc{Orpheus}) bereitstellt.
-Dieser erzeugt wiederum Pulse mit Pulslängen von $\approx \SI{200}{\fs}$ in einem Resonator mit einem nichtlinearen optischen Kristall\cite{orpheus_tuningcurve}.
-Dabei entstehen zwei Laserstrahlen unterschiedlicher Wellenlänge (das sogenannte Signal mit höherer Energie und Idler mit größerer Wellenlänge).
-Um an dem Experiment nur einen der beiden zu bekommen, muss der andere mit einem Wellenlängenseparator getrennt werden.
-Jedoch funktioniert die optisch parametrische Verstärkung nur in einem relativ kleinen spektralen Bereich um die eingestrahlten Frequenzen.
-Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harmonic-Generation (SHG) noch einmal frequenzverdoppelt werden.\\\\
-
-
-
-<+Pulslänge+>
-<+Spektrum+>
 
 \section{Zählalgorithmus der Elektronen}
 \label{sec:zaehlalgorithmus}
@@ -572,13 +627,32 @@ $$A=\begin{pmatrix}
 \nicefrac{1}{4} & \nicefrac{1}{2} & 1 & \nicefrac{1}{2} & \nicefrac{1}{4} \\ 
 \nicefrac{1}{6} & \nicefrac{1}{3} & \nicefrac{1}{2} & \nicefrac{1}{3} & \nicefrac{1}{6} \\ 
 \nicefrac{1}{9} & \nicefrac{1}{6} & \nicefrac{1}{4} & \nicefrac{1}{6} & \nicefrac{1}{9}
-\end{pmatrix} $$
+\end{pmatrix}$$
 um verbleibendes Rauschen zu filtern.
 Ein Beispiel für ein gefaltetes Bild ist in Abb. \ref{fig:460nm_109muW_gefaltet} dargestellt.
 Nach einem weiteren Threshhold, über den die gefalteten Daten kommen müssen um weiteres Rauschen zu minimieren, werden die Maxima in den Daten gesucht.
 Da dicht beienander liegende Elektronen nur ein gemeinsames haben, kann dieser Algorithmus solche nicht auseinanderhalten.
 Die Anzahl und Position der Maxima in den verarbeiteten Daten sollte dann mit denen der Elektronen übereinstimmen.
 
+\begin{figure}[ht!]
+  \centering
+  \subfigure[Wellenlänge $\SI{460}{\nano\meter}$, Belichtungszeit $\SI{10}{\milli\second}$, Laserleistung $\SI{109}{\micro\watt}$\label{fig:460nm_109muW}]
+  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_g}}
+    \hfill
+  \subfigure[Bild (a) gefaltet mit Matrix $A$ \label{fig:460nm_109muW_gefaltet}]
+  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_gefaltet_g}}
+  \hfill
+  \subfigure[Bild (a) mit den vom Algorithmus gefundenen Elektronenpositionenin rot markiert. Die blau markierten scheinen auf den ersten Blick auch Elektronen zu sein, sind jedoch nur bis zu 4 Pixel im Durchmesser und daher vermutlich nur rauschen.\label{fig:460nm_109muW_e}]
+  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_e_g_fPos}}
+%  \hfill
+%  \subfigure[Wellenlänge $\SI{460}{\nano\meter}$, Belichtungszeit $\SI{10}{\milli\second}$, Laserleistung $\SI{308}{\micro\watt}$, Ausschnitt\label{fig:460nm_308muW}]
+%  {\includegraphics[width=0.49\textwidth]{460nm_308muW_10ms_ganz}}
+%  \hfill
+%  \subfigure[Bild links mit vom Algorithmus gefundenen Elektronenpositionen. Markiert sind in weiß Positionen mit vermutlich falsch detektierten Elektronen und in gelb nicht gefundene Positionen. Jedoch hat sich bei der betrachtung vieler Bilder herausgestellt, dass sich dies meist herausmittelt. \label{fig:460nm_308muW_e}]
+%  {\includegraphics[width=0.49\textwidth]{460nm_308muW_10ms_e_p}}
+  \caption{Vergleich von Aufnahmen des Phosphorschirms und den darauf gefundenen Elektronenpositionen}
+  \label{fig:algorithmus}
+\end{figure}
 In Abb. \ref{fig:460nm_109muW} kann man die ROI eines typischen Bildes erkennen.
 Zu erkennen ist, dass die Elektronen noch räumlich getrennt sind.
 Daher ist es nicht verwunderlich, dass die in Bild \ref{fig:460nm_109muW_e} gefundenen Elektronen in guter Übereinstimmung mit den von Menschen erkannten liegen.
@@ -590,26 +664,37 @@ Dies geschieht langsam und von der Mitte, wo die meisten Elektronen auftreffen, 
 Daher sinkt in diesem Fall die Steigung der Messpunkte zum Beispiel in Diagramm \ref{fig:520e} langsam.
 
 
-\begin{figure}[h!]
-  \centering
-  \subfigure[Wellenlänge $\SI{460}{\nano\meter}$, Belichtungszeit $\SI{10}{\milli\second}$, Laserleistung $\SI{109}{\micro\watt}$\label{fig:460nm_109muW}]
-  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_g}}
-    \hfill
-  \subfigure[Bild (a) gefaltet mit Matrix $A$ \label{fig:460nm_109muW_gefaltet}]
-  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_gefaltet_g}}
-  \hfill
-  \subfigure[Bild (a) mit den vom Algorithmus gefundenen Elektronenpositionen\label{fig:460nm_109muW_e}]
-  {\includegraphics[width=0.45\textwidth]{460nm_109muW_10ms_e_g_fPos}}
-%  \hfill
-%  \subfigure[Wellenlänge $\SI{460}{\nano\meter}$, Belichtungszeit $\SI{10}{\milli\second}$, Laserleistung $\SI{308}{\micro\watt}$, Ausschnitt\label{fig:460nm_308muW}]
-%  {\includegraphics[width=0.49\textwidth]{460nm_308muW_10ms_ganz}}
-%  \hfill
-%  \subfigure[Bild links mit vom Algorithmus gefundenen Elektronenpositionen. Markiert sind in weiß Positionen mit vermutlich falsch detektierten Elektronen und in gelb nicht gefundene Positionen. Jedoch hat sich bei der betrachtung vieler Bilder herausgestellt, dass sich dies meist herausmittelt. \label{fig:460nm_308muW_e}]
-%  {\includegraphics[width=0.49\textwidth]{460nm_308muW_10ms_e_p}}
-  \caption{Vergleich von Aufnahmen des Phosphorschirms und den darauf gefundenen Elektronenpositionen}
-  \label{fig:algorithmus}
-\end{figure}
 
+
+
+\section{Intensitätsabhängiger Photostrom}
+Ein wesentliches Ziel der vorliegenden Arbeit ist die Bestimmung des intensit\"atsabh\"angigen Photostroms in Abh\"angigkeit der Wellenl\"ange.
+
+Dabei wird der Photostrom in Abh\"angigkeit der Laserintensit\"at bei konstanter Wellenl\"ange gemessen.
+Nach Gleichung \ref{eq:photostrom} gilt $J\propto I^N$, wodurch sich $N$ als Geradensteigung in einem doppel-logarithmischen Plot ablesen l\"asst.
+
+Als größter Störfaktor stellte sich bei den Messungen heraus, dass die Strahlposition sich bei ge\"anderter Wellenlänge verstellte.
+Dies führte dazu, dass der Strahl augenscheinlich bei leichten Korrekturen noch immer am Apex zu sein schien, obwohl er in Wirklichkeit auf einem anderen hellen Spot war.
+Damit l\"asst sich begr\"unden, dass einige Daten deutliche Ausreißer waren, welche an der exakt selben Position auch vergleichbare Werte lieferten.
+Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
+
+Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
+Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \cite[S. 71 ff.]{bormann_2015}).
+Das Problem hierbei ist jedoch, dass die Elektronen in diesem Fall sehr fokussiert auf dem Phosphorschirm auftreffen, was dazu führt, dass man sie nicht einzeln zählen kann (siehe Kapitel \ref{sec:zaehlalgorithmus}).
+Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor auf die selbe Spannung gestellt (soweit keine andere Bemerkung gilt $U_\text{Tip}=U_\text{Sup}=\SI{100}{\V}$).
+
+
+
+
+
+% \subsection{Spannungsscan}
+% Im Rahmen eines Spanungsscans wurde versucht, die Verringerung der Austrittsarbeit durch das Anlegen eines statischen Feldes zu vermessen.
+% Durch den sogenannten Schottky-Effekt \cite{schottky-paper} sinkt die Austrittsarbeit bei richtig gepoltem Feld, da das Potential herabgebogen wird.
+% \begin{align}
+% 	V(x)=\Phi - \frac{e^2}{16\pi\epsilon_0x}-\frac{eFx}{4\pi\epsilon_0}
+% 	\label{schottky-potential}
+% \end{align}
+% Durch das Automatisieren der Messung konnten immer wieder vergleichbare Bedingungen hergestellt werden.
 
 
 \chapter{Ergebnisse}
@@ -799,7 +884,6 @@ Die folgenden Effekte können zu einer Glättung der Stufenfunktion führen:
 %% Ein Beispiel fuer eine solche Datenbank finden Sie in bthesis_datenbank.bib
 \bibliography{bthesis_datenbank}
 
-\begin{comment}
 \chapter*{Danksagung}
 Mein Dank geht in erster Linie an Claus Ropers, der mir die Möglichkeit gab, diese äußerst spannende Arbeit durchzuführen und der mir mit fachlichen Anregungen stets zur Seite stand.\\
 
@@ -808,7 +892,8 @@ Auch Gerrit Horstmann unterstützte mich stets (nicht nur moralisch mit Eis!).\\
 
 Bei Herrn Prof. Jooß möchte ich mich für die freundliche Bereitschaft bedanken, die Zweitkorrektur zu übernehmen.\\
 
-Der Arbeitsgruppe möchte ich für die ausgesprochen angenehme Athmosphäre sowohl im wissenschaftlichen, als auch im sozialen danken.\\
+Der Arbeitsgruppe möchte ich für die ausgesprochen angenehme Athmosphäre sowohl im wissenschaftlichen, als auch im sozialen danken.
+Egal mit was für einer Frage ich ankam halfen mir stets alle sehr zuvorkommend.\\
 
 
 
@@ -816,7 +901,6 @@ Der Arbeitsgruppe möchte ich für die ausgesprochen angenehme Athmosphäre sowo
 Ebenfalls Dank gebührt Nicolas Wöhrl und Reinhard Remfort vom Podcast \textit{Methodisch Inkorrekt}, da sie mir mit ihren interessanten wissenschaftlichen Themen zahlreiche Stunden im Labor angenehm gemacht haben.\\\\
 
 Natürlich möchte ich mich nicht zuletzt bei meiner Familie bedanken, dass sie es mir ermöglichen, ein so interessantes Studium zu ermöglichen und mich stets unterstützten.
-\end{comment}
 
 
 %% Dieser Befehl MUSS am Ende stehen und erzeugt die Erklaerung ueber die

@@ -586,7 +586,7 @@
          id="tspan4266"
          x="-77.295914"
          y="541.52209"
-         style="font-size:25px">\begin{small}Spitze\end{small}</tspan></text>
+         style="font-size:25px">\footnotesize{Spitze}</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -754,12 +754,12 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-185.65611"
-       y="474.62549"
+       y="472.62549"
        id="text5556"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="-185.65611"
-         y="474.62549"
+         y="472.62549"
          id="tspan5560"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">$U_\text{Tip}$</tspan></text>
     <path
@@ -815,13 +815,13 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="834.00885"
-       y="657.94348"
+       y="659.94348"
        id="text4289-5"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4291-6"
          x="834.00885"
-         y="657.94348"
+         y="659.94348"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle">Kamera</tspan></text>
     <rect
        style="fill:#d40000;fill-opacity:1;stroke:#999999;stroke-width:1.06431699;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
