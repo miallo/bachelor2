@@ -70,6 +70,8 @@
 % Für einheitsmatrix
 \usepackage{bbm}
 
+%Für mehrzeilige Gleichungen
+%\usepackage{breqn}
 
 \usepackage{xcolor}
 \definecolor{elecgruen}{rgb}{0,0.66667,0}
@@ -344,35 +346,15 @@ Dies ist nach \cite{thomas_2016} ein häufig zu findender Wert, auch wenn es fü
 
 Im folgenden wird genauer auf die Theorie hinter der Multiphoton-PES eingegangen.
 
-\section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
-Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
-Nach ihr setzt sich der Elektronenstrom aus
-\begin{align}
-	J&=\sum_{N=0}^\infty J_N=\sum_N\sigma_NI^N \quad ,\label{eq:photostrom}
-\end{align}
-mit
-\begin{align}
-	\sigma_N=\alpha_NA\left(\frac{e}{\hbar\omega}\right)^N(1-R_\omega)^NT^2F\left(\frac{N\cdot \hbar\omega-\Phi}{k_BT}\right)\qquad&\text{(Wirkungsquerschnitt)}\label{eq:wirkungsquerschnitt}\\\nonumber\\
-\text{und}\qquad F(x)=\int_0^\infty dy\ln \left(1+e^{-(y+x)}\right)\qquad &\text{(Fowler-Funktion).}\nonumber
-\end{align}
-zusammen.
-Hierbei ist $A=\SI{120}{\A\cm^{-2}\K^{-2}}$ die Richardson-Konstante, $e$ die Elementarladung, $k_B$ die Boltzmann-Konstante und $R_\omega$ die Oberflächenreflektivität.
-Des Weiteren ist $T$ die Temperatur, $\hbar\omega$ die Photonenenergie und $\alpha_N$ ist eine materialspezifische Konstante, welche die restlichen bisher unberücksichtigten Prozesse berücksichtigt (z.B. Streuung im Metall und Reflektionswahrscheinlichkeit an der Oberfläche) \cite{brogle}.
-Mit der Fowler-Funktion wird die dominante Ordnung des nichtlinearen Prozesses ausgewählt.
-
-Der Wirkungsquerschnitt ist somit ein Maß für die Wahrscheinlichkeit der $N$-Photonen-Emission.\\
-
-Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ für $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.\\\\
-
-
-Dies lässt sich ebenfalls aus einer störungstheoretischen Betrachtung herleiten.
+\subsection{Störungstheoretische Herleitung}
+Die in Kapitel \ref{sec:mechanismen} beschriebene Multi-Photon-Emission lässt sich anhand einer störungstheoretischen Betrachtung herleiten.
 Dabei wird das Atompotential $H_0$ durch das zeitabhängige Potential des elektrischen Feldes erweitert, wodurch die Schrödingergleichung für die Wellenfunktion $\psi$
 \begin{align}
 	i\hbar\pdv{}{t}\Psi(t)=[H_0+ V(t)]\Psi(t)
 	\label{eq:schroedinger}
 \end{align}
 lautet.
-Gilt $V(t)\rightarrow0$ für $t\rightarrow\pm\infty$, so kann man mit
+Geht $V(t)\rightarrow0$ für $t\rightarrow\pm\infty$, so kann man mit
 \begin{align*}
 	\Psi(t)=\exp\left( -iH_0t/\hbar \right)\psi(t)
 \end{align*}
@@ -388,22 +370,17 @@ Für die Energie-Eigenzustände $\ket i$ des ungestörten Atompotentials gilt da
 Was als bekannt voraus gesetzt wird.
 Eine Lösung für Gleigung \ref{eq:schroedinger_kompakt} ist
 \begin{align}
-	\psi_i=\ket i+\left( -i/\hbar \right)\int\limits_{-\infty}^tV(t')\ket{\psi_i(t')}dt'	\label{eq:psi_i}
+	\ket{\psi_i}=\ket i+\left( -i/\hbar \right)\int\limits_{-\infty}^tV(t')\ket{\psi_i(t')}dt'	\label{eq:psi_i}
 \end{align}
 wenn das Elektron ursprünglich im Zustand $\ket i$ war (für $t\rightarrow-\infty$ offensichtlich erfüllt).
 Leitet man $\psi_i$ nach der Zeit ab, so ist Formel \ref{eq:schroedinger_kompakt} offensichtlich erfüllt.
 
-Ist der Endzustand $\ket f$, so ist die Übergangswahrscheinlichkeit von $\ket i$ nach $\ket f$ natürlich $\braket{f|\psi_i(t)}$ oder
+Ist der Endzustand $\ket f$, so ist die Übergangswahrscheinlichkeit von $\ket i$ nach $\ket f$ natürlich $\left|\braket{f|\psi_i(t)}\right|^2$.
+Der Zustand $\ket{\psi_i(t)}$ kann auch als
 \begin{align}
-	\braket{f|\psi_i(t)}=\bra fA(t)\ket i \label{eq:uebergangswahrscheinlichkeit_1}
+	\ket{\psi_i(t)}=A(t)\ket i \label{eq:psiA}
 \end{align}
-mit dem Amplitudenoperator $A(t)$.
-Dies kann auch durch
-\begin{align}
-	\ket{\psi_i(t)}=A(t)\ket i
-	\label{eq:psiA}
-\end{align}
-geschrieben werden, da $\ket f$ unabhängig ist.
+geschrieben werden, wobei $A(t)$ der Amplitudenoperator ist.
 Setzt man dies in Gleichung \ref{eq:psi_i} ein, so erhält man
 \begin{align*}
 	A(t)=\mathbbm{1}+\left( -i/\hbar \right)\int\limits_{-\infty}^tV(t')A(t')dt'
@@ -418,8 +395,31 @@ mit
 	A_1(t)&=-i/\hbar\int\limits_{-\infty}^tV(t_1)A(t_1)dt_1\\
 	A_N(t)&=(-i/\hbar)^N\int\limits_{-\infty}^tV(t_1)\int\limits_{-\infty}^{t_1}V(t_2)\cdots\int\limits_{-\infty}^{t_{N-1}}V(t_{N})dt_N\cdots dt_2dt_1\qquad.
 \end{align*}
-
-
+Dabei bezeichnet $N$ die jeweilige Ordnung der Störungsrechnung.
+Nimmt man eine Dipol-Wechselwirkung an, so lautet das Potential
+\begin{align*}
+	\hat V(t)=\exp\left( iH_0t/\hbar \right)\left[\mathbf E(t)\cdot\mathbf D\right]\exp\left( -iH_0t/\hbar \right)\qquad.
+\end{align*}
+mit dem elektrischen Feld $\mathbf E(t)=\frac{\mathbf E}{2}e^{i\omega t}+\frac{\mathbf E^*}2e^{-i\omega t}$, dessen maximale Amplitude $E$ ist, sowie dem Dipoloperator $\mathbf D$ des Atoms, für den definiert ist $D_\lambda:=\boldsymbol\varepsilon_\lambda\cdot\mathbf D$, wobei $\boldsymbol\varepsilon_\lambda$ der Polarisationsvektor der $\lambda$-Mode ist.
+Dann kann (mit dem Limes $t\rightarrow\infty$) 
+\begin{align*}
+	\bra fA_1(\infty)\ket i=-2\pi i/\hbar\left[ \delta (\omega_i-\omega_f-\omega)\frac{E}{2}\bra fD_\lambda\ket i+\delta (\omega_i-\omega_f+\omega) \frac{E^*}{2}\bra fD_\lambda\ket i\right]\\
+\end{align*}
+und
+\begin{align*}
+	\begin{split}
+	\bra fA_2(\infty)\ket i=-2\pi i/\hbar^2\left\{ \delta(\omega_i-\omega_f+2\omega)\sum\limits_j\frac{E/2\bra fD_\lambda\ket jE/2\bra jD_\lambda\ket i}{\omega_i-\omega-\omega_j}\right. \\
+	+\delta(\omega_i-\omega_f)\left[ \sum\limits_j\frac{E^*/2\bra fD_\lambda\ket j (E/2) \bra jD_\lambda\ket i}{\omega_i+\omega-\omega_j}\right. \\
+	\left. +\sum\limits_j\frac{(E/2)\bra fD_\lambda\ket j(E^*/2)\bra jD_\lambda\ket i}{\omega_i-\omega-\omega_j} \right]\\
+	\left. +\delta(\omega_i-\omega_f-2\omega)\sum\limits_j\frac{(E^*/2)\bra fD_\lambda\ket j(E^*/2)\bra jD_\lambda\ket i}{\omega_i-\omega-\omega_j} \right\}
+\end{split}
+\end{align*}
+berechnen.
+Die $\delta$-Funktionen resultieren in der Energie-Erhaltung.
+Zu bemerken ist, dass der $A_1$-Term bei der Berechnung der Übergangswahrscheinlichkeit mit $E^2\propto I$ skaliert (zu Bedenken ist das Betragsquadrat, was in den obigen Gleichungen noch nicht angewendet wurde).
+Dies entspricht dem klassischen Einsteinschen Photoeffekt.
+Der Störungsterm zweiter Ordnung ($A_2$-Term) ist dann wie zu erwarten proportional zu $E^4\propto I^2$ und entspricht einem zwei-Photonen-Prozess.
+Für Terme höherer Ordnung lässt sich zeigen, dass die Übergangswahrscheinlichkeit der Therme $N$-ter Ordnung mit $I^N$ skaliert.
 
 
 
@@ -444,6 +444,27 @@ In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achse
 Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effekt ver\"andert werden.
 
 
+
+
+\section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
+Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
+Nach ihr setzt sich der Elektronenstrom aus
+\begin{align}
+	J&=\sum_{N=0}^\infty J_N=\sum_N\sigma_NI^N \quad ,\label{eq:photostrom}
+\end{align}
+mit
+\begin{align}
+	\sigma_N=\alpha_NA\left(\frac{e}{\hbar\omega}\right)^N(1-R_\omega)^NT^2F\left(\frac{N\cdot \hbar\omega-\Phi}{k_BT}\right)\qquad&\text{(Wirkungsquerschnitt)}\label{eq:wirkungsquerschnitt}\\\nonumber\\
+\text{und}\qquad F(x)=\int_0^\infty dy\ln \left(1+e^{-(y+x)}\right)\qquad &\text{(Fowler-Funktion).}\nonumber
+\end{align}
+zusammen.
+Hierbei ist $A=\SI{120}{\A\cm^{-2}\K^{-2}}$ die Richardson-Konstante, $e$ die Elementarladung, $k_B$ die Boltzmann-Konstante und $R_\omega$ die Oberflächenreflektivität.
+Des Weiteren ist $T$ die Temperatur, $\hbar\omega$ die Photonenenergie und $\alpha_N$ ist eine materialspezifische Konstante, welche die restlichen bisher unberücksichtigten Prozesse berücksichtigt (z.B. Streuung im Metall und Reflektionswahrscheinlichkeit an der Oberfläche) \cite{brogle}.
+Mit der Fowler-Funktion wird die dominante Ordnung des nichtlinearen Prozesses ausgewählt.
+
+Der Wirkungsquerschnitt ist somit ein Maß für die Wahrscheinlichkeit der $N$-Photonen-Emission.\\
+
+Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ für $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.\\\\
 
 
 \section{Der Schottky-Effekt}
