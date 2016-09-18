@@ -1,14 +1,10 @@
 \begin{thebibliography}{}
 
-\bibitem[orp, 2013]{orpheus_tuningcurve}
- (2013).
-\newblock Light {Conversion} {Produktkatalog}.
-\newblock Abgerufen 27.06.2016.
-
 \bibitem[Barwick et~al., 2007]{barwick_2007}
 Barwick, B., Corder, C., Strohaber, J., Chandler-Smith, N., Uiterwaal, C., und
   Batelaan, H. (2007).
-\newblock {\em New J. Phys.}, 9(142).
+\newblock Laser-induced ultrafast electron emission from a field emission tip.
+\newblock {\em New Journal of Physics}, 9(5):142.
 
 \bibitem[Barwick et~al., 2008]{barwick_4d_2008}
 Barwick, B., Park, H.~S., Kwon, O.-H., Baskin, J.~S., und Zewail, A.~H. (2008).
@@ -34,7 +30,9 @@ Bormann, R., Gulde, M., Weismann, A., Yalunin, S., und Ropers, C. (2010).
 
 \bibitem[Bormann et~al., 2015]{bormann_ea_2015}
 Bormann, R., Strauch, S., Schäfer, S., und Ropers, C. (2015).
-\newblock {\em J. Appl. Phys.}, 118(173105).
+\newblock An ultrafast electron microscope gun driven by two-photon
+  photoemission from a nanotip cathode.
+\newblock {\em J. Appl. Phys.}, 118:173105.
 
 \bibitem[Brogle, 1996]{brogle}
 Brogle, R.~P. (1996).
@@ -43,10 +41,12 @@ Brogle, R.~P. (1996).
 \newblock PhD thesis, University of California, Los Angeles.
 
 \bibitem[Dombi et~al., 2010]{dombi_2010}
-Dombi, P., Irvine, S.~E., Rácz, P., Lenner, M., Kroó, N., Farkas, G.,
-  Mitrofanov, A., Baltuška, A., Fuji, T., Krausz, F., und Elezzabi, A.~Y.
+Dombi, P., Irvine, S.~E., R\'{a}cz, P., Lenner, M., Kro\'{o}, N., Farkas, G.,
+  Mitrofanov, A., Baltu\v{s}ka, A., Fuji, T., Krausz, F., und Elezzabi, A.~Y.
   (2010).
-\newblock {\em Opt. Express}, 18(24206).
+\newblock Observation of few-cycle, strong-field phenomena in surface plasmon
+  fields.
+\newblock {\em Opt. Express}, 18(23):24206--24212.
 
 \bibitem[DuBridge, 1932]{dubridge_further_1932}
 DuBridge, L.~A. (1932).
@@ -91,8 +91,10 @@ Gulde, M., Schweda, S., Storeck, G., Maiti, M., Yu, H.~K., Wodtke, A.~M.,
 \newblock {\em Science}, 345(6193):200--204.
 
 \bibitem[Hommelhoff et~al., 2006]{hommelhoff_2006}
-Hommelhoff, P., Kealhofer, C., und Kasevich, M.~a. (2006).
-\newblock {\em Phys. Rev. Lett.}, 97(247402).
+Hommelhoff, P., Kealhofer, C., und Kasevich, M.~A. (2006).
+\newblock Ultrafast electron pulses from a tungsten tip triggered by low-power
+  femtosecond laser pulses.
+\newblock {\em Phys. Rev. Lett.}, 97:247402.
 
 \bibitem[Keldysh, 1965]{keldysh1965}
 Keldysh, L.~V. (1965).
@@ -118,6 +120,13 @@ Lecoeur, J., Bellier, J.~P., und Koehler, C. (1990).
   (210) orientations.
 \newblock {\em Electrochemica Acta}, 35(9):1383.
 
+\bibitem[LightCon, 2013]{orpheus_tuningcurve}
+LightCon (2013).
+\newblock {\em Light {Conversion} {Produktkatalog}}.
+\newblock
+  \url{http://www.lightcon.com/upload/iblock/2db/2db3f7cec5ac57521f58ced3aa1eb9aa.pdf},
+  Abgerufen 27.06.2016.
+
 \bibitem[Linde, 2004]{crc}
 Linde, D.~R. (2004).
 \newblock {\em CRC Handbook of Chemistry and Physics}.
@@ -132,7 +141,9 @@ Neacsu, C.~C., Berweger, S., und Raschke, M.~B. (2007).
 \bibitem[Park et~al., 2012]{park_2012}
 Park, D., B., P., Schmidt, S., Kollmann, H., Mascheck, M., und Lienau, C.
   (2012).
-\newblock {\em Phys. Rev. Lett.}, 109(244803).
+\newblock Strong field acceleration and steering of ultrafast electron pulses
+  from a sharp metallic nanotip.
+\newblock {\em Phys. Rev. Lett.}, 109:244803.
 
 \bibitem[Pescia und Meier, 1982]{pescia_spin_1982}
 Pescia, D. und Meier, F. (1982).
@@ -157,8 +168,9 @@ Sachtler, W. M.~H., Dorgelo, G. J.~H., und Holscher, A.~A. (1966).
 \newblock {\em Surface Science}, 5(2):221--229.
 
 \bibitem[Schenk et~al., 2010]{schenk_2010}
-Schenk, M., Krüger, M., und Hommelhoff, P. (2010).
-\newblock {\em Phys. Rev. Lett.}, 105(173105).
+Schenk, M., Kr\"uger, M., und Hommelhoff, P. (2010).
+\newblock Strong-field above-threshold photoemission from sharp metal tips.
+\newblock {\em Phys. Rev. Lett.}, 105:257601.
 
 \bibitem[Schmidt et~al., 2012]{schmidt_2012}
 Schmidt, S. et~al. (2012).
@@ -192,11 +204,14 @@ Trasatti und Sergio (1974).
 \bibitem[Vogelsang et~al., 2015]{vogelsang_2015}
 Vogelsang, J., Robin, J., Nagy, B.~J., Dombi, P., Rosenkranz, D., Schiek, M.,
   Groß, P., und Lienau, C. (2015).
-\newblock {\em Nano Lett.}, 15(231105).
+\newblock Ultrafast electron emission from a sharp metal nanotaper driven by
+  adiabatic nanofocusing of surface plasmons.
+\newblock {\em Nano Lett.}, 15(7):4685.
 
 \bibitem[Wimmer et~al., 2014]{wimmer_2014}
 Wimmer, L., Herink, G., Solli, D., Yalunin, S.~V., Echternkamp, K.~E., und
   Ropers, C. (2014).
-\newblock {\em Nat. Phys.}, 10(432).
+\newblock Terahertz control of nanotip photoemission.
+\newblock {\em Nat. Phys.}, 10:432.
 
 \end{thebibliography}

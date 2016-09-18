@@ -10,7 +10,7 @@
                                               %% ins Inhaltsverzeichnis
                english,ngerman, %% Alternativspr. Englisch, Dokumentspr. Deutsch
 %               ngerman,english  %% Alternativspr. Deutsch, Dokumentspr. Englisch
-%               final,          %% Endversion; draft fuer schnelles Kompilieren
+               final,          %% Endversion; draft fuer schnelles Kompilieren
 %				draft,
                ]{GAUBM}
 
@@ -128,7 +128,7 @@ Es zeigt sich, dass die Nichtlinearität (entspricht der Anzahl an benötigten P
 %% Optional: Stichwoerter. Wenn nicht gewuenscht, koennen die beiden
 %% folgenden Zeilen geloescht werden
   \bigskip\par
-  \textbf{Stichwörter:} lokalisierte Elektronenemission, Gold Nano-Spitze, multiphoton Photoemission
+  \textbf{Stichwörter:} lokalisierte Elektronenemission, Gold Nano-Spitze, Multi-Photon Photoemission
 \end{abstract}
 %% So laesst sich in die andere Sprache umschalten (Englisch bzw. Deutsch)
 \begin{otherlanguage}{english}
@@ -288,7 +288,7 @@ Zu erkennen ist, dass sich die Austrittsarbeit zum Teil stark von der einer plan
 & erial & [nm] & [nm] & [fs] & [V] & & ges. [eV]\\\hline\hline
 
 	\cite{bormann_2010} & Au   & 20		 & 830 			&	 & 	& (4-)5 & 6-7.5 \\\hline
-	\cite{park_2012} & & & 1000-1500 & 30 & & & \\\hline
+	\cite{park_2012} & & & 1-\SI{1.5}{\micro\m} & 30 & & & \\\hline
 	\cite{wimmer_2014} & Au & 7 & 800 & 50 & & & \\\hline
 	\cite{vogelsang_2015} & Au & & 1600 & 16 & & 7 & 5.4\\\hline
 	\cite{benni_15} & Au & 22 & 800 & 10 & & 4.7 & 7.3\\\hline
@@ -473,7 +473,15 @@ Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der 
 
 In den Messungen wurde statt der Intensität die Leistung $P$ mit einem Powermeter gemessen.
 Da jedoch die Intensität die eingestrahlte Leistung pro Fläche ist und sich diese durch die Reduzierung der Intensität bei konstanter Wellenlänge nicht ändert, gilt $I\propto P$.
-In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achsenabschnitt, aber keine Steigungsänderung.\newline
+In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achsenabschnitt, aber keine Steigungsänderung.
+
+Nimmt man an, dass nur eine wohldefinierte Austrittsarbeit zu leisten ist und dass die $\sigma_i\sigma_j\propto\delta_{ij}$ sind, so müsste sich bei der Auftragung von  Nichtlinearität gegen Wellenlänge eine Stufenfunktion ergeben.
+Dies entspricht dem Fall, dass $N\cdot\hbar\omega\geq\phi$ sein muss oder anders formuliert:
+\begin{align}
+	N(\omega)=\left\lceil\frac{\phi}{\hbar\omega}\right\rceil
+	\label{eq:nomega}
+\end{align}
+wobei mit $\lceil x\rceil$ die Aufrundungsfunktion bezeichnet wird.\\
 
 Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effekt verändert werden.
 
@@ -489,7 +497,7 @@ Wirkt jedoch eine elektrische Feldstärke (in diesem Fall eine angelegte Spannun
 	\label{eq:schottky_dW}\\
 	\text{mit\qquad}F&=\frac{U}{k\cdot r}
 \end{align}
-erniedrigt.
+erniedrigt und es ergibt sich $\phi_\text{eff}=\phi-\Delta W$.
 Dabei wird mit $k$ der geometrischer Abschwächungsfaktor bezeichnet.
 Dieser bezieht die Tatsache mit ein, dass Teile des Feldes im Vergleich zu einer Kugel durch den Schaft abgeschirmt werden.
 In der Literatur wird meist $k\approx5$ angenommen (z.B. \cite{barwick_2007} oder \cite{hommelhoff_2006}).
@@ -553,7 +561,7 @@ Dieser beinhaltet einen fs-Laser (Details s. Kap. \ref{sec:laser}), dessen Leist
 Der Laserstrahl ist in der Achse der Spitze polarisiert.
 Um die Laserintensität zeitlich zu stabilisieren und zu steuern wird ein Teil des transmittierten Strahls mit einem Beamsplitter auf den Messkopf eines Powermeters geleitet, welches mit einer Feedback-Schleife das Filterrad steuert.
 Der restliche Teil des Strahls wird mit einer in drei Richtungen beweglichen Linse auf die Spitze fokussiert.
-Kleinere Korrekturen der Strahlposition werden so durch einen nicht zentralen Einfall auf die Linse korrigiert.
+Kleinere Fehler der Strahlposition werden so durch einen nicht zentralen Einfall auf die Linse korrigiert.
 
 
 Die emittierten Elektronen werden (wie in Grafik \ref{fig:aufbau_kammer} dargestellt) zunächst mit der Beschleunigungsspannung $U_\text{Tip}$ zum Extraktor hin beschleunigt.
@@ -569,7 +577,7 @@ Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle 
 	\def\svgwidth{0.7\textwidth}
 	\input{Aufbau3.pdf_tex}
 	%\includegraphics[width=0.8\linewidth]{Aufbau2}
-	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition wird durch eine bewegliche Linse festgelegt.}
+	\caption{Schematischer Aufbau des Strahlengangs: Der Laserstrahl wird zunächst mit Hilfe eines Beamsplitters abgeschwächt, durch ein Teleskop (Vergrößerung 1:1)  kollimiert woraufhin die Laserleistung mit einem kontinuierlichen ND-Filterrad erneut reduziert wird. Dieses wird über einen weiteren Beamsplitter mit einem Powermeter (PW) in einer Feedback-Schleife gesteuert. Die Strahlposition auf der Spitze wird durch eine bewegliche Linse festgelegt.}
 	\label{fig:aufbau}
 \end{figure}
 
@@ -611,7 +619,7 @@ Dies lag augenscheinlich daran, dass vom Gitter andere Elektronen ebenfalls aufg
 	\def\svgwidth{0.8\textwidth}
 	\input{Kammer_Aufbau_rot.pdf_tex}
 %	\includegraphics[width=0.9\textwidth]{Kammer_Aufbau}
-	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ werden sie zusätzlich fokussiert. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
+	\caption{Detektion der Fotoelektronen: Die vom Laser aus der Spitze emittierten Elektronen werden durch die Spannung $U_\text{Tip}$ zum Extraktor hin beschleunigt. Durch $U_\text{Sup}$ kann der Emissionsort eingeschränkt und die Elektronen fokussiert werden. Mit Hilfe einer Micro Channel Plate (MCP) werden die Einzelelektronen verstärkt, so dass sie einen Phosphorschirm zum Leuchten anregen, was von einem CCD-Sensor aufgenommen wird.}
 	\label{fig:aufbau_kammer}
 \end{figure}
 Die hier verwendete Geometrie (Abb. \ref{fig:aufbau_kammer}) besteht aus der Gold-Spitze, einem Supressor und einem Extraktor.
@@ -620,7 +628,7 @@ Die Spitze wurde aus einem geglühten Golddraht mit einem Durchmesser von \SI{0.
 Das anschlie{\ss}ende Ausglühen hat den Effekt, dass die zu Beginn polykristalline Struktur größere Körner gleicher Kristallstrukturen ausbildet.
 Daher ist der Apex mit hoher Wahrscheinlichkeit monokristallin, was dazu führt, dass keine weiteren Facetten (und damit Austrittsarbeiten) durch Korngrenzen hinzukommen.
 
-Die Abma{\ss}e des verwendeten Aufbaus sind in Abb. \ref{fig:aufbau_kammer} dargestellt.
+Die Abmaße des verwendeten Aufbaus sind in Abb. \ref{fig:aufbau_kammer} dargestellt.
 
 %Zusätzlich besitzt die untersuchte Spitze ein mit dem Focused Ion Beam (FIB) eingraviertes Gitter, um Oberflächenplasmon-Polaritone (SPP) einkoppeln zu können.
 %Um Apex und Gitter getrennt anregen zu können sind diese ca. \SI{45}{\micro\m} voneinander entfernt.
@@ -643,7 +651,7 @@ Um die Anzahl der Elektronen auf den einzelnen Bildern zu bestimmen, gibt es zwe
 	Insbesondere kleine Anzahlen an Elektronen in einem Bild kann diese Methode nur schlecht ermitteln.
 \end{itemize}
 
-Da die verwendeten Bilder nur eine relativ geringe Anzahl an Elektronen besa{\ss}en, wurde das erste Programm zur Auswertung gewählt.
+Da die verwendeten Bilder nur eine relativ geringe Anzahl an Elektronen besaßen, wurde das erste Programm zur Auswertung gewählt.
 Dieses bestimmt zunächst aus Bildern ohne Elektronensignal die toten Pixel, indem er diejenigen aussortiert, welche über 100 Bilder gemittelt mehr als $120\%$ des Mittelwerts haben.
 Dies wurde getan, um nicht versehentlich scheinbare Elektronen zu detektieren, welche aus fehlerhaften Pixeln des CCD-Chips resultieren können.
 
@@ -703,10 +711,11 @@ Dabei wird der Photostrom in Abhängigkeit der Laserintensität bei konstanter W
 Nach Gleichung \ref{eq:photostrom} gilt $J\propto I^N$, wodurch sich $N$ als Geradensteigung in einem doppel-logarithmischen Plot ablesen lässt.
 
 Als größter Störfaktor stellte sich bei den Messungen heraus, dass die Strahlposition sich bei geänderter Wellenlänge verstellte.
-Dies führte dazu, dass der Strahl augenscheinlich bei leichten Korrekturen noch immer am Apex zu sein schien, obwohl er in Wirklichkeit auf einem anderen hellen Spot war.
-In Abb. \ref{fig:hotspots} sind diese dargestellt.
+Dies führte dazu, dass der Strahl augenscheinlich bei leichten Korrekturen noch immer am Apex zu sein schien, obwohl er in Wirklichkeit auf einem Punkt auf dem Schaft war, der einen Defekt hatte.
+In Abb. \ref{fig:hotspots} sind zwei Körner gezeigt, welche vermutlich der Ursprung des stark emittierenden Punktes waren.
 Damit lässt sich begründen, dass einige Daten deutliche Ausreißer waren, welche an der exakt selben Position auch vergleichbare Werte lieferten.
 Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
+Desshalb wurden diese Messwerte nach erneuter Messung bei genauer Beachtung der tatsächlichen Position des Strahls aussortiert.
 
 Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
 Dann verschiebt sich der Abschneidepunkt so weit nach vorne, dass keine anderen mehr durchkommen (Abschneidepunkt siehe \cite[S. 71 ff.]{bormann_2015}).
@@ -728,19 +737,17 @@ Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor a
 
 
 \chapter{Ergebnisse}
-In diesem Kapitel soll die Auswertung der Daten präsentiert werden.
-
-\section{Intensitätsabhängigkeit}
+In diesem Kapitel soll die Auswertung der Daten präsentiert werden.\\\\
 In Abb. \ref{fig:e} sind beispielhaft für Wellenlängen von $\SI{480}{\nano\meter}$, $\SI{520}{\nano\meter}$ und $\SI{690}{\nano\meter}$ die Anzahl der Elektronen gegen die Intensität des Laserstrahls doppellogarithmisch aufgetragen.
 Es lässt sich eindeutig ein linearer Zusammenhang erkennen, welcher ebenfalls gefittet ist.
 Bei sehr schwachen Laserintensitäten ist offensichtlich, dass die Streuung der Werte stark zunimmt.
 Da dies jedoch mit einer unzureichenden Anzahl an Elektronen in den Bildern zu erklären ist, wurden die linearen Regressionen ohne Aufnahmen mit weniger als 10 Elektronen pro Sekunde durchgeführt.
-Darüber hinaus konnte der Algorithmus zum Elektronenzählen bei großen Anzahlen an Elektronen nicht zwischen diesen differenzieren, so dass die zugehörigen Werte, wie in Grafik \ref{fig:520e} von Hand aussortiert werden mussten.
+Betrachtet man die aufgenommenen Bilder für sehr hohe Leistungen, so wird festgestellt, dass ab einer gewissen Elektronendichte viele Elektronen nicht mehr gezählt werden.
+Dies rechtfertigt das Aussortieren von Werten wie in Grafik \ref{fig:520e} was von Hand geschah.
 
-Betrachtet man die Bilder mit den sättingenden Daten, so lässt sich erkennen, dass ab einer gewissen Dichte viele Elektronen nicht mehr gezählt werden.
+Auffällig ist bei den Messdaten aus Grafik \ref{fig:e}, dass die ermittelten Nichtlinearitäten nicht ganzzahlig sind.
+Dies wird noch deutlicher, wenn man die Steigung der Geraden gegen die Wellenlänge aufträgt.\\\\
 
-
-In Abb. \ref{fig:ges_messung} sind die Steigungen für die jeweiligen Wellenlängen eingetragen.\newline\newline
 
 \begin{figure}[h!]
   \centering
@@ -752,12 +759,22 @@ In Abb. \ref{fig:ges_messung} sind die Steigungen für die jeweiligen Wellenlän
   \hfill
   \subfigure[690nm - Gefittete Steigung: $3.7\pm0.1$\label{fig:690e}]
   {\includegraphics[width=0.49\textwidth]{690e}}
-  \caption{Beispielhafte Auftragung des Elektronenstroms gegen die eingestrahlte Intensität zu drei beispielhaften Wellenlängen.}
+  \caption{Beispielhafte Auftragung des Elektronenstroms gegen die eingestrahlte mittlere Laserleistung zu drei beispielhaften Wellenlängen.}
   \label{fig:e}
 \end{figure}
 
 
-Plottet man wie in Abb. \ref{fig:ges_messung} zu sehen alle Steigungen, so ergibt sich nicht das einfachste zu erwartende Bild einer Treppenfunktion.
+\begin{figure}[h]
+	\centering
+	\includegraphics{Vergleich}
+	\caption{Vergleich der ersten mit der zweiten Messung der Nichtlinearität in dem doppelt vermessenen Wellenlängenbereich. Zu erkennen ist, dass die beiden Messreihen vergleichbare Ergebnisse lieferten und meist in den Fehlerintervallen der jeweils anderen.}
+	\label{fig:ges_messung}
+\end{figure}
+
+Plottet man wie in Abb. \ref{fig:ges_messung} zu sehen die Steigung gegen die Wellenlänge, so ergibt sich nicht das einfachste zu erwartende Bild einer Treppenfunktion was aus Gleichung \ref{eq:nomega} folgt.
+Stattdessen sind die Daten annähernd linear mit kleinen Plateaus um die ganzzahligen Nichtlinearitäten.
+Die eingezeichneten Fehler sind eine Kombination der Fehler aus den Fits und einem systematischen Fehler, der mit 0.1 angenommen wurde.
+<+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx+>
 Die Gründe hierfür können vielfältig sein: Zum Beispiel wurden die meisten bisherigen Messungen der Austrittsarbeit wie in Tabelle \ref{tab:austrittsarbeit} an einer einzigen Kristallfacette durchgeführt.
 Eine Spitze hat jedoch viele Kristallebenen an der Oberfläche welche alle unterschiedliche Austrittsarbeit besitzen.
 Daher erhält man eine Überlagerung der verschiedenen Austrittsarbeiten.
@@ -766,6 +783,7 @@ Dies führt dazu, dass man sowohl energiearme, als auch energiereiche Elektronen
 Dies wäre im Rahmen einer zukünftigen Messreihe empfehlenswert zu überprüfen.
 Sollte die Hypothese der Überlagerung verschiedener Multiphotonen-Prozesse zutreffen, so kann man bei größeren Wellenlängen keine energetisch schmalbandigen Elektronen zum Beispiel für das Ultrafast Low Energy Electron Defraction (ULEED) Experiment mit dieser Methode bereitstellen.
 Dies benötigt sehr schmalbandige Elektronenspektren, damit die Elektronenpulse durch Dispersion nicht zu stark verlängert werden, was die Zeitauflösung verringern würde \cite{gahlmann_2008}.
+Weitere Effekte, welche zu einer ``Linearisierung'' der Stufenfunktion führen können sind in Kapitel \ref{sec:erklaerung_lin} aufgeführt.
 
 In Abb. \ref{fig:ges_energie} ist die Nichtlinearität aus Diagramm \ref{fig:ges_messung} multipliziert mit der Photonenenergie der jeweiligen Wellenlänge aufgetragen.
 Dies entspricht der mittleren Energie, die bei einem Emissionsprozess freigesetzt wird.
@@ -787,33 +805,29 @@ Da es von diesen jedoch nach Kapitel \ref{sec:zustandsdichte} um eine Größenor
 \caption{Auftragung der Nichtlinearität aus Abb. \ref{fig:ges_messung} multipliziert mit der jeweiligen Photonenenergie.}
 \label{fig:ges_energie}
 \end{figure}
-
+\newpage
 In Abb. \ref{fig:ges_messung} ist der Wellenlängenbereich aufgetragen, in dem doppelt gemessen wurde.
 Zu erkennen ist, dass die Kurven überwiegend in guter Übereinstimmung liegen und die Ausreißer durch Datenpunkte der jeweils anderen Kurve ausgeglichen werden.
 Allerdings ist es nicht auszuschließen, dass manche der Messwerte in blau nicht am Apex, sondern an dem nächsten hellen Spot $\SI{20}{\micro\meter}$ von der Spitze entfernt aufgenommen wurden.
 Dies führt dazu, dass manche Werte deutliche Abweichungen von der Kurve zeigen.
 Es ist vermutlich nicht darin begründet, dass die Messungen sehr streuen, da erneute Messungen an den selben Positionen kaum Abweichungen hatten.
-\begin{figure}[h]
-	\centering
-	\includegraphics{Vergleich}
-	\caption{Vergleich der ersten mit der zweiten Messung der Nichtlinearität in dem doppelt vermessenen Wellenlängenbereich. Zu erkennen ist, dass die beiden Messreihen vergleichbare Ergebnisse lieferten und meist in den Fehlerintervallen der jeweils anderen.}
-	\label{fig:ges_messung}
-\end{figure}
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics{Stufen}
-	\caption{Daten aus Abb. \ref{fig:ges_messung} zusammen mit dem einfachsten denkbaren Modell, welches Stufen vorhersagt. Eingetragen sind in grün mit \SI{4.8}\eV Austrittsarbeit ein niedriger Wert der Fermienergie aus \cite{trasatti_operative_1974}, welcher die Daten nach unten hin begrenzen sollte. In rot ist der höchste Wert einer Austrittsarbeit für eine Facette nach \cite{crc} eingezeichnet als Referenz, um zu sehen, ob Elektronen ausschließlich von der Fermikante kommen. Wäre dies der Fall, so müssten die Daten zwischen den beiden Kurven liegen. In pink ist dann die ungefähre Lage des $d$-Bandes eingezeichnet. Klar zu erkennen ist, dass die Messwerte zwischen der grünen und der pinken, jedoch auf beiden Seiten der roten Kurve liegen.}
+	\caption{Daten aus Abb. \ref{fig:ges_messung} zusammen mit dem einfachsten denkbaren Modell, welches Stufen vorhersagt. Eingetragen sind in grün mit \SI{4.8}{\eV} Austrittsarbeit ein niedriger Wert der Fermienergie aus \cite{trasatti_operative_1974}, welcher die Daten nach unten hin begrenzen sollte. In rot ist der höchste Wert einer Austrittsarbeit für eine Facette nach \cite{crc} eingezeichnet als Referenz, um zu sehen, ob Elektronen ausschließlich von der Fermikante kommen. Wäre dies der Fall, so müssten die Daten zwischen den beiden Kurven liegen. In pink ist dann die ungefähre Lage des $d$-Bandes eingezeichnet. Klar zu erkennen ist, dass die Messwerte zwischen der grünen und der pinken, jedoch auf beiden Seiten der roten Kurve liegen.}
 	\label{fig:stufen}
 \end{figure}
 
-
+\newpage
 In Grafik \ref{fig:regenbogen} sind ausgewählte Messreihen zusammen dargestellt.
 Erkennbar ist, dass mit steigender Wellenlänge die Geradensteigung zunimmt, der Achsenabschnitt jedoch nicht konstant ist.
 Die Farbe der Geraden entspricht in etwa der des Lichtes, bei der die Gerade gefittet wurde.
+Erkennbar ist, dass die Achsenabschnitte nicht gleich sind zwischen verschiedenen Messreihen, was zum Beispiel durch eine unterschiedlich starke Fokussierung verschiedener Wellenlängen zu erklären ist.
+Die Steigung der einzelnen Kurven nimmt mit steigender Wellenlänge offensichtlich zu.
 
 
-\begin{figure}[h]
+\begin{figure}[h!]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Faecher_Daten}
 	\caption{Ausgewählte Messreihen verschiedener Wellenlängen aufgetragen. Die Farbe der Messpunkte entspricht in etwa der wahrgenommenen Farbe des Lichts.}
@@ -836,7 +850,7 @@ Die SHG ist sehr sensitiv auf das interne Beampointing, so dass selbst ein relat
 Dies bedeutet, dass selbst das Vorbeigehen am Laser Einbrüche von bis zu 50\% an Leistung bewirkte.
 Die Feedback-Schleife war jedoch nicht darauf ausgelegt, kontinuierlich zu regeln, sondern stellte nur zu Beginn jeder Messung die Intensität ein.
 Während die Bilder aufgenommen wurden regelte sie also nicht nach.
-Da jedoch nicht viele Leute an dem Lasersystem vorbeigingen und im späteren Verlauf der Messungen darauf geachtet wurde, dass während der Messungen kein Luftzug entstand, sind höchstens einzelne Datenpunkte von einzelnen Wellenlängen betroffen.
+Da jedoch nicht viele Personen an dem Lasersystem vorbeigingen und im späteren Verlauf der Messungen darauf geachtet wurde, dass während der Messungen kein Luftzug entstand, sind höchstens einzelne Datenpunkte von einzelnen Wellenlängen betroffen.
 
 
 \section{Degradation der Spitze}
@@ -874,7 +888,7 @@ Als Strahler, der sich ungefähr in der Mitte zwischen Apex und Gitter befand k�
 
 
 
-\section{Effekte zur <+Linearisierung+> der Daten}
+\section{Effekte zur Linearisierung der Daten}
 \label{sec:erklaerung_lin}
 Die Daten in Grafik \ref{fig:ges_messung} scheinen zunächst annähernd linear zu sein.
 Bei genauerer Betrachtung fällt auf, dass sich Ansätze von Plateaus bei den ganzzahligen Nichtlinearitäten ausmachen lassen.
@@ -932,15 +946,10 @@ Bei Herrn Prof. Jooß möchte ich mich für die freundliche Bereitschaft bedanke
 Der Arbeitsgruppe möchte ich für die ausgesprochen angenehme Athmosphäre sowohl im wissenschaftlichen, als auch im sozialen danken.
 Egal mit was für einer Frage ich ankam halfen mir stets alle sehr zuvorkommend.\\
 
-
-
-
-Ebenfalls Dank gebührt Nicolas Wöhrl und Reinhard Remfort vom Podcast \textit{Methodisch Inkorrekt}, da sie mir mit ihren interessanten wissenschaftlichen Themen zahlreiche Stunden im Labor angenehm gemacht haben.\\\\
+Ebenfalls Dank gebührt Nicolas Wöhrl und Reinhard Remfort vom Podcast \textit{Methodisch Inkorrekt}, da sie mir mit ihren interessanten wissenschaftlichen Themen zahlreiche Stunden im dunklen Labor angenehm gemacht haben.\\\\
 
 Natürlich möchte ich mich nicht zuletzt bei meiner Familie bedanken, dass sie es mir ermöglichen, ein so interessantes Studium zu ermöglichen und mich stets unterstützten.
+Eine bessere kann man sich nicht wünschen!
 
 
-%% Dieser Befehl MUSS am Ende stehen und erzeugt die Erklaerung ueber die
-%% benutzten Mittel
-\Declaration
 \end{document}

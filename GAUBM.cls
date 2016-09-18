@@ -177,7 +177,7 @@
 \IfFileExists{figures/Logo_Uni_Goettingen.eps}%
 {\IfFileExists{figures/Logo_Uni_Goettingen.pdf}%
   {\renewcommand{\LLogo}%
-    {\includegraphics[height=1.5cm]{figures/Logo_Uni_Goettingen}}}%
+    {\includegraphics[height=1.5cm]{figures/Logo_Uni_Goettingen_gross}}}%
   {\l@g@error}%
 }{\l@g@error}
 \IfFileExists{figures/Logo_Physik_links.eps}%
@@ -265,10 +265,10 @@
       \vfill\null
       \noindent
       \begin{tabular}[t]{p{0.24\linewidth}p{0.76\textwidth-4\tabcolsep}}
-        \bfseries Bearbeitungszeit:&
-        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
-          \dateselectlanguage{ngerman}\setdatebynumber{\the@countbegin}\datedate\ 
-          bis \setdatebynumber{\the@countend}\datedate\end{minipage}\\&\\
+%        \bfseries Bearbeitungszeit:&
+%        \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
+%          \dateselectlanguage{ngerman}\setdatebynumber{\the@countbegin}\datedate\ 
+%          bis \setdatebynumber{\the@countend}\datedate\end{minipage}\\&\\
         \if@ExtraSupervisor\bfseries Betreuer:&
         \begin{minipage}[t]{0.76\textwidth-4\tabcolsep}%
           \@ExtraSupervisor\end{minipage}\\&\\\fi

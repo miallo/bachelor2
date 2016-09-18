@@ -3,56 +3,47 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bachelor.aux
 The style file: apalikeGerman.bst
 Database file #1: bthesis_datenbank.bib
-Warning--to sort, need author or key in orpheus_tuningcurve
-Warning--empty title in barwick_2007
 Warning--empty title in bormann_2010
-Warning--empty title in bormann_ea_2015
-Warning--empty title in dombi_2010
-Warning--empty title in hommelhoff_2006
-Warning--empty title in park_2012
-Warning--empty title in schenk_2010
 Warning--empty note in thomas_2016
-Warning--empty title in vogelsang_2015
-Warning--empty title in wimmer_2014
 You've used 36 entries,
             1935 wiz_defined-function locations,
-            674 strings with 9147 characters,
-and the built_in function-call counts, 13762 in all, are:
-= -- 1284
+            687 strings with 9919 characters,
+and the built_in function-call counts, 14286 in all, are:
+= -- 1351
 > -- 670
 < -- 17
-+ -- 242
++ -- 244
 - -- 230
-* -- 1250
-:= -- 2486
-add.period$ -- 98
+* -- 1274
+:= -- 2558
+add.period$ -- 106
 call.type$ -- 36
-change.case$ -- 282
+change.case$ -- 290
 chr.to.int$ -- 36
-cite$ -- 48
-duplicate$ -- 487
-empty$ -- 884
+cite$ -- 38
+duplicate$ -- 498
+empty$ -- 945
 format.name$ -- 275
-if$ -- 2589
+if$ -- 2715
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 34
-newline$ -- 173
+newline$ -- 181
 num.names$ -- 105
-pop$ -- 253
+pop$ -- 229
 preamble$ -- 1
-purify$ -- 293
+purify$ -- 294
 quote$ -- 0
-skip$ -- 373
+skip$ -- 384
 stack$ -- 0
-substring$ -- 810
-swap$ -- 43
+substring$ -- 950
+swap$ -- 45
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 212
-warning$ -- 11
-while$ -- 95
+warning$ -- 2
+while$ -- 104
 width$ -- 0
-write$ -- 443
-(There were 11 warnings)
+write$ -- 460
+(There were 2 warnings)
