@@ -276,6 +276,36 @@ Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\
 \label{tab:austrittsarbeit}
 \end{table}
 
+Misst man jedoch nicht an glatten Oberflächen, sondern an Nano-Strukturen, so können noch weitere Effekte die Austrittsarbeit verändern (s. Kap. \ref{sec:erklaerung_lin}).
+Desshalb sind auch die Daten interessant, welche andere Arbeitsgruppen mit ähnlichen Aufbauten, wie dem hier verwendeten ermittelten.
+Einige davon sind in Tabelle \ref{tab:tip_andere_gruppen} dargestellt.
+Zu erkennen ist, dass sich die Austrittsarbeit zum Teil stark von der einer planen Oberfläche unterscheidet.
+
+\begin{table}
+	\centering
+	\begin{tabular}{|l|l|r|r|r|r|r||r|}
+\hline	Quelle 	& Mat- & Radius & Wellenl. & Pulsl. & $U_\text{ext}$ & Nichtlin. & Energie\\
+& erial & [nm] & [nm] & [fs] & [V] & & ges. [eV]\\\hline\hline
+
+		\cite{bormann_2010} & Au   & 20		 & 830 			&	 & 	& (4-)5 & 6-7.5 \\\hline
+		\cite{park_2012} & & & 1000-1500 & 30 & & & \\\hline
+		\cite{wimmer_2014} & Au & 7 & 800 & 50 & & & \\\hline
+		\cite{vogelsang_2015} & Au & & 1600 & 16 & & 7 & 5.4\\\hline
+		\cite{benni_15} & Au & 22 & 800 & 10 & & 4.7 & 7.3\\\hline
+		\cite{schenk_2010} & W & $50\pm10$ & 800 & 6.5 & 150 & $\approx 3$ & $\approx 5.7$\\\hline
+	& & & & & 450 & 2 & 4.9\\
+	 \cite{barwick_2007} & W & $\approx 40$ & 810 & 30 & 300 & 3 & 6.1 \\
+	 & & & & & 50 & 4 & 6.7\\\hline
+	 \cite{bormann_ea_2015} & W & 25 & 400 & 50 & & & \\\hline
+	 \cite{hommelhoff_2006} & W & 80 & 800 & 8 & & & \\\hline
+	 \cite{dombi_2010} & Ag & 2.8 & 795 & 5 & & $4.1\pm 0.1$ & 6.1\\
+	 (SPP Einkopplung an & rauer & Oberfl.) & & & & &\\\hline
+	\end{tabular}
+	\caption{Messungen von anderen Messungen mit ähnlichen Aufbauten.}
+	\label{tab:tip_andere_gruppen}
+\end{table}
+
+
 
 \section{Mechanismen der Photoemission}
 Photoemission (PES) beschreibt die Auslösung von Elektronen aus Materie durch Bestrahlung mit Licht.
@@ -344,10 +374,11 @@ Die sogenannte Feldverstärkung ist das Verhältnis von verstärktem zu eingestr
 Für die hier verwendete Spitze beträgt sie nach \cite{benni_15} für den beleuchteten Apex $3.8$ .
 Dies ist nach \cite{thomas_2016} ein häufig zu findender Wert, auch wenn es für Goldspitzen auch viele andere Messungen gab (z.B. \cite{ropers_2007} mit einem Wert von 10).\newline\newline
 
-Im folgenden wird genauer auf die Theorie hinter der Multiphoton-PES eingegangen.
+Im folgenden wird die Theorie der Multiphoton-PES mit Hilfe einer störungstheoretischen Herleitung erklärt.
 
-\subsection{Störungstheoretische Herleitung}
-Die in Kapitel \ref{sec:mechanismen} beschriebene Multi-Photon-Emission lässt sich anhand einer störungstheoretischen Betrachtung herleiten.
+\section{Störungstheoretische Herleitung}
+Die im letzten Kapitel beschriebene Multi-Photon-Emission lässt sich anhand einer störungstheoretischen Betrachtung herleiten.
+Die Herleitung erfolgt dabei analog zu der Literatur von \cite[S. 29ff]{faisal}
 Dabei wird das Atompotential $H_0$ durch das zeitabhängige Potential des elektrischen Feldes erweitert, wodurch die Schrödingergleichung für die Wellenfunktion $\psi$
 \begin{align}
 	i\hbar\pdv{}{t}\Psi(t)=[H_0+ V(t)]\Psi(t)
@@ -860,6 +891,7 @@ Als Strahler, der sich ungefähr in der Mitte zwischen Apex und Gitter befand k�
 
 
 \section{Effekte zur <+Linearisierung+> der Daten}
+\label{sec:erklaerung_lin}
 Die Daten in Grafik \ref{fig:ges_messung} scheinen zunächst annähernd linear zu sein.
 Bei genauerer Betrachtung fällt auf, dass sich Ansätze von Plateaus bei den ganzzahligen Nichtlinearitäten ausmachen lassen.
 Fittet man die ermittelten Ordnungen linear, so ergibt sich eine Steigung von $\SI{-2}{\per\eV}$.

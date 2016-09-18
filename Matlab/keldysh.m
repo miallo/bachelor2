@@ -17,9 +17,9 @@ gamma_max = sqrt(phi_max/(2*Up_max));
 
 display(['Gamma_max = ' num2str(gamma_max)])
 
-
-r  = 45e-9; %Spitzenradius
-U  = 100;   %Spannung
+k  = 5;
+r  = 40e-9; %Spitzenradius
+U  = 50;   %Spannung
 F  = U/k/r; %Elektrisches Feld
 dW = sqrt(eV^3*F/(4*pi*eps0)); %Schottky-Reduktion durch DC-Feld
 display(['dW = ' num2str(dW/eV) 'eV'])

@@ -5,46 +5,55 @@ The style file: apalikeGerman.bst
 Database file #1: bthesis_datenbank.bib
 Warning--I didn't find a database entry for "feldverstaerkung"
 Warning--to sort, need author or key in orpheus_tuningcurve
+Warning--empty title in barwick_2007
+Warning--empty title in bormann_2010
+Warning--empty title in bormann_ea_2015
+Warning--empty title in dombi_2010
+Warning--empty title in hommelhoff_2006
+Warning--empty title in park_2012
+Warning--empty title in schenk_2010
 Warning--empty note in thomas_2016
-You've used 25 entries,
+Warning--empty title in vogelsang_2015
+Warning--empty title in wimmer_2014
+You've used 35 entries,
             1935 wiz_defined-function locations,
-            625 strings with 7811 characters,
-and the built_in function-call counts, 9189 in all, are:
-= -- 897
-> -- 348
-< -- 16
-+ -- 124
-- -- 114
-* -- 780
-:= -- 1635
-add.period$ -- 74
-call.type$ -- 25
-change.case$ -- 178
-chr.to.int$ -- 25
-cite$ -- 28
-duplicate$ -- 342
-empty$ -- 645
-format.name$ -- 148
-if$ -- 1766
+            668 strings with 8948 characters,
+and the built_in function-call counts, 13307 in all, are:
+= -- 1244
+> -- 642
+< -- 17
++ -- 230
+- -- 220
+* -- 1205
+:= -- 2404
+add.period$ -- 95
+call.type$ -- 35
+change.case$ -- 272
+chr.to.int$ -- 35
+cite$ -- 47
+duplicate$ -- 473
+empty$ -- 857
+format.name$ -- 264
+if$ -- 2505
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 127
-num.names$ -- 72
-pop$ -- 132
+missing$ -- 33
+newline$ -- 168
+num.names$ -- 102
+pop$ -- 245
 preamble$ -- 1
-purify$ -- 180
+purify$ -- 283
 quote$ -- 0
-skip$ -- 272
+skip$ -- 363
 stack$ -- 0
-substring$ -- 664
-swap$ -- 32
+substring$ -- 784
+swap$ -- 42
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 148
-warning$ -- 2
-while$ -- 72
+type$ -- 206
+warning$ -- 11
+while$ -- 92
 width$ -- 0
-write$ -- 318
-(There were 3 warnings)
+write$ -- 430
+(There were 12 warnings)
