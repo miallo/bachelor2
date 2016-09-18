@@ -450,7 +450,7 @@ Dies entspricht dem klassischen Einsteinschen Photoeffekt.
 Der Störungsterm zweiter Ordnung ($A_2$-Term) ist dann wie zu erwarten proportional zu $E^4\propto I^2$ und entspricht einem zwei-Photonen-Prozess.
 Für Terme höherer Ordnung lässt sich zeigen, dass die Übergangswahrscheinlichkeit der Therme $N$-ter Ordnung mit $I^N$ skaliert.
 
-
+\newpage
 \section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
 Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden (s. \cite{bechtel_1977} und \cite{girardeau_1995}).
 Nach ihr setzt sich der Elektronenstrom aus
@@ -738,12 +738,12 @@ Deshalb wurden bei den hier vorgestellten Messungen immer Spitze und Supressor a
 
 \chapter{Ergebnisse}
 In diesem Kapitel soll die Auswertung der Daten präsentiert werden.\\\\
-In Abb. \ref{fig:e} sind beispielhaft für Wellenlängen von $\SI{480}{\nano\meter}$, $\SI{520}{\nano\meter}$ und $\SI{690}{\nano\meter}$ die Anzahl der Elektronen gegen die Intensität des Laserstrahls doppellogarithmisch aufgetragen.
+In Abb. \ref{fig:e} ist beispielhaft für Anregungswellenlängen von $\SI{480}{\nano\meter}$, $\SI{520}{\nano\meter}$ und $\SI{690}{\nano\meter}$ der Elektronenstrom gegen die mittlere Leistung des Laserstrahls doppellogarithmisch aufgetragen.
 Es lässt sich eindeutig ein linearer Zusammenhang erkennen, welcher ebenfalls gefittet ist.
 Bei sehr schwachen Laserintensitäten ist offensichtlich, dass die Streuung der Werte stark zunimmt.
 Da dies jedoch mit einer unzureichenden Anzahl an Elektronen in den Bildern zu erklären ist, wurden die linearen Regressionen ohne Aufnahmen mit weniger als 10 Elektronen pro Sekunde durchgeführt.
 Betrachtet man die aufgenommenen Bilder für sehr hohe Leistungen, so wird festgestellt, dass ab einer gewissen Elektronendichte viele Elektronen nicht mehr gezählt werden.
-Dies rechtfertigt das Aussortieren von Werten wie in Grafik \ref{fig:520e} was von Hand geschah.
+Dies rechtfertigt, dass manche Werte wie in Grafik \ref{fig:520e} nicht in der linearen Regression berücksichtigt werden.
 
 Auffällig ist bei den Messdaten aus Grafik \ref{fig:e}, dass die ermittelten Nichtlinearitäten nicht ganzzahlig sind.
 Dies wird noch deutlicher, wenn man die Steigung der Geraden gegen die Wellenlänge aufträgt.\\\\
@@ -766,28 +766,42 @@ Dies wird noch deutlicher, wenn man die Steigung der Geraden gegen die Wellenlä
 
 \begin{figure}[h]
 	\centering
-	\includegraphics{Vergleich}
+	\includegraphics[width=0.8\linewidth]{Vergleich}
 	\caption{Vergleich der ersten mit der zweiten Messung der Nichtlinearität in dem doppelt vermessenen Wellenlängenbereich. Zu erkennen ist, dass die beiden Messreihen vergleichbare Ergebnisse lieferten und meist in den Fehlerintervallen der jeweils anderen.}
 	\label{fig:ges_messung}
 \end{figure}
 
-Plottet man wie in Abb. \ref{fig:ges_messung} zu sehen die Steigung gegen die Wellenlänge, so ergibt sich nicht das einfachste zu erwartende Bild einer Treppenfunktion was aus Gleichung \ref{eq:nomega} folgt.
+Plottet man wie in Abb. \ref{fig:ges_messung} zu sehen die Steigung gegen die Wellenlänge, so ergibt sich nicht das einfachste zu erwartende Bild einer Treppenfunktion, was aus Gleichung \ref{eq:nomega} folgen würde.
 Stattdessen sind die Daten annähernd linear mit kleinen Plateaus um die ganzzahligen Nichtlinearitäten.
+Effekte, welche zu einer ``Linearisierung'' der Stufenfunktion führen können sind thermisches Heizen, niederenergetische Elektronen, das $d$-Band, thermisches Tunneln und unterschiedliche Facetten.
+Dies wird in Kapitel \ref{sec:erklaerung_lin} weiter ausgeführt.
 Die eingezeichneten Fehler sind eine Kombination der Fehler aus den Fits und einem systematischen Fehler, der mit 0.1 angenommen wurde.
-<+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx+>
-Die Gründe hierfür können vielfältig sein: Zum Beispiel wurden die meisten bisherigen Messungen der Austrittsarbeit wie in Tabelle \ref{tab:austrittsarbeit} an einer einzigen Kristallfacette durchgeführt.
-Eine Spitze hat jedoch viele Kristallebenen an der Oberfläche welche alle unterschiedliche Austrittsarbeit besitzen.
-Daher erhält man eine Überlagerung der verschiedenen Austrittsarbeiten.
-Nicht ganzzahlige Nichtlinearitäten bekommen so eine sinnvolle Erklärung, da sich die verschiedenen Ordnungen an unterschiedlichen Flächen überlagern.
-Dies führt dazu, dass man sowohl energiearme, als auch energiereiche Elektronen detektieren können müsste.
-Dies wäre im Rahmen einer zukünftigen Messreihe empfehlenswert zu überprüfen.
-Sollte die Hypothese der Überlagerung verschiedener Multiphotonen-Prozesse zutreffen, so kann man bei größeren Wellenlängen keine energetisch schmalbandigen Elektronen zum Beispiel für das Ultrafast Low Energy Electron Defraction (ULEED) Experiment mit dieser Methode bereitstellen.
-Dies benötigt sehr schmalbandige Elektronenspektren, damit die Elektronenpulse durch Dispersion nicht zu stark verlängert werden, was die Zeitauflösung verringern würde \cite{gahlmann_2008}.
-Weitere Effekte, welche zu einer ``Linearisierung'' der Stufenfunktion führen können sind in Kapitel \ref{sec:erklaerung_lin} aufgeführt.
 
-In Abb. \ref{fig:ges_energie} ist die Nichtlinearität aus Diagramm \ref{fig:ges_messung} multipliziert mit der Photonenenergie der jeweiligen Wellenlänge aufgetragen.
-Dies entspricht der mittleren Energie, die bei einem Emissionsprozess freigesetzt wird.
-Zu erkennen ist, dass bei $\SI{480}{\nano\meter}$ eine Energie von $\SI{5.49}\electronvolt$ vorliegt, was gut zu den Literaturwerten passt.
+\newpage
+In Abb. \ref{fig:ges_messung} sind zwei Messreihen eingetragen.
+Diese sind mit gleichen Parametern aufgenommen worden, jedoch wurde bei den in schwarz eingezeichneten Daten vermehrt darauf geachtet, dass die Position des Laserstrahls auf der Spitze korrekt ist.
+Zu erkennen ist, dass die Kurven überwiegend in guter Übereinstimmung liegen und die Ausreißer durch Datenpunkte der jeweils anderen Kurve ausgeglichen werden.
+Allerdings ist es nicht auszuschließen, dass manche der Messwerte in blau nicht am Apex, sondern an dem nächsten hellen Spot $\SI{20}{\micro\meter}$ von der Spitze entfernt aufgenommen wurden.
+Hier wird ein Defekt vermutet, welcher ebenfalls zu einem starken Elektronensignal führt.
+Dies führt dazu, dass manche Werte deutliche Abweichungen von der Kurve zeigen.
+Es ist vermutlich nicht darin begründet, dass die Messungen sehr streuen, da erneute Messungen an exakt den selben Positionen kaum Abweichungen hatten.\\\\
+
+In Grafik \ref{fig:stufen} sind zusätzlich zu den Messwerten aus Abb. \ref{fig:ges_messung} noch Stufenfunktionen mit unterschiedliche Austrittsarbeiten eingezeichnet.
+Deutlich zu erkennen ist, dass die Werte oberhalb der Kurve für die niedrigste in der Literatur angegebene Austrittsarbeit liegt.
+Die Daten liegen auch alle unterhalb der Austrittsarbeit des $d$-Bandes.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics{Stufen}
+	\caption{Daten aus Abb. \ref{fig:ges_messung} zusammen mit dem einfachsten denkbaren Modell, welches Stufen vorhersagt. Eingetragen sind in grün mit \SI{4.8}{\eV} Austrittsarbeit ein niedriger Wert der Fermienergie aus \cite{trasatti_operative_1974}, welcher die Daten nach unten hin begrenzen sollte. In rot ist der höchste Wert einer Austrittsarbeit für eine Facette nach \cite{crc} eingezeichnet als Referenz, um zu sehen, ob Elektronen ausschließlich von der Fermikante kommen. Wäre dies der Fall, so müssten die Daten zwischen den beiden Kurven liegen. In pink ist dann die ungefähre Lage des $d$-Bandes eingezeichnet. Klar zu erkennen ist, dass die Messwerte zwischen der grünen und der pinken, jedoch auf beiden Seiten der roten Kurve liegen.}
+	\label{fig:stufen}
+\end{figure}
+
+\newpage
+Weitere Einblicke in die Daten liefert die mittlere Energie, die bei einem Emissionsprozess umgesetzt wird.
+Dies wurde in Abb. \ref{fig:ges_energie} für die Nichtlinearitäten aus Diagramm \ref{fig:ges_messung} getan, indem sie mit der Photonenenergie der jeweiligen Wellenlänge multipliziert wurden.
+Zu erkennen ist, dass der niedrigste Wert bei $\SI{480}{\nano\meter}$ eine Energie von $\SI{5.49}\electronvolt$ vorliegt, was gut zu den Literaturwerten passt.
+Höhere Werte lassen sich zum Beispiel durch kinetische Energie der Elektronen oder die in Kap. \ref{sec:erklaerung_lin} aufgeführten Effekte erklären.
 %Dass die Gesamtenergie bei einem Emissionsprozess mit größeren Wellenlängen ansteigt, lässt sich damit erklären, dass bei größeren benötigten Photonenanzahlen die Wahrscheinlichkeit, dass ein weiteres zeitgleich ankommt, größer ist.
 Bei höheren Ordnungen $N$ steigt der relative Wirkungsquerschnitt $\sigma_N$ aus Gleichung \ref{eq:wirkungsquerschnitt} von Prozessen mit einer ähnlichen Anzahl an Photonen.
 Mit dieser zusätzlichen Energie ist es dann jedoch möglich, nicht nur Elektronen von der Fermi-Kante, sondern auch aus dem $d$-Band zu emittieren.
@@ -802,22 +816,10 @@ Da es von diesen jedoch nach Kapitel \ref{sec:zustandsdichte} um eine Größenor
 \begin{figure}[h!]
 \centering
 \includegraphics{Gesamtenergie}
-\caption{Auftragung der Nichtlinearität aus Abb. \ref{fig:ges_messung} multipliziert mit der jeweiligen Photonenenergie.}
+\caption{Auftragung der Nichtlinearität aus Abb. \ref{fig:ges_messung} multipliziert mit der jeweiligen Photonenenergie. Zusätzlich eingezeichnet in grün ist eine Gesamtenergie von \SI{5.4}{\eV}, welche über den Austrittsarbeiten aus Tabelle \ref{tab:austrittsarbeit} liegt wenn man den Schottky-Effekt von $\SI{0.7}{\eV}$ mit einberechnet.}
 \label{fig:ges_energie}
 \end{figure}
-\newpage
-In Abb. \ref{fig:ges_messung} ist der Wellenlängenbereich aufgetragen, in dem doppelt gemessen wurde.
-Zu erkennen ist, dass die Kurven überwiegend in guter Übereinstimmung liegen und die Ausreißer durch Datenpunkte der jeweils anderen Kurve ausgeglichen werden.
-Allerdings ist es nicht auszuschließen, dass manche der Messwerte in blau nicht am Apex, sondern an dem nächsten hellen Spot $\SI{20}{\micro\meter}$ von der Spitze entfernt aufgenommen wurden.
-Dies führt dazu, dass manche Werte deutliche Abweichungen von der Kurve zeigen.
-Es ist vermutlich nicht darin begründet, dass die Messungen sehr streuen, da erneute Messungen an den selben Positionen kaum Abweichungen hatten.
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics{Stufen}
-	\caption{Daten aus Abb. \ref{fig:ges_messung} zusammen mit dem einfachsten denkbaren Modell, welches Stufen vorhersagt. Eingetragen sind in grün mit \SI{4.8}{\eV} Austrittsarbeit ein niedriger Wert der Fermienergie aus \cite{trasatti_operative_1974}, welcher die Daten nach unten hin begrenzen sollte. In rot ist der höchste Wert einer Austrittsarbeit für eine Facette nach \cite{crc} eingezeichnet als Referenz, um zu sehen, ob Elektronen ausschließlich von der Fermikante kommen. Wäre dies der Fall, so müssten die Daten zwischen den beiden Kurven liegen. In pink ist dann die ungefähre Lage des $d$-Bandes eingezeichnet. Klar zu erkennen ist, dass die Messwerte zwischen der grünen und der pinken, jedoch auf beiden Seiten der roten Kurve liegen.}
-	\label{fig:stufen}
-\end{figure}
 
 \newpage
 In Grafik \ref{fig:regenbogen} sind ausgewählte Messreihen zusammen dargestellt.
@@ -903,20 +905,12 @@ Die folgenden Effekte können zu einer Glättung der Stufenfunktion führen:
 	\item Zudem führen die unterschiedlichen Kristall-Facetten mit unterschiedlichen Austrittsarbeiten zu einer Glättung der Kurve. Dies ist der Fall, da sich die unterschiedlichen Steigungen überlagern in den Bereichen, wo die Flächen eine unterschiedliche Ordnung in der Nichtlinearität haben.
 \end{itemize}
 
-% \begin{itemize}
-% \item Thermisches Heizen $\Rightarrow$ höherenergetische Elektronen
-% \item Absorption von niederenergetischeren Elektronen
-% \item $d$-Band
-% \item Schottky-Reduktion / heiße Elektronen tunneln
-% \item Facetten mit unterschiedlicher Austrittsarbeit
-% \end{itemize}
+Dies führt dazu, dass man sowohl energiearme, als auch energiereiche Elektronen detektieren können müsste.
+Dies wäre im Rahmen einer zukünftigen Messreihe empfehlenswert zu überprüfen.
+Sollte die Hypothese der Überlagerung verschiedener Multiphotonen-Prozesse zutreffen, so kann man bei größeren Wellenlängen keine energetisch schmalbandigen Elektronen zum Beispiel für das Ultrafast Low Energy Electron Defraction (ULEED) Experiment mit dieser Methode bereitstellen.
+Dies benötigt sehr schmalbandige Elektronenspektren, damit die Elektronenpulse durch Dispersion nicht zu stark verlängert werden, was die Zeitauflösung verringern würde \cite{gahlmann_2008}.
 
 
-
-
-
-
-%\chapter{Zusammenfassung}
 
 
 \appendix
