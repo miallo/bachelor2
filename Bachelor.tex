@@ -213,17 +213,16 @@ Um auch die temporale Auflösung zu erhalten, ist eine Elektronenquelle notwendi
 Eine Lösungsmöglichkeit besteht darin, Nanospitzen mit Femtosekunden-Laserpulsen zu beleuchten.
 Die kleine Emissionsfläche, die durch Feldverstärkung und elektrostatische Felder auf den nanometrischen Apex begrenzbar ist, gewährleistet eine hohe räumliche Kohärenz der $e^-$-Pulse.
 Dieser Ansatz wurde bisher schon erfolgreich in der ultraschnellen niedrigenergetischen Beugung von Elektronen (ULEED) und der ultraschnellen Transmissionselektronenmikroskopie (UTEM) verwendet (z.B. \cite{gulde_ultrafast_2014} und \cite{barwick_4d_2008}).
-<+Dabei wird die hohe Zeitauflösung durch das Pump-Probe verfahren erreicht, bei dem das Experiment sehr häufig wiederholt wird und durch Aufnahmen zu unterschiedlichen Zeitpunkten ein Verlauf aufgenommen wird.
+Dabei wird die hohe Zeitauflösung durch das Pump-Probe verfahren erreicht, bei dem das Experiment sehr häufig wiederholt wird und durch Aufnahmen zu unterschiedlichen Zeitpunkten ein Verlauf aufgenommen wird.
 Ein Laserpuls regt beispielsweise einen Phasenübergang an.
 Der Elektronenpuls trifft nun mit variabler Verzögerung auf die zu untersuchende Position und gibt ein variables Signal abhängig von dem momentanen Zustand der Probe zurück.
-Dies ist allerdings nur machbar bei reversiblen Prozessen.+>
+Dies ist allerdings nur machbar bei reversiblen Prozessen.
 
 Um ein Elektron zu emittieren kann entweder die Energie eines einzelnen Photons ausreichen, um die Austrittsarbeit zu überwinden, oder es muss Multiphotonemission stattfinden.
 Dabei treffen $N$ Photonen annähernd gleichzeitig auf ein Elektron.
 Die Wahrscheinlichkeit der Emission ist proportional zu $I^N$, wobei $I$ die Intensität des einfallenden Lichtes beschreibt.
 
-Allerdings stellten dabei zahlreiche Publikationen (s. Tab. \ref{tab:komische_steigungen}) fest, dass bei der Intensität der emittierten Elektronen eine nicht erwartete Anzahl an benötigten Photonen benötigt wird.
-So stellte man bei vielen Experimenten beispielsweise eine benötigte Anzahl von $4.4$ Photonen zur Auslösung fest.
+Allerdings stellten dabei zahlreiche Publikationen (s. Tab. \ref{tab:tip_andere_gruppen}) fest, dass bei der Intensität der emittierten Elektronen eine nicht erwartete Anzahl an benötigten Photonen benötigt wird.
 
 In dieser Arbeit soll diese nichtlineare Photoemission einer systematischen Untersuchung über einen breiten Wellenlängenbereich erfolgen. Im genauen wird eine Gold-Nanospitze mit fs-Pulsen mit \SI{1.5}{\eV} bis \SI{2.7}{\eV} Photonenergie beleuchtet.
 
@@ -237,24 +236,25 @@ Im Folgenden werden zunächst die Grundlagen der Arbeit erläutert, dann das Exp
 \chapter{Grundlagen}
 In diesem Kapitel werden die grundlegenden Begriffe und Formeln für diese Arbeit eingeführt, sowie die dahinterstehende Theorie erklärt.
 Zunächst werden die Eigenschaften der Austrittsarbeit erklärt.
-Dann wird ein Überblick über die verschiedenen Mechanismen der Photoemission gegeben, bevor die Multiphoton-Photoemission mit Hilfe der Fowler-DuBridge-Theorie hergeleitet wird.
+Dann wird ein Überblick über die verschiedenen Mechanismen der Photoemission gegeben, bevor die Multiphoton-Photoemission mit Hilfe der Störungsrechnung hergeleitet wird.
+Die für diese Arbeit wichtigsten Aspekte werden mit der Fowler-DuBridge-Theorie erklärt.
 Folgend wird der Schottky-Effekt erläutert, bevor abschließend eine kurze Bemerkung über die elektronische Zustandsdichte gemacht wird.
 
 
 \section{Austrittsarbeit}
-Mit dem Begriff Austrittsarbeit wird die Energie, die ben\"otigt wird, um ein Elektron aus einem Atom oder Festk\"orper zu entfernen.
+Mit dem Begriff Austrittsarbeit wird die Energie bezeichnet, die benötigt wird, um ein Elektron aus einem Atom oder Festkörper zu entfernen.
 Sie ist material- und strukturspezifisch. 
 
-F\"ur das in dieser Arbeit verwendete Gold sind in Tabelle \ref{tab:austrittsarbeit} einige Messwerte aufgef\"uhrt, welche mit verschiedensten Methoden ermittelt wurden.
-Zu erkennen ist, dass sie von der jeweiligen Kristallfl\"ache abh\"angt.
+Für das in dieser Arbeit verwendete Gold sind in Tabelle \ref{tab:austrittsarbeit} einige Messwerte aufgeführt, welche mit verschiedensten Methoden an ebenen Oberflächen ermittelt wurden.
+Zu erkennen ist, dass sie von der jeweiligen Kristallfläche abhängt.
 Aber auch bei der gleichen Kristallebene finden sich Unterschiede in den Ergebnissen (z.B. gibt es zu der (1 1 1)-Ebene Messwerte von 5.3 bis \SI{5.5}{\eV})
 
 
 \begin{table}[h!]
 \centering
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|l|c|c|c|}
 \hline 
-Quelle und Jahr& Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\ 
+Quelle & Kristallfläche & Austrittsarbeit [\unit{eV}] & Methode \\ 
 \hline\hline
 \cite{fowler_1931} & ? 			& 4.9 				& th \\\hline
 \cite{dubridge_further_1932} & ? 	& 4.81 			& ph \\\hline
@@ -281,27 +281,27 @@ Desshalb sind auch die Daten interessant, welche andere Arbeitsgruppen mit ähnl
 Einige davon sind in Tabelle \ref{tab:tip_andere_gruppen} dargestellt.
 Zu erkennen ist, dass sich die Austrittsarbeit zum Teil stark von der einer planen Oberfläche unterscheidet.
 
-\begin{table}
+\begin{table}[h]
 	\centering
 	\begin{tabular}{|l|l|r|r|r|r|r||r|}
 \hline	Quelle 	& Mat- & Radius & Wellenl. & Pulsl. & $U_\text{ext}$ & Nichtlin. & Energie\\
 & erial & [nm] & [nm] & [fs] & [V] & & ges. [eV]\\\hline\hline
 
-		\cite{bormann_2010} & Au   & 20		 & 830 			&	 & 	& (4-)5 & 6-7.5 \\\hline
-		\cite{park_2012} & & & 1000-1500 & 30 & & & \\\hline
-		\cite{wimmer_2014} & Au & 7 & 800 & 50 & & & \\\hline
-		\cite{vogelsang_2015} & Au & & 1600 & 16 & & 7 & 5.4\\\hline
-		\cite{benni_15} & Au & 22 & 800 & 10 & & 4.7 & 7.3\\\hline
-		\cite{schenk_2010} & W & $50\pm10$ & 800 & 6.5 & 150 & $\approx 3$ & $\approx 5.7$\\\hline
-	& & & & & 450 & 2 & 4.9\\
-	 \cite{barwick_2007} & W & $\approx 40$ & 810 & 30 & 300 & 3 & 6.1 \\
-	 & & & & & 50 & 4 & 6.7\\\hline
-	 \cite{bormann_ea_2015} & W & 25 & 400 & 50 & & & \\\hline
-	 \cite{hommelhoff_2006} & W & 80 & 800 & 8 & & & \\\hline
-	 \cite{dombi_2010} & Ag & 2.8 & 795 & 5 & & $4.1\pm 0.1$ & 6.1\\
-	 (SPP Einkopplung an & rauer & Oberfl.) & & & & &\\\hline
+	\cite{bormann_2010} & Au   & 20		 & 830 			&	 & 	& (4-)5 & 6-7.5 \\\hline
+	\cite{park_2012} & & & 1000-1500 & 30 & & & \\\hline
+	\cite{wimmer_2014} & Au & 7 & 800 & 50 & & & \\\hline
+	\cite{vogelsang_2015} & Au & & 1600 & 16 & & 7 & 5.4\\\hline
+	\cite{benni_15} & Au & 22 & 800 & 10 & & 4.7 & 7.3\\\hline
+	\cite{schenk_2010} & W & $50\pm10$ & 800 & 6.5 & 150 & $\approx 3$ & $\approx 5.7$\\\hline
+				& & & & & 450 & 2 & 4.9\\
+	\cite{barwick_2007} & W & $\approx 40$ & 810 & 30 & 300 & 3 & 6.1 \\
+				& & & & & 50 & 4 & 6.7\\\hline
+	\cite{bormann_ea_2015} & W & 25 & 400 & 50 & & & \\\hline
+	\cite{hommelhoff_2006} & W & 80 & 800 & 8 & & & \\\hline
+	\cite{dombi_2010} & Ag & 2.8 & 795 & 5 & & $4.1\pm 0.1$ & 6.1\\
+	(SPP Einkopplung an & rauer & Oberfl.) & & & & &\\\hline
 	\end{tabular}
-	\caption{Messungen von anderen Messungen mit ähnlichen Aufbauten.}
+	\caption{Messungen mit ähnlichen Aufbauten. Die gesamte Energie ist berechnet durch Photonenenergie, Nichtlinearität und Schottky-Effekt soweit die Parameter angegeben waren.}
 	\label{tab:tip_andere_gruppen}
 \end{table}
 
@@ -325,14 +325,12 @@ PES lässt sich in mindestens fünf Bereiche unterteilen, welche sich in der ein
 	Kann man diese messen, so kann man Rückschlüsse auf die Austrittsarbeit schließen und mit der Photoelektron Spektroskopie eine Analyse der Inhaltsstoffe einer Probe machen.
 	Für typische Metalle gilt $\Phi\approx4\ldots\SI7\electronvolt$ was einer Wellenlänge von höchstens \SI{300}{\nm} entspricht \cite{crc}.
 	Höhere Intensitäten des eingestrahlten Lichts führen zu einem größerem Elektronenstrom, jedoch nur, wenn die Photonenenergie ausreichend groß ist.
-e
 	\item \textit{Multi-Photon-Emission}
-	Nach Einstein ist nur die Photonenenergie ausschlaggebend für die Fähigkeit des Lichtes, Elektronen zu emmittieren.
-	Allerdings trifft dies nur für kleine Intensitäten zu, da im Rahmen einer störungstheoretischen Betrachtung des Emissionsprozesses gezeigt werden kann, dass für große Intensitäten des eingestrahlten optischen Feldes die Wahrscheinlichkeit mit $I^N$ ansteigt, dass $N$ Photonen <+annähernd gleichzeitig+> auftreffen und wechselwirken.
-	Dann steht die Summe der Einzelenergien zur Verfügung.
-	Dann berechnet sich die kinetische Energie der Elektronen aus der folgenden Formel:
+	Nach Einstein ist nur die Photonenenergie ausschlaggebend für die Fähigkeit des Lichtes, Elektronen zu emittieren.
+	Allerdings trifft dies nur für kleine Intensitäten zu, da im Rahmen einer störungstheoretischen Betrachtung des Emissionsprozesses (s. Abschnitt \ref{sec:stoerungsrechnung}) gezeigt werden kann, dass für große Intensitäten des eingestrahlten optischen Feldes die Wahrscheinlichkeit mit $I^N$ ansteigt, dass $N$ Photonen annähernd gleichzeitig auftreffen und wechselwirken.
+	Dann steht die Summe der Einzelenergien zur Verfügung und die kinetische Energie der Elektronen berechnet sich aus der folgenden Formel:
 	\begin{align*}
-		W_\text{El}=N\cdot W_\text{Ph}-\Phi
+		W_\text{El}=N\cdot W_\text{Ph}-\Phi \qquad .
 	\end{align*}
 %	Im Experiment lässt sich $N$ durch die Variation der eingestrahlten Lichtintensität bei gleichzeitiger Messung des Elektronenstroms bestimmen.
 	
@@ -343,7 +341,6 @@ e
 	\item \textit{Photo-assisted field-emission} Dabei tunnelt das Elektron analog zur optischen Feldemission heraus, wird jedoch vorher durch ein oder mehrere Photonen angeregt, was die Tunnelwahrscheinlichkeit erhöht.
 	
 	\item \textit{Above Threshhold Ionisation}
-		<+Ist dies nur bei Multiphoton PE möglich oder tritt das auch bei Feldemission auf?+>
 	Absorbiert ein Elektron mehr Photonen, als es zum Überwinden der Austrittsarbeit benötigen würde, so kann es deutlich höhere kinetische Energien besitzen, als anders ausgelöste.
 	
 \end{itemize}
@@ -354,8 +351,8 @@ Dieser berechnet sich durch
 	\label{eq:keldysh}
 \end{align}
 
-Ist $\gamma\ll 1$ ($F$ groß $\Rightarrow$ optisches Feld gr\"o{\ss}er als atomares Potential), so wird die Emission bestimmt durch das Tunneln der Elektronen.
-Für $\gamma\gg 1$ ($F$ klein $\Rightarrow$ atomares Potential \"uberwiegt) werden die Atome durch Multi-Photon Prozesse ionisiert.\newline
+Ist $\gamma\ll 1$ ($F$ groß $\Rightarrow$ optisches Feld grö{\ss}er als atomares Potential), so wird die Emission bestimmt durch das Tunneln der Elektronen.
+Für $\gamma\gg 1$ ($F$ klein $\Rightarrow$ atomares Potential überwiegt) werden die Atome durch Multi-Photon Prozesse ionisiert.\newline
 Die in dieser Arbeit verwendeten Parameter führen zu $12\leq\gamma\leq22$.
 Es ist also Multi-Photon-PES zu erwarten.
 
@@ -367,9 +364,9 @@ In der Formel wird mit $U_{p}$ die ponderomotive Energie bezeichnet, welche der 
 Hierbei bezeichnet $e$ die Elementarladung, $m_e$ die Elektronenmasse, sowie $F$ die elektrische Feldstärke an der Spitze, welche mit der Frequenz $\omega$ oszilliert.
 Die kinetische Energie der Elektronen ist nach dem Auslösen nicht konstant, da das elektrische Feld sich verändert (zeitlich und räumlich) und so das Elektron immer wieder beschleunigt und verzögert wird.
 
-Die elektrische Feldst\"arke wird durch die Feldverst\"arkung an Nanostrukturen verst\"arkt.
-Dies bedeutet, dass die Feldlinien, welche senkrecht auf der Oberfläche stehen, bei kleinen Krümmungsradien dichter beieinander liegen, was einem st\"arkerem Feld entspricht (s. \textit{Lightning-Rod-Effect}).
-Für eine Kugel mit Radius $r$, an der eine Spannung $U$ anliegt, ist das elektrische Feld $E=\frac{U}{r}$ nach \cite{feldverstaerkung}.
+Die elektrische Feldstärke wird durch die Feldverstärkung an Nanostrukturen verstärkt.
+Dies bedeutet, dass die Feldlinien, welche senkrecht auf der Oberfläche stehen, bei kleinen Krümmungsradien dichter beieinander liegen, was einem stärkerem Feld entspricht (s. \textit{Lightning-Rod-Effect}).
+Für eine Kugel mit Radius $r$, an der eine Spannung $U$ anliegt, ist das elektrische Feld $E=\frac{U}{r}$ (Gaußsches Gesetz für eine Kugel und $\vec E=-\nabla U$).
 Die sogenannte Feldverstärkung ist das Verhältnis von verstärktem zu eingestrahltem Feld.
 Für die hier verwendete Spitze beträgt sie nach \cite{benni_15} für den beleuchteten Apex $3.8$ .
 Dies ist nach \cite{thomas_2016} ein häufig zu findender Wert, auch wenn es für Goldspitzen auch viele andere Messungen gab (z.B. \cite{ropers_2007} mit einem Wert von 10).\newline\newline
@@ -377,9 +374,10 @@ Dies ist nach \cite{thomas_2016} ein häufig zu findender Wert, auch wenn es fü
 Im folgenden wird die Theorie der Multiphoton-PES mit Hilfe einer störungstheoretischen Herleitung erklärt.
 
 \section{Störungstheoretische Herleitung}
+\label{sec:stoerungsrechnung}
 Die im letzten Kapitel beschriebene Multi-Photon-Emission lässt sich anhand einer störungstheoretischen Betrachtung herleiten.
-Die Herleitung erfolgt dabei analog zu der Literatur von \cite[S. 29ff]{faisal}
-Dabei wird das Atompotential $H_0$ durch das zeitabhängige Potential des elektrischen Feldes erweitert, wodurch die Schrödingergleichung für die Wellenfunktion $\psi$
+Die Herleitung erfolgt dabei analog zu der Literatur von \cite[S. 29ff]{faisal} und \cite{laplance_1976}.
+Dabei wird das Atompotential $H_0$ durch das zeitabhängige Potential des elektrischen Feldes erweitert, wodurch die zeitabhängige Schrödingergleichung für die Wellenfunktion $\psi$
 \begin{align}
 	i\hbar\pdv{}{t}\Psi(t)=[H_0+ V(t)]\Psi(t)
 	\label{eq:schroedinger}
@@ -397,8 +395,8 @@ Gleichung \ref{eq:schroedinger} durch
 ersetzen.
 Dabei ist das neue Interaktionspotential $$\hat V(t)=\exp\left( iH_0t/\hbar \right)V(t)\exp\left( -iH_0t/\hbar \right)$$ (i.A. zeitabhängig, auch wenn $V(t)$ zeitunabhängig ist).
 
-Für die Energie-Eigenzustände $\ket i$ des ungestörten Atompotentials gilt dabei $$H_0\ket i=\hbar\omega_i\ket i$$
-Was als bekannt voraus gesetzt wird.
+Die Energie-Eigenzustände $\ket i$ des ungestörten Atompotentials genügen $$H_0\ket i=\hbar\omega_i\ket i$$
+und werden als bekannt vorausgesetzt.
 Eine Lösung für Gleigung \ref{eq:schroedinger_kompakt} ist
 \begin{align}
 	\ket{\psi_i}=\ket i+\left( -i/\hbar \right)\int\limits_{-\infty}^tV(t')\ket{\psi_i(t')}dt'	\label{eq:psi_i}
@@ -453,32 +451,8 @@ Der Störungsterm zweiter Ordnung ($A_2$-Term) ist dann wie zu erwarten proporti
 Für Terme höherer Ordnung lässt sich zeigen, dass die Übergangswahrscheinlichkeit der Therme $N$-ter Ordnung mit $I^N$ skaliert.
 
 
-
-
-% Der Hamiltonian der Wechselwirkung von Elektron und elektromagnetischem Feld lautet nach \cite[S. 130]{sakurai}
-% \begin{align}
-% 	\begin{split}
-% 	H'&=\frac{1}{2m}\left(\boldsymbol p-\frac{e\bold A}{c} \right)^2+e\phi\\\
-% 	&=\frac{p^2}{2m}-\frac{e}{2mc}\left( \boldsymbol p \cdot\bold A+\bold A\cdot\boldsymbol p \right)+\frac{e^2}{2mc^2}\bold A^2+e\phi\qquad .
-% 	\label{eq:kopplung}
-% \end{split}
-% \end{align}
-% Dabei bezeichnet $\boldsymbol p=-i\hbar\nabla$ den kanonischen Impuls-Operator, $\bold A$ das Vektorpotential des Magnetfeldes ($\bold B=\nabla\times \bold A$), $\phi$ das Potential des elektrischen Feldes ($\bold E=-\nabla\phi$).\\\\
-
-
-
-In den Messungen wurde statt der Intensität die Leistung $P$ mit einem Powermeter gemessen.
-Da jedoch die Intensität die eingestrahlte Leistung pro Fläche ist und sich diese durch die Reduzierung der Intensität bei konstanter Wellenlänge nicht ändert, gilt $I\propto P$.
-In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achsenabschnitt, aber keine Steigungsänderung.\newline
-
-
-Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effekt ver\"andert werden.
-
-
-
-
 \section{Fowler-DuBridge-Theorie der Multiphoton-Photoemission}
-Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden\cite{bechtel_1977}\cite{girardeau_1995}.
+Die Multiphoton-PES kann durch die \textsc{Fowler-DuBridge}-Theorie beschrieben werden (s. \cite{bechtel_1977} und \cite{girardeau_1995}).
 Nach ihr setzt sich der Elektronenstrom aus
 \begin{align}
 	J&=\sum_{N=0}^\infty J_N=\sum_N\sigma_NI^N \quad ,\label{eq:photostrom}
@@ -497,12 +471,17 @@ Der Wirkungsquerschnitt ist somit ein Maß für die Wahrscheinlichkeit der $N$-P
 
 Wichtig für diese Arbeit ist die Proportionalität des Elektronenstroms zu der Laserintensität mit der Potenz $N$, sowie die Tatsache, dass $\sigma_N$ für $N\leq\frac{\Phi}{\hbar\omega}$ und $N\gg\frac{\Phi}{\hbar\omega}$ sehr klein ist.\\\\
 
+In den Messungen wurde statt der Intensität die Leistung $P$ mit einem Powermeter gemessen.
+Da jedoch die Intensität die eingestrahlte Leistung pro Fläche ist und sich diese durch die Reduzierung der Intensität bei konstanter Wellenlänge nicht ändert, gilt $I\propto P$.
+In einem doppellogarithmischen Plot verursacht die Proportionalität einen Achsenabschnitt, aber keine Steigungsänderung.\newline
+
+Die Austrittsarbeit kann jedoch zum Beispiel durch den sogenannten Schottky Effekt verändert werden.
 
 \section{Der Schottky-Effekt}
 \label{sec:schottky}
-Der sogenannte \textsc{Schottky}-Effekt erm\"oglicht die Verringerung der Austrittsarbeit durch das Anlegen einer Spannung $U$.
+Der sogenannte \textsc{Schottky}-Effekt ermöglicht die Verringerung der Austrittsarbeit durch das Anlegen einer Spannung $U$.
 Dies wird in der schematischen Abbildung \ref{fig:schottky} dargestellt.
-Dies ist m\"oglich, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen (siehe unverändertes Potential in schwarz mit $U=\SI0\V$).
+Dies ist möglich, da sich Elektron und die induzierte Sipegelladung durch ihr unterschiedliches Vorzeichen in der Ladung anziehen (siehe unverändertes Potential in schwarz mit $U=\SI0\V$).
 Auf langen Distanzen nimmt die Reduktion des Potentials durch die attraktive Bildladung jedoch ab, sodass zum Emittieren ohne zusätzliches Feld noch die volle Austrittsarbeit $E_\infty-E_F$ geleistet werden muss.
 Wirkt jedoch eine elektrische Feldstärke (in diesem Fall eine angelegte Spannung zwischen Spitze und Extraktor, eingezeichnet in rot), so wird das Potential im Vergleich zu dem gestrichelten Fall ohne Spiegelladung um
 \begin{align}
@@ -513,8 +492,8 @@ Wirkt jedoch eine elektrische Feldstärke (in diesem Fall eine angelegte Spannun
 erniedrigt.
 Dabei wird mit $k$ der geometrischer Abschwächungsfaktor bezeichnet.
 Dieser bezieht die Tatsache mit ein, dass Teile des Feldes im Vergleich zu einer Kugel durch den Schaft abgeschirmt werden.
-In der Literatur wird meist $k\approx5$ angenommen (z.B. \cite{}).
-Für die hier verwendeten Parameter Spitzenradius $r=\SI{45}{\nm}$ und angelegte Spannung $U_\text{Tip}=\SI{100}{\V}$ ergibt sich eine Feldstärke von  $F=\SI{0.35}{\V\per\nm}$.
+In der Literatur wird meist $k\approx5$ angenommen (z.B. \cite{barwick_2007} oder \cite{hommelhoff_2006}).
+Für die hier verwendeten Parameter Spitzenradius $r=\SI{45}{\nm}$ und angelegte Spannung $U_\text{Tip}=\SI{100}{\V}$ ergibt sich eine Feldstärke von  $F=\SI{0.44}{\V\per\nm}$.
 Daher wird die Austrittsarbeit um $\Delta W=\SI{0.8}{\eV}$ gesenkt.
 
 
@@ -563,7 +542,7 @@ Aufgrund der Tatsache, dass ein drei-Photonen-Prozess bei gleicher Intensität d
 
 
 \chapter{Experimentelle Vorgehensweise}
-Im Rahmen des folgenden Kapitels soll das verwendete Experiment n\"aher erläutert werden.
+Im Rahmen des folgenden Kapitels soll das verwendete Experiment näher erläutert werden.
 Dazu werden Strahlengang, Kontrolle der Emission durch Supressor-Extraktor-Geometrie und Detektion erläutert.
 Anschließend wird beschrieben, wie aus den Messdaten die Nichtlinearität ermittelt werden kann.\\
 
@@ -571,8 +550,8 @@ Anschließend wird beschrieben, wie aus den Messdaten die Nichtlinearität ermit
 \section{Strahlengang}
 In der hier vorgestellten Arbeit wurde der in Abb. \ref{fig:aufbau} dargestellte Aufbau verwendet.
 Dieser beinhaltet einen fs-Laser (Details s. Kap. \ref{sec:laser}), dessen Leistung mit einem kontinuierlichen ND-Filterrad variabel abgeschwächt werden kann.
-Dieser ist in der Achse der Spitze polarisiert.
-Um die Laserintensit\"at zeitlich zu stabilisieren wird ein Teil des transmittierten Strahls mit einem Beamsplitter auf den Messkopf eines Powermeters geleitet, welches mit einer Feedback-Schleife das Filterrad steuert.
+Der Laserstrahl ist in der Achse der Spitze polarisiert.
+Um die Laserintensität zeitlich zu stabilisieren und zu steuern wird ein Teil des transmittierten Strahls mit einem Beamsplitter auf den Messkopf eines Powermeters geleitet, welches mit einer Feedback-Schleife das Filterrad steuert.
 Der restliche Teil des Strahls wird mit einer in drei Richtungen beweglichen Linse auf die Spitze fokussiert.
 Kleinere Korrekturen der Strahlposition werden so durch einen nicht zentralen Einfall auf die Linse korrigiert.
 
@@ -598,16 +577,14 @@ Dieses kann nun mit einem CCD-Chip aufgenommen werden und dient als Datenquelle 
 \label{sec:laser}
 In dem verwendeten Aufbau wurde ein Lasersystem der Firma \textit{Light Conversion} verwendet.
 Dieses besteht aus einem Pumplaser (\textsc{Pharos}), welcher \SI{200}{\fs} Pulse mit einigen $\unit{mJ}$ Pulsenergie und $\SI{100}{\kilo\hertz}$ Repetitionsrate zum Pumpen des Optisch Parametrischen Verstärkers (\textsc{Orpheus}) bereitstellt.
-Dieser erzeugt wiederum Pulse mit Pulslängen von $\approx \SI{200}{\fs}$ in einem Resonator mit einem nichtlinearen optischen Kristall\cite{orpheus_tuningcurve}.
+Dieser erzeugt wiederum Pulse mit Pulslängen von $\approx \SI{200}{\fs}$ in einem Resonator mit einem nichtlinearen optischen Kristall \cite{orpheus_tuningcurve}.
 Dabei entstehen zwei Laserstrahlen unterschiedlicher Wellenlänge (das sogenannte Signal mit höherer Energie und Idler mit größerer Wellenlänge).
 Um an dem Experiment nur einen der beiden zu bekommen, muss der andere mit einem Wellenlängenseparator getrennt werden.
 Jedoch funktioniert die optisch parametrische Verstärkung nur in einem relativ kleinen spektralen Bereich um die eingestrahlten Frequenzen.
-Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harmonic-Generation (SHG) noch einmal frequenzverdoppelt werden.\\\\
+Wünscht man höhere Energien, so muss der Strahl mit Hilfe der Second-Harmonic-Generation (SHG) noch einmal frequenzverdoppelt werden.
 
+Das Spektrum des Orpheus hat nach \cite{orpheus_tuningcurve} eine FWHM-Breite von $\SI5\nm$ bei einer Wellenlänge von \SI{700}{\nm} und von $\SI6\nm$ bei einer Wellenlänge von \SI{630}{\nm}.\\\\
 
-
-<+Pulslänge+>
-<+Spektrum+>
 
 
 
@@ -660,13 +637,13 @@ Um die Anzahl der Elektronen auf den einzelnen Bildern zu bestimmen, gibt es zwe
 \item Elektronen maschinell zählen: Ein Algorithmus, welcher in jedem Bild die Elektronen zählt.
 	Von Vorteil ist, dass die Helligkeit der einzelnen Elektronen (sollte sie sich bei verschiedenen kinetischen Energien unterscheiden) keinen Einfluss auf die Detektion hat.
 	Der Nachteil ist jedoch, dass möglicherweise falsche Elektronen detektiert werden oder vorhandenen (insbesondere bei hohen Intensitäten) nicht erkannt werden.
-\item Helligkeit integrieren: Die Helligkeit der einzelnen Pixel \"uber das ganze Bild summieren.
-	Vorteilhaft an dieser Methode ist, dass gerade bei hohen Intensit\"aten der Algorithmus zuverl\"assiger ist.
-	Sollten die Elektronen jedoch nicht vergleichbar in der Helligkeit sein (z.B. da die Kamera keine lineare Intensit\"atsskala besitzt),  gibt der Algorithmus eine falsche Anzahl heraus.
+\item Helligkeit integrieren: Die Helligkeit der einzelnen Pixel über das ganze Bild summieren.
+	Vorteilhaft an dieser Methode ist, dass gerade bei hohen Intensitäten der Algorithmus zuverlässiger ist.
+	Sollten die Elektronen jedoch nicht vergleichbar in der Helligkeit sein (z.B. da die Kamera keine lineare Intensitätsskala besitzt),  gibt der Algorithmus eine falsche Anzahl heraus.
 	Insbesondere kleine Anzahlen an Elektronen in einem Bild kann diese Methode nur schlecht ermitteln.
 \end{itemize}
 
-Da die verwendeten Bilder nur eine relativ geringe Anzahl an Elektronen besa{\ss}en, wurde das erste Programm zur Auswertung gew\"ahlt.
+Da die verwendeten Bilder nur eine relativ geringe Anzahl an Elektronen besa{\ss}en, wurde das erste Programm zur Auswertung gewählt.
 Dieses bestimmt zunächst aus Bildern ohne Elektronensignal die toten Pixel, indem er diejenigen aussortiert, welche über 100 Bilder gemittelt mehr als $120\%$ des Mittelwerts haben.
 Dies wurde getan, um nicht versehentlich scheinbare Elektronen zu detektieren, welche aus fehlerhaften Pixeln des CCD-Chips resultieren können.
 
@@ -708,8 +685,8 @@ Die Anzahl und Position der Maxima in den verarbeiteten Daten sollte dann mit de
 In Abb. \ref{fig:460nm_109muW} kann man die ROI eines typischen Bildes erkennen.
 Zu erkennen ist, dass die Elektronen noch räumlich getrennt sind.
 Daher ist es nicht verwunderlich, dass die in Bild \ref{fig:460nm_109muW_e} gefundenen Elektronen in guter Übereinstimmung mit den von Menschen erkannten liegen.
-Einige Punkte, welche man auf dem Bild erkennt nicht detektiert wurden, liegt daran, dass die Farbskala sehr eingeschr\"ankt ist und die Punkte nur sehr schwach sind.
-Die blau umrandeten beispielsweise sind nur wenige Pixel im Durchmesser und k\"onnen so auch durch Rauschen hervorgerufen worden sein und nur f\"ur das Auge dominant wirken.
+Einige Punkte, welche man auf dem Bild erkennt nicht detektiert wurden, liegt daran, dass die Farbskala sehr eingeschränkt ist und die Punkte nur sehr schwach sind.
+Die blau umrandeten beispielsweise sind nur wenige Pixel im Durchmesser und können so auch durch Rauschen hervorgerufen worden sein und nur für das Auge dominant wirken.
 
 Bei einer zu großen Elektronenanzahl (bzw. Belichtungszeit) kann der Algorithmus zwischen einzelnen Elektronen nicht mehr differenzieren.
 Dies geschieht langsam und von der Mitte, wo die meisten Elektronen auftreffen, beginnend.
@@ -720,14 +697,15 @@ Daher sinkt in diesem Fall die Steigung der Messpunkte zum Beispiel in Diagramm 
 
 
 \section{Intensitätsabhängiger Photostrom}
-Ein wesentliches Ziel der vorliegenden Arbeit ist die Bestimmung des intensit\"atsabh\"angigen Photostroms in Abh\"angigkeit der Wellenl\"ange.
+Ein wesentliches Ziel der vorliegenden Arbeit ist die Bestimmung des intensitätsabhängigen Photostroms in Abhängigkeit der Wellenlänge.
 
-Dabei wird der Photostrom in Abh\"angigkeit der Laserintensit\"at bei konstanter Wellenl\"ange gemessen.
-Nach Gleichung \ref{eq:photostrom} gilt $J\propto I^N$, wodurch sich $N$ als Geradensteigung in einem doppel-logarithmischen Plot ablesen l\"asst.
+Dabei wird der Photostrom in Abhängigkeit der Laserintensität bei konstanter Wellenlänge gemessen.
+Nach Gleichung \ref{eq:photostrom} gilt $J\propto I^N$, wodurch sich $N$ als Geradensteigung in einem doppel-logarithmischen Plot ablesen lässt.
 
-Als größter Störfaktor stellte sich bei den Messungen heraus, dass die Strahlposition sich bei ge\"anderter Wellenlänge verstellte.
+Als größter Störfaktor stellte sich bei den Messungen heraus, dass die Strahlposition sich bei geänderter Wellenlänge verstellte.
 Dies führte dazu, dass der Strahl augenscheinlich bei leichten Korrekturen noch immer am Apex zu sein schien, obwohl er in Wirklichkeit auf einem anderen hellen Spot war.
-Damit l\"asst sich begr\"unden, dass einige Daten deutliche Ausreißer waren, welche an der exakt selben Position auch vergleichbare Werte lieferten.
+In Abb. \ref{fig:hotspots} sind diese dargestellt.
+Damit lässt sich begründen, dass einige Daten deutliche Ausreißer waren, welche an der exakt selben Position auch vergleichbare Werte lieferten.
 Bei einer erneuten Messung unter Beachtung der genauen Position des Apex konnten diese Ausreißer jedoch nicht nachvollzogen werden.
 
 Um sicherzugehen, dass die gezählten Elektronen nur vom Apex kommen können, hätte man die Supressorspannung auf ca. \SI{123}{\V} erhöhen müssen.
@@ -856,9 +834,9 @@ In diesem Abschnitt soll auf mögliche Fehlerquellen eingegangen werden, sowie e
 \section{Stabilität der Laserintensität}
 Die SHG ist sehr sensitiv auf das interne Beampointing, so dass selbst ein relativ geringer Luftzug mit seinen Dichteschwankungen schon deutliche Einbrüche in der Intensität bedeutet.
 Dies bedeutet, dass selbst das Vorbeigehen am Laser Einbrüche von bis zu 50\% an Leistung bewirkte.
-Die Feedback-Schleife war jedoch nicht darauf ausgelegt, kontinuierlich zu regeln, sondern stellte nur zu Beginn jeder Messung die Intensit\"at ein.
+Die Feedback-Schleife war jedoch nicht darauf ausgelegt, kontinuierlich zu regeln, sondern stellte nur zu Beginn jeder Messung die Intensität ein.
 Während die Bilder aufgenommen wurden regelte sie also nicht nach.
-Da jedoch nicht viele Leute an dem Lasersystem vorbeigingen und im späteren Verlauf der Messungen darauf geachtet wurde, dass w\"ahrend der Messungen kein Luftzug entstand, sind höchstens einzelne Datenpunkte von einzelnen Wellenlängen betroffen.
+Da jedoch nicht viele Leute an dem Lasersystem vorbeigingen und im späteren Verlauf der Messungen darauf geachtet wurde, dass während der Messungen kein Luftzug entstand, sind höchstens einzelne Datenpunkte von einzelnen Wellenlängen betroffen.
 
 
 \section{Degradation der Spitze}
@@ -885,8 +863,14 @@ Denkbar wäre es, dass beim Ausbau durch elektrostatische Felder Schmutz angezog
   \label{fig:rem}
 \end{figure}
 
-Als Strahler, der sich ungefähr in der Mitte zwischen Apex und Gitter befand könnten die zwei Körner mit einem Durchmesser von 230 und \SI{260}{\nm} fungiert haben.
+Als Strahler, der sich ungefähr in der Mitte zwischen Apex und Gitter befand könnten die zwei Körner mit einem Durchmesser von 230 und \SI{270}{\nm} fungiert haben (s. Bild \ref{fig:hotspots}.
 
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{Hotspots}
+	\caption{Körner auf der Spitze, welche sich zwischen Apex und Gitter befanden. Diese wurden teilweise bei einer ersten Messreihe vermutlich beleuchtet.}
+	\label{fig:hotspots}
+\end{figure}
 
 
 

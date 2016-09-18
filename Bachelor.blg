@@ -3,7 +3,6 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Bachelor.aux
 The style file: apalikeGerman.bst
 Database file #1: bthesis_datenbank.bib
-Warning--I didn't find a database entry for "feldverstaerkung"
 Warning--to sort, need author or key in orpheus_tuningcurve
 Warning--empty title in barwick_2007
 Warning--empty title in bormann_2010
@@ -15,45 +14,45 @@ Warning--empty title in schenk_2010
 Warning--empty note in thomas_2016
 Warning--empty title in vogelsang_2015
 Warning--empty title in wimmer_2014
-You've used 35 entries,
+You've used 36 entries,
             1935 wiz_defined-function locations,
-            668 strings with 8948 characters,
-and the built_in function-call counts, 13307 in all, are:
-= -- 1244
-> -- 642
+            674 strings with 9147 characters,
+and the built_in function-call counts, 13762 in all, are:
+= -- 1284
+> -- 670
 < -- 17
-+ -- 230
-- -- 220
-* -- 1205
-:= -- 2404
-add.period$ -- 95
-call.type$ -- 35
-change.case$ -- 272
-chr.to.int$ -- 35
-cite$ -- 47
-duplicate$ -- 473
-empty$ -- 857
-format.name$ -- 264
-if$ -- 2505
++ -- 242
+- -- 230
+* -- 1250
+:= -- 2486
+add.period$ -- 98
+call.type$ -- 36
+change.case$ -- 282
+chr.to.int$ -- 36
+cite$ -- 48
+duplicate$ -- 487
+empty$ -- 884
+format.name$ -- 275
+if$ -- 2589
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 33
-newline$ -- 168
-num.names$ -- 102
-pop$ -- 245
+missing$ -- 34
+newline$ -- 173
+num.names$ -- 105
+pop$ -- 253
 preamble$ -- 1
-purify$ -- 283
+purify$ -- 293
 quote$ -- 0
-skip$ -- 363
+skip$ -- 373
 stack$ -- 0
-substring$ -- 784
-swap$ -- 42
+substring$ -- 810
+swap$ -- 43
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 206
+type$ -- 212
 warning$ -- 11
-while$ -- 92
+while$ -- 95
 width$ -- 0
-write$ -- 430
-(There were 12 warnings)
+write$ -- 443
+(There were 11 warnings)
