@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  19 SEP 2016 01:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.21)  19 SEP 2016 01:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2871,25 +2871,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--569
 
  []
 
-(./Aufbau3.pdf_tex <Aufbau3.pdf, id=369, page=1, 556.70686pt x 354.93231pt>
-File: Aufbau3.pdf Graphic file (type pdf)
+(./Aufbau4.pdf_tex <Aufbau4.pdf, id=369, page=1, 556.70686pt x 354.93231pt>
+File: Aufbau4.pdf Graphic file (type pdf)
 
-<use Aufbau3.pdf, page 1>
-Package pdftex.def Info: Aufbau3.pdf, page1 used on input line 52.
+<use Aufbau4.pdf, page 1>
+Package pdftex.def Info: Aufbau4.pdf, page1 used on input line 52.
 (pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
 
-<Aufbau3.pdf, id=370, page=2, 556.70686pt x 354.93231pt>
-File: Aufbau3.pdf Graphic file (type pdf)
+<Aufbau4.pdf, id=370, page=2, 556.70686pt x 354.93231pt>
+File: Aufbau4.pdf Graphic file (type pdf)
 
-<use Aufbau3.pdf, page 2>
-Package pdftex.def Info: Aufbau3.pdf, page2 used on input line 55.
+<use Aufbau4.pdf, page 2>
+Package pdftex.def Info: Aufbau4.pdf, page2 used on input line 55.
 (pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
 
-<Aufbau3.pdf, id=371, page=3, 556.70686pt x 354.93231pt>
-File: Aufbau3.pdf Graphic file (type pdf)
+<Aufbau4.pdf, id=371, page=3, 556.70686pt x 354.93231pt>
+File: Aufbau4.pdf Graphic file (type pdf)
 
-<use Aufbau3.pdf, page 3>
-Package pdftex.def Info: Aufbau3.pdf, page3 used on input line 60.
+<use Aufbau4.pdf, page 3>
+Package pdftex.def Info: Aufbau4.pdf, page3 used on input line 60.
 (pdftex.def)             Requested size: 298.75267pt x 190.47452pt.
 )
 
@@ -2925,13 +2925,13 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 616.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 616.
-[16 <./Aufbau3.pdf> <./Aufbau3.pdf
+[16 <./Aufbau4.pdf> <./Aufbau4.pdf
 
-pdfTeX warning: pdflatex (file ./Aufbau3.pdf): PDF inclusion: multiple pdfs wit
+pdfTeX warning: pdflatex (file ./Aufbau4.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
-> <./Aufbau3.pdf
+> <./Aufbau4.pdf
 
-pdfTeX warning: pdflatex (file ./Aufbau3.pdf): PDF inclusion: multiple pdfs wit
+pdfTeX warning: pdflatex (file ./Aufbau4.pdf): PDF inclusion: multiple pdfs wit
 h page group included in a single page
 >]
 Package babel Info: Redefining ngerman shorthand "|
@@ -3573,7 +3573,7 @@ ic/lm/lmri12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmro
 st/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/public/lm/lmtt12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/amsfonts/symbols/msbm10.pfb>
-Output written on Bachelor.pdf (47 pages, 3228991 bytes).
+Output written on Bachelor.pdf (47 pages, 3229017 bytes).
 PDF statistics:
  1121 PDF objects out of 1200 (max. 8388607)
  837 compressed objects within 9 object streams
